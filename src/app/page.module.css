@@ -1,14 +1,23 @@
+
 .main {
+  background-image: url(images/bgs/bg-sub-cryptech-low.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 0px -5rem 200px black;
+}
+
+.home_section {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
-  background-image: url(images/bgs/bg-sub-cryptech-low.webp);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: rgba(255, 255, 255, 0);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
 }
 
 .description {
