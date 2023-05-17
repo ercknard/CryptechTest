@@ -1,0 +1,19 @@
+@import url("animations.css");
+@import url("fireflies.css");
+@import url("globals.css");
+@import url(https://unpkg.com/aos@2.3.1/dist/aos.css);
+
+:root {
+    --kyuhi: rgba(161, 108, 79);
+  }
+
+.pipe::after {
+	content: url("https://cdn.discordapp.com/avatars/277630911112151051/a_9aef0cee6996839568cc873d864c110a.gif");
+	position: absolute;
+	left: -2rem;
+	-webkit-animation: bones-2 30s infinite;
+	animation: bones-2 30s infinite;
+	transform: scale(.5);
+	-webkit-clip-path: circle(40% at 50% 50%);
+	clip-path: circle(40% at 50% 50%);
+}
