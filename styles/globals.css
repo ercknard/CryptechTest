@@ -8,7 +8,6 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	overflow: hidden;
 }
 
 html {
@@ -815,14 +814,12 @@ img.vert-move-6 {
 	place-items: center;
 	transition: opacity .5, visibility 1s;
     animation: text-motion 10s infinite;
-	overflow: hidden;
 }
 
 .fades {
 	opacity: 0;
 	visibility: hidden;
 	transition: opacity .5, visibility 1s;
-	overflow: hidden;
 }
 
 .loader-icon {
