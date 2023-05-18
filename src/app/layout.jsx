@@ -13,6 +13,7 @@ import Spaceship from "@components/sections/Spaceship";
 import ShipText from "@components/sections/ShipText";
 import Earth from "@components/sections/Earth";
 import EarthText from "@components/sections/EarthText";
+import BottomWorld from "@components/sections/BottomWorld";
 
 
 export const metadata = {
@@ -39,6 +40,7 @@ const RootLayout = ({ children }) => (
           <ShipText />
           <Earth />
           <EarthText />
+          <BottomWorld />
             {children}
             </div>
         </div>
