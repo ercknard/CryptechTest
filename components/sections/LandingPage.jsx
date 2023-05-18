@@ -1,12 +1,15 @@
 import Image from 'next/image';
 import Glitters from '@components/materials/Glitters';
 import WebTitle from '@components/materials/WebTitle';
+import GateLoader from "@components/materials/GateLoader";
 
 const LandingPage = () => (
 
     <>  
 
     <Glitters /> 
+
+    <GateLoader />
     
     <section className='earth-bg'>
 

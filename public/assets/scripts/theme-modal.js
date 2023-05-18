@@ -11,3 +11,17 @@ btn.onclick = function() {
 function toNone() {
     modal.style.display = "none";
 }
+
+var modalleft = document.getElementById("modal-main");
+const themeDelayleft = 1900;
+
+var toRun = function() {
+  modalleft.style.display = "block";
+  setTimeout(toNoneLeft, themeDelayleft);
+}
+
+toRun();
+
+function toNoneLeft() {
+    modalleft.style.display = "none";
+}

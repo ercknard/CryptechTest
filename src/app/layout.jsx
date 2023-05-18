@@ -25,7 +25,7 @@ const RootLayout = ({ children }) => (
       <link rel="icon" href="/assets/images/pack.png" />
     </head>
     <body>
-    <CustomLoader />
+    {/* <CustomLoader /> */}
       <LandingPage />
         <PepeSpace />
           <Gate />
