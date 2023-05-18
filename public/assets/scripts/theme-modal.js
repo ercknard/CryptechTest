@@ -13,7 +13,7 @@
 // }
 
 var modalleft = document.getElementById("modal-main");
-const themeDelayleft = 2400;
+const themeDelayleft = 2350;
 
 var toRun = function() {
   modalleft.style.display = "block";
