@@ -4,6 +4,7 @@ export default function AllScripts() {
     return (
 
         <>
+        <Script rel="preload" src="/assets/scripts/customloader.js" as="script" type="text/javascript" fetchpriority="high" />
         <Script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" as="script" type="text/javascript" />
         <Script rel="preload" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" as="script" type='module' />
         <Script src="/assets/scripts/AOS.js" as="script" type="text/javascript" />

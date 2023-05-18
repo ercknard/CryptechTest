@@ -1,11 +1,10 @@
 import Image from 'next/image';
-import Script from 'next/script';
 
 const Loader= () => (
 
     <>
 
-        <loader>
+        <section>
         <div id="loader" className="wrapper loader">
             <div className="loader-bgs">
             <Image 
@@ -70,9 +69,7 @@ const Loader= () => (
                 />
             </div>
         </div>
-        </loader>
-
-        <Script rel="preload" src="/assets/scripts/customloader.js" as="script" type="text/javascript" fetchpriority="high" />
+        </section>
 
     </>
     
