@@ -1473,7 +1473,7 @@ input[type=checkbox] {
 	position: absolute;
 	width: 50vw;
 	height: 100vh;
-	background-image: url(/images/quartz.webp);
+	background-image: url(/assets/images/quartz.webp);
 	background-position: left;
 	background-size: 10.5vh;
 	border: 1rem solid #5d5d5d75;
@@ -1491,7 +1491,7 @@ input[type=checkbox] {
 	position: absolute;
 	width:	50vw;
 	height: 100vh;
-	background-image: url(/images/quartz.webp);
+	background-image: url(/assets/images/quartz.webp);
 	background-position: right;
 	background-size: 10.5vh;
 	border: 1rem solid #5d5d5d75;

@@ -8,6 +8,7 @@ import "@styles/AOS.css";
 import "@styles/globals.css";
 import "@styles/animations.css";
 import "@styles/fireflies.css";
+import ModalGate from "@components/materials/ModalGate";
 
 export const metadata = {
   title: "CryptechTest",
@@ -24,12 +25,13 @@ const RootLayout = ({ children }) => (
       <link rel="icon" href="/assets/images/pack.png" />
     </head>
     <body>
-    {/* <CustomLoader /> */}
+    <CustomLoader />
       <LandingPage />
         <PepeSpace />
           <Gate />
           {children}
       <Footer />
+      <ModalGate />
     </body>
   </html>
 );
