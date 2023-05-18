@@ -18,8 +18,8 @@ html {
 	font-size: 1rem;
 	font-weight: normal;
 	font-family: 'VT323';
-	/* scroll-snap-type: both proximity; */
-	/* scroll-behavior: smooth; */
+	scroll-snap-type: both mandatory;
+	scroll-behavior: smooth;
 }
 
 body::-webkit-scrollbar {
@@ -34,7 +34,7 @@ body {
 }
 
 section {
-	/* scroll-snap-align: start; */
+	scroll-snap-align: start;
 }
 
 p {
@@ -1633,4 +1633,5 @@ input[type=checkbox] {
 	top: 3vh;
 	width: 5rem;
     height: 5rem;
+	transition: 1s ease-in-out;
 }
