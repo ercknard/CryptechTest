@@ -11,6 +11,7 @@ import "@styles/globals.css";
 import "@styles/animations.css";
 import "@styles/fireflies.css";
 import Spaceship from "@components/sections/Spaceship";
+import ShipText from "@components/sections/ShipText";
 
 
 export const metadata = {
@@ -34,6 +35,7 @@ const RootLayout = ({ children }) => (
         <div className="sec-2">
           <div className="sec">
           <Spaceship />
+          <ShipText />
             {children}
             </div>
         </div>

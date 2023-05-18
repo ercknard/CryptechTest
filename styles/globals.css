@@ -4,6 +4,10 @@
 	src: url('/assets/fonts/vetregular.ttf') format('truetype');
   }
 
+  :root {
+    --kyuhi: rgba(255,255,255,0.5);
+  }
+
 * {
 	margin: 0;
 	padding: 0;
@@ -209,7 +213,7 @@ p {
 }
 
 .sec h2 {
-    font-family: Minecraftsubfont, Garamond, serif;
+    font-family: VT323, Garamond, serif;
     font-size: 3.5em;
     color: #fff;
 	text-align: center;
@@ -218,14 +222,14 @@ p {
 }
 
 .sec h3 {
-    font-family: Minecraftsubfont, Garamond, serif;
+    font-family: VT323, Garamond, serif;
     font-size: 2.5em;
     color: #fff;
 	margin-bottom: 5px;
 }
 
 .sec h4 {
-    font-family: Minecraftsubfont, Garamond, serif;
+    font-family: VT323, Garamond, serif;
     font-size: 1.5em;
     color: black;
 	margin-bottom: 5px;
@@ -315,6 +319,7 @@ header {
 
 .main-footer {
 	background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(255, 255, 255, 0));
+	border-top: 2px solid var(--kyuhi);
 	padding-top: 15px;
 	padding-bottom: 15px;
 	width: 100%;
@@ -838,6 +843,7 @@ img.vert-move-6 {
 
 .loader-icon-1 {
 	width: 7.5rem;
+	height: 7.5rem;
     border: 2px solid white;
 	padding: .5rem;
 	border-radius: 50%;
@@ -1026,25 +1032,25 @@ img.vert-move-6 {
 }
 
 .sky-bg {
-	background-image: url(/images/spaceship.png) !important;
+	background-image: url(/assets/images/spaceship.png) !important;
 }
 
 .world-bg {
-	background-image: url(/images/BG-B.webp) !important;
+	background-image: url(/assets/images/BG-B.webp) !important;
 }
 
 .admins-bg {
-	background-image: url(/images/corridor-c.png) !important;
+	background-image: url(/assets/images/corridor-c.png) !important;
 }
 
 .coins-bg {
-	background-image: url(/images/cave.png) !important;
+	background-image: url(/assets/images/cave.png) !important;
 }
 
 .sky-op, .world-op, .admin-op, .coins-op {
 	padding: 3rem 2rem;
 	border: 3px solid var(--kyuhi);
-	background: linear-gradient(-45deg, var(--kyuhi) 0%, rgba(0,0,0, .75) 5%, transparent 50%), linear-gradient(135deg, var(--kyuhi) 0%, rgba(0,0,0, .75) 5%, transparent 50%), url(/images/Stone-S.png);
+	background: linear-gradient(-45deg, var(--kyuhi) 0%, rgba(0,0,0, .75) 5%, transparent 50%), linear-gradient(135deg, var(--kyuhi) 0%, rgba(0,0,0, .75) 5%, transparent 50%), url(/assets/images/Stone-S.png);
 	background: linear-gradient(-45deg, var(--kyuhi) 0%, rgba(0,0,0, .75) 5%, transparent 50%), linear-gradient(135deg, var(--kyuhi) 0%, rgba(0,0,0, .75) 5%, transparent 50%), black;
 	border-radius: 5px;
 	box-shadow: 10px 10px 20px black;
@@ -1055,7 +1061,7 @@ img.vert-move-6 {
 .pipe {
 	margin-top: 10%;
 	position: absolute;
-	background-image: url(/images/tube_H.png);
+	background-image: url(/assets/images/tube_H.png);
 	z-index: 10;
 	width: 80px;
 	height: 90%;
@@ -1067,7 +1073,7 @@ img.vert-move-6 {
 .pipe-left {
 	margin-top: 13%;
 	position: absolute;
-	background-image: url(/images/tube_H.png);
+	background-image: url(/assets/images/tube_H.png);
 	z-index: 0;
 	width: 80px;
 	height: 90%;
@@ -1080,7 +1086,7 @@ img.vert-move-6 {
 .pipe-right {
 	margin-top: 7%;
 	position: absolute;
-	background-image: url(/images/tube_H.png);
+	background-image: url(/assets/images/tube_H.png);
 	z-index: -1;
 	width: 80px;
 	height: 90%;
@@ -1092,7 +1098,7 @@ img.vert-move-6 {
 
 .pipe-to-left {
 	position: relative;
-	background-image: url(/images/chain.png);
+	background-image: url(/assets/images/chain.png);
 	background-position: center;
 	background-size: contain;
 	z-index: -1;
@@ -1104,12 +1110,12 @@ img.vert-move-6 {
 }
 
 .pipe-to-left::after {
-	content: url(/images/cross-b.png)
+	content: url(/assets/images/cross-b.png)
 }
 
 .pipe-to-right {
 	position: relative;
-	background-image: url(/images/chain.png);
+	background-image: url(/assets/images/chain.png);
 	background-position: center;
 	background-size: contain;
 	z-index: -1;
@@ -1122,11 +1128,11 @@ img.vert-move-6 {
 
 
 .pipe-right::after {
-	content: url(/images/cross.png);
+	content: url(/assets/images/cross.png);
 }
 
 .pipe-left::after {
-	content: url(/images/cross.png);
+	content: url(/assets/images/cross.png);
 }
 
 .pipe-padding {
@@ -1134,11 +1140,11 @@ img.vert-move-6 {
 }
 
 .pipe::before {
-	content: url(/images/cross.png);
+	content: url(/assets/images/cross.png);
 }
 
 .pipe-right::before {
-	content: url(/images/pack.webp);
+	content: url(/assets/images/pack.webp);
 	position: absolute;
 	left: 0;
 	-webkit-animation: bones-2 60s infinite;
@@ -1147,7 +1153,7 @@ img.vert-move-6 {
 }
 
 .pipe-left::before {
-	content: url(/images/pack.webp);
+	content: url(/assets/images/pack.webp);
 	position: absolute;
 	left: 0;
 	-webkit-animation: bones-3 15s infinite;
@@ -1158,8 +1164,9 @@ img.vert-move-6 {
 /* ________________________________________________________________________________________________________________________________ */
 
 .glitch {
+	font-family: "VT323";
    position: relative;
-   font-size: 80px;
+   font-size: 5rem;
    font-weight: 700;
    line-height: .1;
    color: #fff;
@@ -1227,6 +1234,7 @@ img.vert-move-6 {
 
 .right-valve {
 	position: absolute;
+	margin-top: -1.25rem;
 	width: 50vw;
 	height: 53vh;
 	background-image: url(/assets/images/quartz.webp);
@@ -1242,6 +1250,7 @@ img.vert-move-6 {
 
 .left-valve {
 	position: absolute;
+	margin-top: -1.25rem;
 	width:	50vw;
 	height: 53vh;
 	background-image: url(/assets/images/quartz.webp);

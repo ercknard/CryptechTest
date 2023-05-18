@@ -11,8 +11,8 @@ export default function AllScripts() {
         <Script rel="preload" src="/assets/scripts/npc.js" as="script" type="text/javascript" />
         <Script rel="preload" src="/assets/scripts/theme-modal.js" as="script" type="text/javascript" />
         <Script rel="preload" src="/assets/scripts/parallax.js" as="script" type="text/javascript" />
+        <Script rel="preload" src="/assets/scripts/scroll.js" as="script" type="text/javascript" />
         {/* <Script src="/assets/scripts/typing.js" type="text/javascript" />
-        <Script src="/assets/scripts/scroll.js" type="text/javascript" />
         <Script src="/assets/scripts/to-parallax.js" type="text/javascript" />
         <Script src="/assets/scripts/tab.js" type="text/javascript" />
         <Script src="/assets/scripts/themes.js" type="text/javascript" /> */}

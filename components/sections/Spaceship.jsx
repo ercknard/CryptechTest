@@ -1,9 +1,14 @@
 import Gate from "@components/materials/Gate";
+import PipeToRight from "@components/materials/PipeToRight";
+import PipeToLeft from "@components/materials/PipeToLeft";
 import Image from "next/image"
 
 const Spaceship = () => (
 
     <>  
+
+            <PipeToRight />
+
             <section className="width-class">
 
             <Gate />
@@ -74,6 +79,8 @@ const Spaceship = () => (
                 />
             </div>
             </section>
+
+            <PipeToLeft />
    
     </>
 
