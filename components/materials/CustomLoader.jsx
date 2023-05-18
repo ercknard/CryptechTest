@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-const Loader= () => (
+const CustomLoader= () => (
 
     <>
 
@@ -73,4 +73,4 @@ const Loader= () => (
     
     );
       
-    export default Loader;
+    export default CustomLoader;

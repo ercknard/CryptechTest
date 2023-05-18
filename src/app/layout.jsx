@@ -33,7 +33,7 @@ const RootLayout = ({ children }) => (
           <Gate />
             {children}
           <Footer />
-        <ModalGate />
+        {/* <ModalGate /> */}
       <GateLoader />
     </body>
   </html>
