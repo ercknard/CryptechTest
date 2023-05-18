@@ -5,7 +5,7 @@ const Gate= () => (
 
     <>
 
-    <input alt="controls" type="checkbox" unchecked="true" />   
+    <input placeholder="controls" alt="controls" type="checkbox" unchecked="true" />   
     
     <LeftGate/>
 
