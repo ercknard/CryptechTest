@@ -10,6 +10,7 @@ import "@styles/AOS.css";
 import "@styles/globals.css";
 import "@styles/animations.css";
 import "@styles/fireflies.css";
+import Spaceship from "@components/sections/Spaceship";
 
 
 export const metadata = {
@@ -30,8 +31,12 @@ const RootLayout = ({ children }) => (
     {/* <CustomLoader /> */}
       <LandingPage />
         <PepeSpace />
-          <Gate />
+        <div className="sec-2">
+          <div className="sec">
+          <Spaceship />
             {children}
+            </div>
+        </div>
           <Footer />
         {/* <ModalGate /> */}
       <GateLoader />
