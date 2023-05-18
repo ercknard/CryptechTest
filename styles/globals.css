@@ -16,6 +16,7 @@ html {
 	font-family: 'VT323';
 	scroll-snap-type: both proximity;
 	scroll-behavior: smooth;
+	overflow: hidden;
 }
 
 body::-webkit-scrollbar {
@@ -27,6 +28,7 @@ body::-webkit-scrollbar {
 body {
 	background-color: #000;
 	height: 100%;
+	overflow: hidden;
 }
 
 section {
@@ -821,6 +823,7 @@ img.vert-move-6 {
 	opacity: 0;
 	visibility: hidden;
 	transition: opacity .5, visibility 1s;
+	overflow: hidden;
 }
 
 .loader-icon {
