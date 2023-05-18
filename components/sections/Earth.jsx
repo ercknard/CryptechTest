@@ -1,9 +1,9 @@
-import Gate from "@components/materials/gates/Gate";
 import PipeToRight from "@components/materials/PipeToRight";
 import PipeToLeft from "@components/materials/PipeToLeft";
 import Image from "next/image"
+import GateEarth from "@components/materials/gates/GateEarth";
 
-const Spaceship = () => (
+const Earth = () => (
 
     <>  
 
@@ -11,7 +11,7 @@ const Spaceship = () => (
 
             <section className="width-class">
 
-            <Gate />
+            <GateEarth />
 
             <h2
                 data-aos="zoom-in"
@@ -28,17 +28,17 @@ const Spaceship = () => (
                 data-aos-anchor-placement="bottom-bottom"
             >
                 <Image
-                alt="Spacehips"
+                alt="Earth"
                 className="ship"
                 data-aos="zoom-in-right"
                 data-aos-duration={5000}
                 data-aos-anchor-placement="bottom-bottom"
-                src="/assets/images/ship.webp"
+                src="/assets/images/sample-earth.webp"
                 width={1024}
                 height={1024}
                 />
                 <Image
-                alt="Spacehips"
+                alt="Earth"
                 className="ship"
                 data-aos="zoom-in-left"
                 data-aos-duration={3000}
@@ -48,7 +48,7 @@ const Spaceship = () => (
                 height={1024}
                 />
                 <Image
-                alt="Spacehips"
+                alt="Earth"
                 className="ship"
                 data-aos="zoom-in-right"
                 data-aos-duration={3000}
@@ -58,7 +58,7 @@ const Spaceship = () => (
                 height={1024}
                 />
                 <Image
-                alt="Spacehips"
+                alt="Earth"
                 className="ship"
                 data-aos="zoom-in-left"
                 data-aos-duration={3000}
@@ -68,7 +68,7 @@ const Spaceship = () => (
                 height={1024}
                 />
                 <Image
-                alt="Spacehips"
+                alt="Earth"
                 className="ship"
                 data-aos="zoom-in-right"
                 data-aos-duration={3000}
@@ -86,4 +86,4 @@ const Spaceship = () => (
 
       );
       
-      export default Spaceship;
+      export default Earth;

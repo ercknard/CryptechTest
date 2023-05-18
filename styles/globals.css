@@ -18,7 +18,7 @@ html {
 	font-size: 1rem;
 	font-weight: normal;
 	font-family: 'VT323';
-	scroll-snap-type: both mandatory;
+	scroll-snap-type: both proximity;
 	scroll-behavior: smooth;
 }
 
@@ -1633,5 +1633,4 @@ input[type=checkbox] {
 	top: 3vh;
 	width: 5rem;
     height: 5rem;
-	transition: 1s ease-in-out;
 }

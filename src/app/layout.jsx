@@ -1,7 +1,6 @@
 import AllScripts from "@components/materials/Scripts";
 import LandingPage from "@components/sections/LandingPage";
 import PepeSpace from "@components/sections/PepeSpace";
-import Gate from "@components/materials/Gate";
 import Footer from "@components/sections/Footer";
 import CustomLoader from "@components/materials/CustomLoader";
 import GateLoader from "@components/materials/GateLoader";
@@ -12,6 +11,8 @@ import "@styles/animations.css";
 import "@styles/fireflies.css";
 import Spaceship from "@components/sections/Spaceship";
 import ShipText from "@components/sections/ShipText";
+import Earth from "@components/sections/Earth";
+import EarthText from "@components/sections/EarthText";
 
 
 export const metadata = {
@@ -36,6 +37,8 @@ const RootLayout = ({ children }) => (
           <div className="sec">
           <Spaceship />
           <ShipText />
+          <Earth />
+          <EarthText />
             {children}
             </div>
         </div>

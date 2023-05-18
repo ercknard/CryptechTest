@@ -19,7 +19,7 @@
 
 function scrollRotate() {
     let image = document.getElementById("reload");
-    // let image1 = document.getElementById("reload-1");
+    let image1 = document.getElementById("reload-1");
     image.style.transform = "rotate(" + window.pageYOffset/2 + "deg)";
-    // image1.style.transform = "rotate(" + window.pageYOffset/2 + "deg)";
+    image1.style.transform = "rotate(" + window.pageYOffset/2 + "deg)";
 }
