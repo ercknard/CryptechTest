@@ -14,7 +14,7 @@ html {
 	font-size: 1rem;
 	font-weight: normal;
 	font-family: 'VT323';
-	scroll-snap-type: both proximity;
+	/* scroll-snap-type: both proximity; */
 	scroll-behavior: smooth;
 	overflow: hidden;
 }
@@ -32,7 +32,7 @@ body {
 }
 
 section {
-	scroll-snap-align: start;
+	/* scroll-snap-align: start; */
 }
 
 p {
