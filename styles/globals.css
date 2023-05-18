@@ -1,6 +1,3 @@
-@import url("animations.css");
-@import url("fireflies.css");
-
 @font-face {
 	font-family: 'VT323';
 	font-style: normal;
@@ -373,6 +370,7 @@ header {
 	top: -10%;
 	left: 0%;
 	width: 10vw;
+	height: 18.5vw;
 	transition: 1s ease-in-out;
 }
 
@@ -401,7 +399,7 @@ header {
 	position: relative;
 	overflow: hidden;
 	height: 12.5vh;
-	background-image: url('/images/Glass_Pane.png');
+	background-image: url('/assets/images/Glass_Pane.png');
 	background-color: rgba(255, 255, 255,.1);
 	background-size: 15vh;
 	background-position: center;
@@ -414,6 +412,7 @@ header {
   .pepe {
 	position: absolute;
 	width: 12.5vh;
+	height: 23vh;
 	-webkit-animation: pepe-cave-anim 10s infinite;
 	animation: pepe-cave-anim 10s infinite;
 	overflow: hidden;
@@ -807,7 +806,7 @@ img.vert-move-6 {
 	text-align: center;
 	inset: 0;
 	z-index: 100000;
-	background-image: url('/images/sky-loader.png'), linear-gradient(to bottom, rgba(19, 15, 20, 1), rgba(0, 0, 0, 1), rgba(29, 33, 42, 1));
+	background-image: url('/assets/images/sky-loader.png'), linear-gradient(to bottom, rgba(19, 15, 20, 1), rgba(0, 0, 0, 1), rgba(29, 33, 42, 1));
 	background-position: top center;
 	background-repeat: no-repeat;
 	min-height: 100vh;
@@ -825,6 +824,7 @@ img.vert-move-6 {
 
 .loader-icon {
 	width: 10rem;
+	height: 10rem;
     border: 3px solid white;
 	padding: .5rem;
 	border-radius: 50%;
@@ -891,13 +891,15 @@ img.vert-move-6 {
 
 .coin {
 	width: 4rem;
+	height: 4rem;
 	-webkit-box-reflect: below 10px linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.1));
     margin-top: 20px;
 }
 
 .pepe-loader {
 	position: absolute;
-	width: 200px;
+	width: 12.5rem;
+	height: 23rem;
 	-webkit-animation: cave-anim 10s infinite;
 	animation: pepe-cave-anim 10s infinite;
 	overflow: hidden;
@@ -1228,7 +1230,7 @@ img.vert-move-6 {
 	position: absolute;
 	width: 50vw;
 	height: 53vh;
-	background-image: url(/images/quartz.webp);
+	background-image: url(/assets/images/quartz.webp);
 	background-position: left;
 	background-size: 9.5vh;
 	border: 1rem solid #5d5d5d75;
@@ -1244,7 +1246,7 @@ img.vert-move-6 {
 	position: absolute;
 	width:	50vw;
 	height: 53vh;
-	background-image: url(/images/quartz.webp);
+	background-image: url(/assets/images/quartz.webp);
 	background-position: right;
 	background-size: 9.5vh;
 	border: 1rem solid #5d5d5d75;
@@ -1431,7 +1433,7 @@ input[type=checkbox] {
   }
 
   input[type=checkbox]:checked ~ div.left-valve {
-	transform: translateX(-100vw);
+	transform: translateX(-50vw);
   }
 		  
   input[type=checkbox]:checked ~ div.right-valve {

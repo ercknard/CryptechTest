@@ -1,7 +1,7 @@
-import LandingPage from "@components/LandingPage";
+
 
 const Home = () => (
-  <LandingPage />
+    <h1></h1>
   );
   
   export default Home;

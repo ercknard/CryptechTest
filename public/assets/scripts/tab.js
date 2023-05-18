@@ -12,12 +12,9 @@ function carouselleads() {
   x[slideIndexleads-1].style.display = "block"; 
 }
 
-// Next/previous controls
 function plusSlidesleads(n) {
   showSlideleads(slideIndexleads += n);
 }
-
-// Thumbnail image controls
 function currentSlideleads(n) {
   showSlideleads(slideIndexleads = n);
 }
@@ -37,20 +34,16 @@ function showSlideleads(n) {
 
 var btnContainerleads = document.getElementById("leads-active-btn");
 
-// Get all buttons with class="btn" inside the container
 var btnsleads = btnContainerleads.getElementsByClassName("leads-buttons");
 
-// Loop through the buttons and add the active class to the current/clicked button
 for (var i = 0; i < btnsleads.length; i++) {
 btnsleads[i].addEventListener("click", function() {
   var current = document.getElementsByClassName("active-leads");
 
-  // If there's no active class
   if (current.length > 0) {
     current[0].className = current[0].className.replace(" active-leads", "");
   }
 
-  // Add the active class to the current/clicked button
   this.className += " active-leads";
 });
 }
@@ -66,12 +59,10 @@ function carouselcoins() {
     }
   }
   
-  // Next/previous controls
   function plusSlidescoins(n) {
     showSlidecoins(slideIndexcoins += n);
   }
   
-  // Thumbnail image controls
   function currentSlidecoins(n) {
     showSlidecoins(slideIndexcoins = n);
   }
