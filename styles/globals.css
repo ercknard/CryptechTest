@@ -814,6 +814,7 @@ img.vert-move-6 {
 	place-items: center;
 	transition: opacity .5, visibility 1s;
     animation: text-motion 10s infinite;
+	overflow: hidden;
 }
 
 .fades {

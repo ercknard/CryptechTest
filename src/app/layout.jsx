@@ -3,7 +3,7 @@ import LandingPage from "@components/sections/LandingPage";
 import PepeSpace from "@components/sections/PepeSpace";
 import Gate from "@components/materials/Gate";
 import Footer from "@components/sections/Footer";
-import Loader from "@components/materials/Loader";
+import CustomLoader from "@components/materials/CustomLoader";
 import "@styles/AOS.css";
 import "@styles/globals.css";
 import "@styles/animations.css";
@@ -29,7 +29,7 @@ const RootLayout = ({ children }) => (
           <Gate />
           {children}
       <Footer />
-      <Loader />
+      <CustomLoader />
     </body>
   </html>
 );

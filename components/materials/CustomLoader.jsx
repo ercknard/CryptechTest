@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Script from 'next/script';
 
 const Loader= () => (
 
@@ -70,6 +71,8 @@ const Loader= () => (
             </div>
         </div>
         </loader>
+
+        <Script rel="preload" src="/assets/scripts/customloader.js" as="script" type="text/javascript" fetchpriority="high" />
 
     </>
     
