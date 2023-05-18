@@ -4,8 +4,7 @@ const Loader= () => (
 
     <>
 
-        <section>
-        <div id="loader" className="wrapper loader">
+        <div id="loader" className="wrapper">
             <div className="loader-bgs">
             <Image 
                 alt="pepe mug shot"
@@ -69,7 +68,6 @@ const Loader= () => (
                 />
             </div>
         </div>
-        </section>
 
     </>
     

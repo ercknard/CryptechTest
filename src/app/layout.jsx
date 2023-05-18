@@ -24,12 +24,12 @@ const RootLayout = ({ children }) => (
       <link rel="icon" href="/assets/images/pack.png" />
     </head>
     <body>
+    {/* <CustomLoader /> */}
       <LandingPage />
         <PepeSpace />
           <Gate />
           {children}
       <Footer />
-      <CustomLoader />
     </body>
   </html>
 );
