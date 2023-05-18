@@ -16,7 +16,7 @@ html {
 	font-weight: normal;
 	font-family: 'VT323';
 	/* scroll-snap-type: both proximity; */
-	scroll-behavior: smooth;
+	/* scroll-behavior: smooth; */
 }
 
 body::-webkit-scrollbar {
