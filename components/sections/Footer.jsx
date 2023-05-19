@@ -1,4 +1,3 @@
-
 const Footer = () => (
 
     <>  
@@ -43,7 +42,7 @@ const Footer = () => (
             href="#">
                 <ion-icon name="logo-instagram" />
             </a>
-            
+
             </li>
         </ul>
         <h3 className="main-footer-text text-motion-index">

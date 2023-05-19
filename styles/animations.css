@@ -868,6 +868,7 @@
 
 
 	100%{
+		opacity: 50;
 		transform: translateX(100vw);
 	}
 }
@@ -878,6 +879,7 @@
 
 
 	100%{
+		opacity: 50;
 		transform: translateX(100vw);
 	}
 }
@@ -913,6 +915,7 @@
 	}
 
 	100%{
+		opacity: 50;
 		transform: translateX(-50vw);
 	}
 }
@@ -922,6 +925,7 @@
 	}
 
 	100%{
+		opacity: 50;
 		transform: translateX(-50vw);
 	}
 }
