@@ -3,8 +3,13 @@ import Image from "next/image";
 import SquidCard from "./SquidCard";
 import SeqseeCard from "./SeqseeCard";
 import ShikokuCard from "./ShikokuCard";
-import VanikoroCard from "./Vanikoro";
+import VanikoroCard from "./VanikoroCard";
 import KyuhiCard from "./KyuhiCard";
+import StickCard from "./StickCard";
+import Ferbog05Card from "./Ferbog05Card";
+import MatadorCard from "./MatadorCard";
+import DemilCard from "./DemilCard";
+import TonicCard from "./TonicCard";
 
 const AdminCard= () => (
 
@@ -36,6 +41,12 @@ const AdminCard= () => (
                         <VanikoroCard />
                         <KyuhiCard />
                         <ShikokuCard />
+
+                        <StickCard />
+                        <Ferbog05Card />
+                        <MatadorCard />
+                        <DemilCard />
+                        <TonicCard />
 
                     </div>
                     </div>

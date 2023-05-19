@@ -16,7 +16,7 @@ const AdminCover= () => (
         <section className="width-class-admin">
 
             <GateAdmin />
-            
+
         <h2
             data-aos="zoom-in"
             data-aos-duration={500}
