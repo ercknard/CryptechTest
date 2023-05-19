@@ -1397,13 +1397,14 @@ background-image: radial-gradient(circle at -50% 20%, #ffffff22, #0000000f);
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
-	width: 10%;
+	width: 7.5vh;
+	height: 7.5vh;
 	margin-bottom: 1rem;
 	margin-top: 1rem;
 }
 
 .fence {
-	background-image: url(/images/tube_V.png);
+	background-image: url(/assets/images/tube_V.png);
 	background-position: center;
 	height: 50px;
 
@@ -1587,7 +1588,7 @@ input[type=checkbox] {
 	box-shadow: inset -10px 10px 100px black, -10px 10px 10px black;
 	transform: translateX(0vw);
 	overflow: hidden;
-	-webkit-animation: modal-door-left-main 2s ease;
+	-webkit-animation: modal-door-leftt-main 2s ease;
 	animation: modal-door-left-main 2s ease;
 	animation-iteration-count: 1;
 }
