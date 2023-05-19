@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const BottomWorld= () => (
 
-        <div>
+        <section>
           <Image 
           alt="Clouds Bottom"
           className="cloudII clouds-earth" 
@@ -16,7 +16,7 @@ const BottomWorld= () => (
           src="/assets/images/earth.webp"
           width={3620}
           height={1969} />
-        </div>
+        </section>
 
     
     );

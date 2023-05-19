@@ -16,6 +16,7 @@ import "@styles/globals.css";
 import "@styles/AOS.css";
 import "@styles/animations.css";
 import "@styles/fireflies.css";
+import TestCoin from "@components/sections/TestCoin";
 
 
 
@@ -45,6 +46,7 @@ const RootLayout = ({ children }) => (
           <EarthText />
           <AdminCover />
           <AdminCard />
+          <TestCoin />
           <BottomWorld />
             {children}
             </div>
