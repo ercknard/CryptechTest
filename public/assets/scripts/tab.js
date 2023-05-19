@@ -48,106 +48,106 @@ btnsleads[i].addEventListener("click", function() {
 });
 }
 
-var slideIndexcoins = 0;
-carouselcoins();
+// var slideIndexcoins = 0;
+// carouselcoins();
 
-function carouselcoins() {
-    var i;
-    var x = document.getElementsByClassName("mySlides-coin");
-    for (i = 0; i < x.length; i++) {
-      x[i].style.display = "none"; 
-    }
-  }
+// function carouselcoins() {
+//     var i;
+//     var x = document.getElementsByClassName("mySlides-coin");
+//     for (i = 0; i < x.length; i++) {
+//       x[i].style.display = "none"; 
+//     }
+//   }
   
-  function plusSlidescoins(n) {
-    showSlidecoins(slideIndexcoins += n);
-  }
+//   function plusSlidescoins(n) {
+//     showSlidecoins(slideIndexcoins += n);
+//   }
   
-  function currentSlidecoins(n) {
-    showSlidecoins(slideIndexcoins = n);
-  }
+//   function currentSlidecoins(n) {
+//     showSlidecoins(slideIndexcoins = n);
+//   }
   
-  function showSlidecoins(n) {
-    autoScroll = false;
-    var i;
-    var slides = document.getElementsByClassName("mySlides-coin");
-    if (n > slides.length) {slideIndexcoins = 1}
-    if (n < 1) {slideIndexcoins = slides.length}
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-    }
-    slides[slideIndexcoins-1].style.display = "block";
-  }
+//   function showSlidecoins(n) {
+//     autoScroll = false;
+//     var i;
+//     var slides = document.getElementsByClassName("mySlides-coin");
+//     if (n > slides.length) {slideIndexcoins = 1}
+//     if (n < 1) {slideIndexcoins = slides.length}
+//     for (i = 0; i < slides.length; i++) {
+//         slides[i].style.display = "none";
+//     }
+//     slides[slideIndexcoins-1].style.display = "block";
+//   }
 
-  function copy(el) {
-    var address = el.innerHTML;
-    if (address.length == 0) return;
-    var tmp = document.createElement("textarea");
-    tmp.setAttribute("type", "hidden");
-    tmp.value = address;
-    document.body.appendChild(tmp);
-    tmp.select();
-    document.execCommand("copy");
-    document.body.removeChild(tmp);
-    alert("Copied: " + tmp.value);
-  }
+//   function copy(el) {
+//     var address = el.innerHTML;
+//     if (address.length == 0) return;
+//     var tmp = document.createElement("textarea");
+//     tmp.setAttribute("type", "hidden");
+//     tmp.value = address;
+//     document.body.appendChild(tmp);
+//     tmp.select();
+//     document.execCommand("copy");
+//     document.body.removeChild(tmp);
+//     alert("Copied: " + tmp.value);
+//   }
 
-  var btnContainercoin = document.getElementById("coin-active-btn");
-
-
-var btnscoin = btnContainercoin.getElementsByClassName("coin-buttons");
+//   var btnContainercoin = document.getElementById("coin-active-btn");
 
 
-for (var i = 0; i < btnscoin.length; i++) {
-  btnscoin[i].addEventListener("click", function() {
-    var current = document.getElementsByClassName("active-coin");
+// var btnscoin = btnContainercoin.getElementsByClassName("coin-buttons");
 
 
-    if (current.length > 0) {
-      current[0].className = current[0].className.replace(" active-coin", "");
-    }
+// for (var i = 0; i < btnscoin.length; i++) {
+//   btnscoin[i].addEventListener("click", function() {
+//     var current = document.getElementsByClassName("active-coin");
 
 
-    this.className += " active-coin";
-  });
-}
+//     if (current.length > 0) {
+//       current[0].className = current[0].className.replace(" active-coin", "");
+//     }
 
-var elementlsky = document.getElementById("left-valve-sky");
-elementlsky.addEventListener("click", function() {
-  elementlsky.classList.toggle("close");
-});
 
-var elementrsky = document.getElementById("right-valve-sky");
-elementrsky.addEventListener("click", function() {
-  elementrsky.classList.toggle("close-right");
-});
+//     this.className += " active-coin";
+//   });
+// }
 
-var elementl = document.getElementById("left-valve");
-elementl.addEventListener("click", function() {
-  elementl.classList.toggle("close");
-});
+// var elementlsky = document.getElementById("left-valve-sky");
+// elementlsky.addEventListener("click", function() {
+//   elementlsky.classList.toggle("close");
+// });
 
-var elementr = document.getElementById("right-valve");
-elementr.addEventListener("click", function() {
-  elementr.classList.toggle("close-right");
-});
+// var elementrsky = document.getElementById("right-valve-sky");
+// elementrsky.addEventListener("click", function() {
+//   elementrsky.classList.toggle("close-right");
+// });
 
-var elementladmin = document.getElementById("left-valve-admin");
-elementladmin.addEventListener("click", function() {
-  elementladmin.classList.toggle("close");
-});
+// var elementl = document.getElementById("left-valve");
+// elementl.addEventListener("click", function() {
+//   elementl.classList.toggle("close");
+// });
 
-var elementradmin = document.getElementById("right-valve-admin");
-elementradmin.addEventListener("click", function() {
-  elementradmin.classList.toggle("close-right");
-});
+// var elementr = document.getElementById("right-valve");
+// elementr.addEventListener("click", function() {
+//   elementr.classList.toggle("close-right");
+// });
 
-var elementlcoin = document.getElementById("left-valve-coin");
-elementlcoin.addEventListener("click", function() {
-  elementlcoin.classList.toggle("close");
-});
+// var elementladmin = document.getElementById("left-valve-admin");
+// elementladmin.addEventListener("click", function() {
+//   elementladmin.classList.toggle("close");
+// });
 
-var elementrcoin = document.getElementById("right-valve-coin");
-elementrcoin.addEventListener("click", function() {
-  elementrcoin.classList.toggle("close-right");
-});
+// var elementradmin = document.getElementById("right-valve-admin");
+// elementradmin.addEventListener("click", function() {
+//   elementradmin.classList.toggle("close-right");
+// });
+
+// var elementlcoin = document.getElementById("left-valve-coin");
+// elementlcoin.addEventListener("click", function() {
+//   elementlcoin.classList.toggle("close");
+// });
+
+// var elementrcoin = document.getElementById("right-valve-coin");
+// elementrcoin.addEventListener("click", function() {
+//   elementrcoin.classList.toggle("close-right");
+// });

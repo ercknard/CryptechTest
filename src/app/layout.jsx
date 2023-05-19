@@ -4,16 +4,19 @@ import PepeSpace from "@components/sections/PepeSpace";
 import Footer from "@components/sections/Footer";
 import CustomLoader from "@components/materials/CustomLoader";
 import GateLoader from "@components/materials/GateLoader";
-import ModalGate from "@components/materials/ModalGate";
-import "@styles/AOS.css";
-import "@styles/globals.css";
-import "@styles/animations.css";
-import "@styles/fireflies.css";
 import Spaceship from "@components/sections/Spaceship";
 import ShipText from "@components/sections/ShipText";
 import Earth from "@components/sections/Earth";
 import EarthText from "@components/sections/EarthText";
 import BottomWorld from "@components/sections/BottomWorld";
+import AdminCover from "@components/materials/admins/AdminCover";
+import AdminCard from "@components/materials/admins/cards/AdminCard";
+import Modal from "@components/materials/Modal";
+import "@styles/globals.css";
+import "@styles/AOS.css";
+import "@styles/animations.css";
+import "@styles/fireflies.css";
+
 
 
 export const metadata = {
@@ -40,12 +43,14 @@ const RootLayout = ({ children }) => (
           <ShipText />
           <Earth />
           <EarthText />
+          <AdminCover />
+          <AdminCard />
           <BottomWorld />
             {children}
             </div>
         </div>
           <Footer />
-        {/* <ModalGate /> */}
+        <Modal />
       <GateLoader />
     </body>
   </html>
