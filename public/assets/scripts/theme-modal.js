@@ -11,7 +11,7 @@ function toNone() {
 }
 
 var modalleft = document.getElementById("modal-main");
-const themeDelayleft = 1500;
+const themeDelayleft = 1250;
 
 var toRun = function() {
   modalleft.style.display = "block";
