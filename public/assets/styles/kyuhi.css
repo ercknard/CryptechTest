@@ -1,14 +1,11 @@
-@import url("animations.css");
-@import url("fireflies.css");
-@import url("globals.css");
-@import url(https://unpkg.com/aos@2.3.1/dist/aos.css);
+
 
 :root {
     --kyuhi: rgba(97, 105, 207);
   }
 
 .pipe::after {
-	content: url("https://cdn.discordapp.com/avatars/178134391216668673/282c991e0442d47142ac89607657e375.webp");
+	content: url(/assets/images/kyuhi.webp);
 	position: absolute;
 	left: -2rem;
 	-webkit-animation: bones-2 30s infinite;

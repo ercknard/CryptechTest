@@ -1,14 +1,11 @@
-@import url("animations.css");
-@import url("fireflies.css");
-@import url("globals.css");
-@import url(https://unpkg.com/aos@2.3.1/dist/aos.css);
+
 
 :root {
     --kyuhi: rgba(183, 112, 173);
   }
 
 .pipe::after {
-	content: url("https://cdn.discordapp.com/avatars/412122437954830337/a_c5828f6cbd3774b15462f7a99ccdaf93.gif");
+	content: url(/assets/images/seqsee.gif);
 	position: absolute;
 	left: -2rem;
 	-webkit-animation: bones-2 30s infinite;
