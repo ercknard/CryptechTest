@@ -33,7 +33,7 @@ const TestCoin= () => (
         </div>
         </section>
 
-        <PipeToLeft />
+        {/* <PipeToLeft /> */}
 
     </>
     
