@@ -1549,8 +1549,8 @@ input[type=checkbox] {
 	box-shadow: inset 10px 10px 100px black, 10px 10px 10px black;
 	transform: translateX(50vw);
 	overflow: hidden;
-	-webkit-animation: modal-door-right 1.5s ease;
-	animation: modal-door-right 1.5s ease;
+	-webkit-animation: modal-door-right-main 2s ease;
+	animation: modal-door-right-main 2s ease;
 	animation-iteration-count: 1;
 }
 
@@ -1567,8 +1567,8 @@ input[type=checkbox] {
 	box-shadow: inset -10px 10px 100px black, -10px 10px 10px black;
 	transform: translateX(0vw);
 	overflow: hidden;
-	-webkit-animation: modal-door-left 1.5s ease;
-	animation: modal-door-left 1.5s ease;
+	-webkit-animation: modal-door-left-main 2s ease;
+	animation: modal-door-left-main 2s ease;
 	animation-iteration-count: 1;
 }
 
