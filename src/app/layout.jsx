@@ -17,6 +17,8 @@ import "@styles/AOS.css";
 import "@styles/animations.css";
 import "@styles/fireflies.css";
 import TestCoin from "@components/sections/TestCoin";
+import Navigation from "@components/sections/Navigation";
+import PepeKeychain from "@components/materials/PepeKeychain";
 
 
 
@@ -35,7 +37,9 @@ const RootLayout = ({ children }) => (
       <link rel="icon" href="/assets/images/pack.png" />
     </head>
     <body>
+    <PepeKeychain />
     {/* <CustomLoader /> */}
+    <Navigation />
       <LandingPage />
         <PepeSpace />
         <div className="sec-2">

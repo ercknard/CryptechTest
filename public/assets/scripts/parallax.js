@@ -11,6 +11,7 @@ let leftadmin = document.getElementById('left-valve-admin');
 let rightadmin = document.getElementById('right-valve-admin');
 let leftearth = document.getElementById('left-valve');
 let rightearth = document.getElementById('right-valve');
+let chain = document.getElementById('chain');
 // let leftcoin = document.getElementById('left-valve-coin');
 // let rightcoin = document.getElementById('right-valve-coin');
 // let space = document.getElementById('op-space');
@@ -33,6 +34,7 @@ window.addEventListener('scroll',function(){
     rightearth.style.left = value * .25 + 'px';
     leftadmin.style.left = value * -.15 + 'px';
     rightadmin.style.left = value * .15 + 'px';
+    chain.style.top = value * -.1 + 'px';
     // leftcoin.style.left = value * -.15 + 'px';
     // rightcoin.style.left = value * .15 + 'px';
     // space.style.left = value * 0.40 + 'px';

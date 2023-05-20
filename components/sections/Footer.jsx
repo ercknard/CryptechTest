@@ -3,6 +3,7 @@ const Footer = () => (
     <>  
     
             <footer className="main-footer">
+                <h3 className="for-footer">CT</h3>
         <ul className="social-icon">
             <li className="social-icon__item">
 

@@ -23,7 +23,7 @@ const TestCoin= () => (
             <div className="test">
             <Image alt="Coin Mascot" className="leads-portrait-1 squid" src="/assets/images/kyuhi-land.png" width={357} height={649}/>
             <div>
-                <Image className="test-coin squid" src="/assets/images/testcoin.png" width={512} height={512}/>
+                <Image alt="Testcoin" className="test-coin squid" src="/assets/images/testcoin.png" width={512} height={512}/>
                 <div className="fence" />
                     <TestCoinText />
                 <div className="fence" />

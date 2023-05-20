@@ -4,7 +4,7 @@ const PepeSpace = () => (
 
     <>  
     
-    <section id='pepe'>
+    <div id='pepe'>
 
         <Image 
         alt='Pepe NPC'
@@ -40,7 +40,7 @@ const PepeSpace = () => (
 
         </div>
 
-        </section>
+        </div>
         </>
       );
       

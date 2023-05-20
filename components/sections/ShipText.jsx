@@ -3,7 +3,7 @@ import SampleText from "@components/materials/SampleText";
 import Gear from "@components/materials/gears/Gear";
 
 const ShipText = () => (
-
+  
     <section className="container-main-sky">
   <div className="container-main sky-bg">
     <div
@@ -12,6 +12,7 @@ const ShipText = () => (
       data-aos-duration={500}
       className="width-class sky-op card"
     >
+
       <div className="glow" />
       <div className="pipe-padding">
         <div id="op-space" className="agent">

@@ -2,6 +2,7 @@ import Gate from "@components/materials/gates/Gate";
 import PipeToRight from "@components/materials/PipeToRight";
 import PipeToLeft from "@components/materials/PipeToLeft";
 import Image from "next/image"
+import GlassPipe from "@components/materials/GlassPipe";
 
 const Spaceship = () => (
 
@@ -78,6 +79,9 @@ const Spaceship = () => (
                 height={1024}
                 />
             </div>
+
+            <GlassPipe />
+            
             </section>
 
             <PipeToLeft />
