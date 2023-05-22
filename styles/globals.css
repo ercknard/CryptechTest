@@ -2104,7 +2104,7 @@
 	scrollbar-width: thin;
 	scrollbar-color: var(--kyuhi);
 	width: 100%;
-	height: 60vh;
+	height: 55vh;
 	backdrop-filter: blur(1px);
     -webkit-backdrop-filter: blur(1px);
     background-color: rgba(17, 25, 40, 0.25);

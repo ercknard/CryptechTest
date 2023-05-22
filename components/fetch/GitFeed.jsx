@@ -2,6 +2,7 @@
 import PipeToRight from "@components/materials/PipeToRight";
 import { useEffect, useState } from 'react';
 import { fetchGitFeed } from './gitService';
+import GateFeed from "@components/materials/gates/GateFeed";
 
 const GitFeed = ({ username }) => {
   const [feed, setFeed] = useState([]);
@@ -23,6 +24,8 @@ const GitFeed = ({ username }) => {
   return (
 <>
     <PipeToRight />
+
+    <GateFeed />
 
     <section className="width-class">
 
