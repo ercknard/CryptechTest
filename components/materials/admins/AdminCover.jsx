@@ -13,19 +13,20 @@ const AdminCover= () => (
 
     <PipeToRight/>
 
-        <section className="width-class-admin">
+    <GateAdmin />
 
-            <GateAdmin />
+        <section className="width-class">
 
         <h2
             data-aos="zoom-in"
-            data-aos-duration={500}
+            data-aos-duration={2000}
             data-aos-anchor-placement="bottom-bottom"
             className="glitch"
             data-glitch="TEAM LEADS"
         >
             {" "}
-            TEAM LEADS
+            <div className="sec-title">
+            TEAM LEADS</div>{" "}
         </h2>
         <div className="the-ship">
 

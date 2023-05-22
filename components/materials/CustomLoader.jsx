@@ -13,10 +13,20 @@ const CustomLoader= () => (
                 width={239}
                 height={240}
                 />
-            <div className="loader-welcome text-motion">
+            {/* <div className="loader-welcome text-motion">
                 {" "}
                 CryptechTest : MineTest Server{" "}
-            </div>
+            </div> */}
+            <h2
+                data-aos="zoom-in"
+                data-aos-duration={500}
+                data-aos-anchor-placement="bottom-bottom"
+                className="glitch"
+                data-glitch="CryptechTest : MineTest Server"
+            >
+                {" "}
+                CryptechTest : MineTest Server{" "}
+            </h2>
             <Image 
                 alt="loader items"
                 className="coin vert-move" 

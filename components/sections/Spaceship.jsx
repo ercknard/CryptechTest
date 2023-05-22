@@ -10,19 +10,20 @@ const Spaceship = () => (
 
             <PipeToRight />
 
-            <section className="width-class">
-
             <Gate />
+
+            <section className="width-class">
 
             <h2
                 data-aos="zoom-in"
-                data-aos-duration={500}
+                data-aos-duration={2000}
                 data-aos-anchor-placement="bottom-bottom"
                 className="glitch"
                 data-glitch="THE SPACE STATION"
             >
                 {" "}
-                THE SPACE STATION{" "}
+                <div className="sec-title">
+                THE SPACE STATION</div>{" "}
             </h2>
             <div
                 className="the-ship radial-effect"

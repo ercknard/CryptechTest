@@ -48,69 +48,69 @@ btnsleads[i].addEventListener("click", function() {
 });
 }
 
-// var slideIndexcoins = 0;
-// carouselcoins();
+var slideIndexcoins = 0;
+carouselcoins();
 
-// function carouselcoins() {
-//     var i;
-//     var x = document.getElementsByClassName("mySlides-coin");
-//     for (i = 0; i < x.length; i++) {
-//       x[i].style.display = "none"; 
-//     }
-//   }
+function carouselcoins() {
+    var i;
+    var x = document.getElementsByClassName("mySlides-coin");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+  }
   
-//   function plusSlidescoins(n) {
-//     showSlidecoins(slideIndexcoins += n);
-//   }
+  function plusSlidescoins(n) {
+    showSlidecoins(slideIndexcoins += n);
+  }
   
-//   function currentSlidecoins(n) {
-//     showSlidecoins(slideIndexcoins = n);
-//   }
+  function currentSlidecoins(n) {
+    showSlidecoins(slideIndexcoins = n);
+  }
   
-//   function showSlidecoins(n) {
-//     autoScroll = false;
-//     var i;
-//     var slides = document.getElementsByClassName("mySlides-coin");
-//     if (n > slides.length) {slideIndexcoins = 1}
-//     if (n < 1) {slideIndexcoins = slides.length}
-//     for (i = 0; i < slides.length; i++) {
-//         slides[i].style.display = "none";
-//     }
-//     slides[slideIndexcoins-1].style.display = "block";
-//   }
+  function showSlidecoins(n) {
+    autoScroll = false;
+    var i;
+    var slides = document.getElementsByClassName("mySlides-coin");
+    if (n > slides.length) {slideIndexcoins = 1}
+    if (n < 1) {slideIndexcoins = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    slides[slideIndexcoins-1].style.display = "block";
+  }
 
-//   function copy(el) {
-//     var address = el.innerHTML;
-//     if (address.length == 0) return;
-//     var tmp = document.createElement("textarea");
-//     tmp.setAttribute("type", "hidden");
-//     tmp.value = address;
-//     document.body.appendChild(tmp);
-//     tmp.select();
-//     document.execCommand("copy");
-//     document.body.removeChild(tmp);
-//     alert("Copied: " + tmp.value);
-//   }
+  function copy(el) {
+    var address = el.innerHTML;
+    if (address.length == 0) return;
+    var tmp = document.createElement("textarea");
+    tmp.setAttribute("type", "hidden");
+    tmp.value = address;
+    document.body.appendChild(tmp);
+    tmp.select();
+    document.execCommand("copy");
+    document.body.removeChild(tmp);
+    alert("Copied: " + tmp.value);
+  }
 
-//   var btnContainercoin = document.getElementById("coin-active-btn");
-
-
-// var btnscoin = btnContainercoin.getElementsByClassName("coin-buttons");
+  var btnContainercoin = document.getElementById("coin-active-btn");
 
 
-// for (var i = 0; i < btnscoin.length; i++) {
-//   btnscoin[i].addEventListener("click", function() {
-//     var current = document.getElementsByClassName("active-coin");
+var btnscoin = btnContainercoin.getElementsByClassName("coin-buttons");
 
 
-//     if (current.length > 0) {
-//       current[0].className = current[0].className.replace(" active-coin", "");
-//     }
+for (var i = 0; i < btnscoin.length; i++) {
+  btnscoin[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active-coin");
 
 
-//     this.className += " active-coin";
-//   });
-// }
+    if (current.length > 0) {
+      current[0].className = current[0].className.replace(" active-coin", "");
+    }
+
+
+    this.className += " active-coin";
+  });
+}
 
 // var elementlsky = document.getElementById("left-valve-sky");
 // elementlsky.addEventListener("click", function() {

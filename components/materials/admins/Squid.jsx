@@ -6,7 +6,7 @@ const Squid= () => (
       <Image  alt="Squid" className="pepe-admin" src="/assets/images/squid-land.png"           width={357}
           height={649}/>
       <div className="to-flex">
-        <Image
+        {/* <Image
         alt="Squid"
         //   data-aos="fade-up-right"
         //   data-aos-easing="linear"
@@ -16,7 +16,7 @@ const Squid= () => (
           src="/assets/images/squid-land.png"
           width={357}
           height={649}
-        />
+        /> */}
         <div
         //   data-aos="zoom-out-left"
         //   data-aos-easing="linear"

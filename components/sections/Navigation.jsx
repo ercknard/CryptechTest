@@ -4,7 +4,7 @@ const Navigation= () => (
 
         <nav>
         <div className="index-navigation-main">
-            <div className="width-class">
+            <div className="width-class-nav">
             <ul className="navigation-list">
                 <li>
                 <div className="nav-buttons">HOME</div>

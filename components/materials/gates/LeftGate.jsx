@@ -1,8 +1,12 @@
 const LeftGate= () => (
 
     <>
+    <div id="left-valve-sky" className="left-valve-out">
 
-    <div id="left-valve-sky" className="left-valve"></div> 
+    <div className="left-valve"> </div> 
+
+    </div>
+
 
     </>
     

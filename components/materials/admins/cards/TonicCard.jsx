@@ -25,7 +25,7 @@ const TonicCard = () => {
                   height={128}
                 />
               </span>
-              <h4> Tonic </h4>
+              <h4> ANormalTonic </h4>
             </div>
          )
    }  

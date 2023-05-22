@@ -14,3 +14,16 @@
 	-webkit-clip-path: circle(40% at 50% 50%);
 	clip-path: circle(40% at 50% 50%);
 }
+
+.modal-figure {
+	background-image: url(/assets/images/vanikoro.webp);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 7.5rem;
+	height: 7.5rem;
+	margin-left: auto;
+	margin-right: auto;
+	-webkit-clip-path: circle(50% at 50% 50%);
+	clip-path: circle(50% at 50% 50%);
+}

@@ -6,7 +6,7 @@ const Shikoku= () => (
       <Image  alt="Shikoku" className="pepe-admin" src="/assets/images/shikoku-land.png"           width={357}
           height={649}/>
       <div className="to-flex">
-        <Image
+        {/* <Image
         alt="Shikoku"
         //   data-aos="fade-up-right"
         //   data-aos-easing="linear"
@@ -16,7 +16,7 @@ const Shikoku= () => (
           src="/assets/images/shikoku-land.png"
           width={357}
           height={649}
-        />
+        /> */}
         <div
         //   data-aos="zoom-out-left"
         //   data-aos-easing="linear"

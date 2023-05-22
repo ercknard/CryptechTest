@@ -6,7 +6,7 @@ const Kyuhi= () => (
       <Image  alt="Kyuhi" className="pepe-admin" src="/assets/images/kyuhi-land.png"           width={357}
           height={649}/>
       <div className="to-flex">
-        <Image
+        {/* <Image
         alt="Kyuhi"
         //   data-aos="fade-up-right"
         //   data-aos-easing="linear"
@@ -16,7 +16,7 @@ const Kyuhi= () => (
           src="/assets/images/kyuhi-land.png"
           width={357}
           height={649}
-        />
+        /> */}
         <div
         //   data-aos="zoom-out-left"
         //   data-aos-easing="linear"

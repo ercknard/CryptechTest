@@ -6,7 +6,7 @@ const Seqsee= () => (
       <Image  alt="Seqsee" className="pepe-admin" src="/assets/images/pepita-land.png"           width={357}
           height={649}/>
       <div className="to-flex">
-        <Image
+        {/* <Image
         alt="Seqsee"
         //   data-aos="fade-up-right"
         //   data-aos-easing="linear"
@@ -16,7 +16,7 @@ const Seqsee= () => (
           src="/assets/images/pepita-land.png"
           width={357}
           height={649}
-        />
+        /> */}
         <div
         //   data-aos="zoom-out-left"
         //   data-aos-easing="linear"

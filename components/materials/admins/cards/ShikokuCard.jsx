@@ -4,7 +4,7 @@ import React from "react";
 
 const ShikokuCard= () => {
     const handleClickShikoku = () => {
-        currentSlideleads(3);
+        currentSlideleads(5);
         const styleLink = document.createElement('link');
         styleLink.rel = 'stylesheet';
         styleLink.href = '/assets/styles/shikoku.css';

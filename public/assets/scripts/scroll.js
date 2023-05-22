@@ -18,8 +18,10 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
 function scrollRotate() {
     let image = document.getElementById("reload");
     let image1 = document.getElementById("reload-1");
+    let image2 = document.getElementById("floating");
     image.style.transform = "rotate(" + window.pageYOffset/2 + "deg)";
     image1.style.transform = "rotate(" + window.pageYOffset/2 + "deg)";
+    image2.style.transform = "rotate(" + window.pageYOffset/4 + "deg)";
 }
 
 $(function () {
