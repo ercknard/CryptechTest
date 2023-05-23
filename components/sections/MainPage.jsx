@@ -39,7 +39,7 @@ const MainPage= () => (
           <TestCoin />
           <Donate />
           <GitFeed />
-          <Feed />
+          {/* <Feed /> */}
           <BottomWorld />
             </div>
         </div>

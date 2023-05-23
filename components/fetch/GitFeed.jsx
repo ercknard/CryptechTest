@@ -2,6 +2,8 @@ import PipeToRight from "@components/materials/PipeToRight";
 import GateFeed from "@components/materials/gates/GateFeed";
 import GitFeedWeb from "./GitFeedWeb";
 import GitFeedGame from "./GitFeedGame";
+import Web from "./Web";
+import Game from "./Game";
 
 const GitFeed= () => (
 
@@ -23,6 +25,12 @@ const GitFeed= () => (
         <div className="sec-title">
         Git Feed</div>{" "}
     </h2>
+
+    <div id="feed-active-btn" className="agent-home">
+
+    <Web /> <Game />
+
+    </div>
 
     <div className="the-ship">
 

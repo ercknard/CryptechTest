@@ -632,7 +632,7 @@
 	filter: drop-shadow(20px 10px 20px rgba(0, 0, 0, 1));
 	-webkit-animation: squid .85s infinite alternate;
 	animation: squid .85s infinite alternate;
-	transform: scale(1.1);
+	transform: scale(1.5);
   }
   
   /* ________________________________________________________________________________________________________________________________ */
@@ -2114,6 +2114,7 @@
 	position: relative;
 	display: block;
 	margin: 4rem 0;
+	margin-top: -4rem;
 	padding: 0 5rem;
 	padding-bottom: 2.5rem;
 	scroll-snap-align: center;
@@ -2121,7 +2122,7 @@
 	scrollbar-width: thin;
 	scrollbar-color: var(--kyuhi);
 	width: 100%;
-	height: 48vh;
+	height: 100vh;
 	/* backdrop-filter: blur(1px);
     -webkit-backdrop-filter: blur(1px);
     background-color: rgba(17, 25, 40, 0.25);
