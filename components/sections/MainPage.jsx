@@ -17,6 +17,7 @@ import PepeKeychain from "@components/materials/PepeKeychain";
 import Donate from "@components/sections/Donate";
 import Fabs from "@components/materials/Fabs";
 import GitFeed from "@components/fetch/GitFeed";
+import Feed from "./Feed";
 
 const MainPage= () => (
 
@@ -37,7 +38,8 @@ const MainPage= () => (
           <AdminCard />
           <TestCoin />
           <Donate />
-          <GitFeed username="ercknard"/>
+          <GitFeed />
+          <Feed />
           <BottomWorld />
             </div>
         </div>

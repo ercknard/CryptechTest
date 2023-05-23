@@ -151,3 +151,56 @@ for (var i = 0; i < btnscoin.length; i++) {
 // elementrcoin.addEventListener("click", function() {
 //   elementrcoin.classList.toggle("close-right");
 // });
+
+var slideIndexfeeds = 1;
+carouselfeeds();
+
+function carouselfeeds() {
+  var i;
+  var x = document.getElementsByClassName("mySlides-feeds");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  slideIndexfeeds++;
+  if (slideIndexfeeds > x.length) {slideIndexfeeds = 1} 
+  x[slideIndexfeeds-1].style.display = "block"; 
+}
+
+function plusSlidesfeeds(n) {
+  showSlidefeeds(slideIndexfeeds += n);
+}
+function currentSlidefeeds(n) {
+  showSlidefeeds(slideIndexfeeds = n);
+}
+
+function showSlidefeeds(n) {
+  autoScroll = false;
+  var i;
+  var slides = document.getElementsByClassName("mySlides-feeds");
+  if (n > slides.length) {slideIndexfeeds = 1}
+  if (n < 1) {slideIndexfeeds = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  slides[slideIndexfeeds-1].style.display = "block";
+}
+
+  var btnContainerfeed = document.getElementById("feed-active-btn");
+
+
+var btnsfeed = btnContainerfeed.getElementsByClassName("feed-buttons");
+
+
+for (var i = 0; i < btnsfeed.length; i++) {
+  btnsfeed[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active-feed");
+
+
+    if (current.length > 0) {
+      current[0].className = current[0].className.replace(" active-feed", "");
+    }
+
+
+    this.className += " active-feed";
+  });
+}
