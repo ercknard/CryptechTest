@@ -1,6 +1,5 @@
 import Web from "@components/fetch/Web";
 import Game from "@components/fetch/Game";
-import ProfilePage from "@components/discord/ProfilePage";
 
 const Feed = () => (
   
@@ -21,8 +20,6 @@ const Feed = () => (
 
         <Web />
         <Game />
-
-        <ProfilePage />
 
         </div>
 
