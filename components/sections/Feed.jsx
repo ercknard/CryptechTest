@@ -3,13 +3,13 @@ import Game from "@components/fetch/Game";
 
 const Feed = () => (
   
-    <section className="container-main-sky">
-  <div className="container-main sky-bg">
+    <section className="container-main-feed">
+  <div className="container-main feed-bg">
     <div
       data-aos="fade-left"
       data-aos-easing="ease-in-out"
       data-aos-duration={500}
-      className="width-class sky-op card"
+      className="width-class feed-op card"
     >
 
       <div className="glow" />
