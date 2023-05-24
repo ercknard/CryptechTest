@@ -1450,7 +1450,8 @@
 	bottom: 0;
 	margin: auto 0;
 	overflow: hidden;
-	filter: brightness(110%) saturate(200%);
+	filter: saturate(150%);
+	/* animation: gate 15s infinite ease-in-out; */
   }
   
   .right-valve-out {
@@ -1485,7 +1486,8 @@
 	bottom: 0;
 	margin: auto 0;
 	overflow: hidden;
-	filter: brightness(110%) saturate(200%);
+	filter: saturate(150%);
+	/* animation: gate 15s infinite ease-in-out; */
   }
   
   .left-valve-out {

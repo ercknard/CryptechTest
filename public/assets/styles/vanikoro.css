@@ -30,13 +30,11 @@
 
 .right-valve {
 	background-image: url(/assets/images/vanigateR.png);
-	background-position: center center;
 	background-size: cover;
   }
 
   .left-valve {
 	background-image: url(/assets/images/vanigateL.png);
-	background-position: center center;
 	background-size: cover;
   }
 

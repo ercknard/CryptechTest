@@ -30,13 +30,11 @@
 
 .right-valve {
 	background-image: url(/assets/images/modgateR.png);
-	background-position: center center;
 	background-size: cover;
   }
 
   .left-valve {
 	background-image: url(/assets/images/modgateL.png);
-	background-position: center center;
 	background-size: cover;
   }
 

@@ -1095,3 +1095,31 @@
 	  transform: translate(1px, -2px) rotate(-1deg);
 	}
   }
+
+  @-webkit-keyframes gate {
+	0% {
+		background-position: center top;
+	  }
+  
+	  50% {
+		  background-position: center center;
+		}
+	  
+	  100% {
+		  background-position: center top;
+	}
+  }
+  
+  @keyframes gate {
+	0% {
+	  background-position: center top;
+	}
+
+	50% {
+		background-position: center center;
+	  }
+	
+	100% {
+		background-position: center top;
+	}
+  }
