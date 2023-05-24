@@ -19,11 +19,11 @@ const GitFeed= () => (
         data-aos="zoom-in"
         data-aos-duration={2000}
         className="glitch"
-        data-glitch="CryptechTest"
+        data-glitch="Git Feeds"
     >
         {" "}
         <div className="sec-title">
-        CryptechTest</div>{" "}
+        Git Feeds</div>{" "}
     </h2>
 
     <div id="feed-active-btn" className="agent-home">
