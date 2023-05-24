@@ -274,6 +274,7 @@
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
+	filter: contrast(200%);
 	/* background-color: rgb(148, 146, 146);
 	  border-top: 1rem solid black;
 	  border-left: 1rem solid transparent;
@@ -1045,6 +1046,10 @@
 	/* -webkit-box-reflect: below 10px linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.1)); */
 	margin-top: 20px;
 	margin: 0 1rem;
+	border-radius: 50%;
+	border: 2px solid white;
+	border-top: none;
+	border-right: none;
   }
   
   .pepe-loader {
@@ -1226,7 +1231,7 @@
   }
   
   .coins-bg {
-	background-image: url(/assets/images/modal-bg.png) !important;
+	background-image: url(/assets/images/gates.png) !important;
   }
   
   .feed-bg {
@@ -1432,10 +1437,11 @@
 	position: absolute;
 	width: 50vw;
 	height: 50vh;
-	background-image: url(/assets/images/quartz.webp);
-	background-position: top left;
-	background-size: 5vh;
-	border: 1rem solid #5d5d5d75;
+	background-image: url(/assets/images/rightgate.png);
+	/* background-position: top left; */
+	background-size: cover;
+	/* background-size: 5vh; */
+	border: .5rem solid #5d5d5d;
 	z-index: 20;
 	box-shadow: inset 10px 10px 100px black, 10px 10px 10px black;
 	transform: translateX(-1.1vw) skewX(20deg);
@@ -1444,13 +1450,14 @@
 	bottom: 0;
 	margin: auto 0;
 	overflow: hidden;
+	filter: brightness(110%) saturate(200%);
   }
   
   .right-valve-out {
 	position: absolute;
 	width: 50vw;
 	height: 66.5vh;
-	background-image: url(/assets/images/stone.webp);
+	background-image: url(/assets/images/aluminum.png);
 	background-position: top left;
 	background-size: 8.4vh;
 	border: 1rem solid #5d5d5d75;
@@ -1465,10 +1472,11 @@
 	position: absolute;
 	width: 50vw;
 	height: 50vh;
-	background-image: url(/assets/images/quartz.webp);
-	background-position: top right;
-	background-size: 5vh;
-	border: 1rem solid #5d5d5d75;
+	background-image: url(/assets/images/leftgate.png);
+	/* background-position: top right; */
+	background-size: cover;
+	/* background-size: 5vh; */
+	border: .5rem solid #5d5d5d;
 	z-index: 20;
 	box-shadow: inset -10px 10px 100px black, -10px 10px 10px black;
 	transform: translateX(0vw) skewX(-20deg);
@@ -1477,13 +1485,14 @@
 	bottom: 0;
 	margin: auto 0;
 	overflow: hidden;
+	filter: brightness(110%) saturate(200%);
   }
   
   .left-valve-out {
 	position: absolute;
 	width: 50vw;
 	height: 66.5vh;
-	background-image: url(/assets/images/stone.webp);
+	background-image: url(/assets/images/aluminum.png);
 	background-position: top right;
 	background-size: 8.4vh;
 	border: 1rem solid #5d5d5d75;
@@ -1554,6 +1563,7 @@
 	-webkit-text-stroke-width: .1px;
 	-webkit-text-stroke-color: rgb(128, 128, 128);
 	text-shadow: 2px 2px 5px black;
+	filter: contrast(200%);
   }
   
   .right-valve::before {
@@ -1570,6 +1580,7 @@
 	-webkit-text-stroke-width: .1px;
 	-webkit-text-stroke-color: rgb(128, 128, 128);
 	text-shadow: 2px 2px 5px black;
+	filter: contrast(200%);
   }
   
   /* #left-valve,
@@ -1716,7 +1727,7 @@
 	-webkit-animation: modal 6s;
 	animation: modal 6s;
 	animation-iteration-count: 1;
-	background-image: radial-gradient(circle at top, rgba(0, 0, 0, 1), rgba(0, 0, 0, .50)), url(/assets/images/modal-bg.png);
+	background-image: radial-gradient(circle at top, rgba(0, 0, 0, 1), rgba(0, 0, 0, .50)), url(/assets/images/gates.png);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1747,9 +1758,10 @@
 	position: absolute;
 	width: 50vw;
 	height: 100vh;
-	background-image: url(/assets/images/quartz.webp);
+	background-image: url(/assets/images/rightgate.png);
 	background-position: top left;
-	background-size: 9vh;
+	background-size: cover;
+	/* background-size: 9vh; */
 	border: 1rem solid #5d5d5d75;
 	z-index: 100;
 	overflow: hidden;
@@ -1765,9 +1777,10 @@
 	position: absolute;
 	width: 50vw;
 	height: 100vh;
-	background-image: url(/assets/images/quartz.webp);
+	background-image: url(/assets/images/leftgate.png);
 	background-position: top right;
-	background-size: 9vh;
+	background-size: cover;
+	/* background-size: 9vh; */
 	border: 1rem solid #5d5d5d75;
 	z-index: 100;
 	overflow: hidden;
@@ -1793,6 +1806,7 @@
 	-webkit-text-stroke-width: .1px;
 	-webkit-text-stroke-color: rgb(128, 128, 128);
 	text-shadow: 2px 2px 5px black;
+	filter: contrast(200%);
   }
   
   .right-valve-modal::before {
@@ -1809,6 +1823,7 @@
 	-webkit-text-stroke-width: .1px;
 	-webkit-text-stroke-color: rgb(128, 128, 128);
 	text-shadow: 2px 2px 5px black;
+	filter: contrast(200%);
   }
   
   .right-valve-modal-main {
