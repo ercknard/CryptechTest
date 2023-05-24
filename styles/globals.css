@@ -1437,7 +1437,7 @@
 	position: absolute;
 	width: 50vw;
 	height: 50vh;
-	background-image: url(/assets/images/rightgate.png);
+	background-image: radial-gradient(circle at left , rgba(0, 0, 0, .25), rgba(0, 0, 0, 0)), url(/assets/images/rightgate.png);
 	background-position: center center;
 	background-size: cover;
 	/* background-size: 5vh; */
@@ -1472,7 +1472,7 @@
 	position: absolute;
 	width: 50vw;
 	height: 50vh;
-	background-image: url(/assets/images/leftgate.png);
+	background-image: radial-gradient(circle at right, rgba(0, 0, 0, .25), rgba(0, 0, 0, 0)), url(/assets/images/leftgate.png);
 	background-position: center center;
 	background-size: cover;
 	/* background-size: 5vh; */
