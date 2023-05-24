@@ -144,6 +144,20 @@ const CoinsAddress= () => (
       t1RCU5Sbaj15EiA2sVVZQZLAsffGW1m1WAt
     </p>
     </div>
+    <div
+      className="mySlides-coin fade"
+    >
+      <Image
+        alt="Coins"
+        className="leads-photo-abs4"
+        src="/assets/images/scc.png"
+        width={50}
+        height={50}
+      />
+          <p className="coin-bg address" onClick= {() => copy(this)}>
+      t1RCU5Sbaj15EiA2sVVZQZLAsffGW1m1WAt
+    </p>
+    </div>
   </div>
   
     

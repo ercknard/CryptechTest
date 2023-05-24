@@ -1041,7 +1041,7 @@
   .coin {
 	width: 4rem;
 	height: 4rem;
-	-webkit-box-reflect: below 10px linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.1));
+	/* -webkit-box-reflect: below 10px linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.1)); */
 	margin-top: 20px;
 	margin: 0 1rem;
   }
@@ -1225,7 +1225,7 @@
   }
   
   .coins-bg {
-	background-image: url(/assets/images/cave.png) !important;
+	background-image: url(/assets/images/modal-bg.png) !important;
   }
   
   .feed-bg {
@@ -1713,7 +1713,7 @@
 	-webkit-animation: modal 6s;
 	animation: modal 6s;
 	animation-iteration-count: 1;
-	background-image: radial-gradient(circle, rgba(19, 15, 20, 1), rgba(0, 0, 0, .50)), url(/assets/images/modal-bg.png);
+	background-image: radial-gradient(circle at top, rgba(0, 0, 0, 1), rgba(0, 0, 0, .50)), url(/assets/images/modal-bg.png);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
