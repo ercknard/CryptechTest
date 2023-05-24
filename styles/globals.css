@@ -1713,7 +1713,7 @@
 	-webkit-animation: modal 6s;
 	animation: modal 6s;
 	animation-iteration-count: 1;
-	background-image: linear-gradient(to bottom, rgba(19, 15, 20, 1), rgba(0, 0, 0, .85), rgba(29, 33, 42, 1)), url(/assets/images/spaceship.png);
+	background-image: radial-gradient(circle, rgba(19, 15, 20, 1), rgba(0, 0, 0, .50)), url(/assets/images/modal-bg.png);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
