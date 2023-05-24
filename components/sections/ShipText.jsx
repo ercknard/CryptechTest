@@ -1,6 +1,7 @@
 import Image from "next/image";
 import SampleText from "@components/materials/SampleText";
 import Gear from "@components/materials/gears/Gear";
+import IntroVideo from "@components/materials/InfroVideo";
 
 const ShipText = () => (
   
@@ -32,6 +33,8 @@ const ShipText = () => (
             Pepita...{" "}
           </h3>
         </div>
+
+        {/* <IntroVideo /> */}
 
         <SampleText />
 

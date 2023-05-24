@@ -1229,7 +1229,7 @@
   }
   
   .feed-bg {
-	background-image: url(/assets/images/cave-biome.png) !important;
+	background-image: url(/assets/images/Intro.mp4) !important;
   }
 
   .sky-op,
@@ -1442,6 +1442,7 @@
 	top: 0;
 	bottom: 0;
 	margin: auto 0;
+	overflow: hidden;
   }
   
   .right-valve-out {
@@ -1474,6 +1475,7 @@
 	top: 0;
 	bottom: 0;
 	margin: auto 0;
+	overflow: hidden;
   }
   
   .left-valve-out {
@@ -1539,7 +1541,7 @@
   
   .left-valve::before {
 	content: "❖ CRYP >";
-	right: -4rem;
+	right: -3rem;
 	top: 50%;
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%) skewX(0deg);
@@ -1555,7 +1557,7 @@
   
   .right-valve::before {
 	content: "< TECH ❖";
-	left: -4rem;
+	left: -3rem;
 	top: 50%;
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%) skewX(0deg);
@@ -1569,7 +1571,7 @@
 	text-shadow: 2px 2px 5px black;
   }
   
-  #left-valve,
+  /* #left-valve,
   #left-valve-sky,
   #left-valve-admin,
   #left-valve-coin {}
@@ -1577,7 +1579,7 @@
   #right-valve,
   #right-valve-sky,
   #right-valve-admin,
-  #right-valve-coin {}
+  #right-valve-coin {} */
   
   /* ________________________________________________________________________________________________________________________________ */
   
@@ -2179,4 +2181,12 @@
   p.feed-starter {
 	margin-top: 1.5rem;
 	text-indent: 0;
+  }
+
+  .promotion-vid {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	transform: scale(1.41);
   }

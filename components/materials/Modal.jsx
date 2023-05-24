@@ -32,7 +32,7 @@ const Modal= () => (
                 {" "}
                 CryptechTest : MineTest Server{" "}
             </div> */}
-            <h1 className="modal-title"> CryptechTest : MineTest SMP Server</h1>
+            <h1 className="modal-title"> CryptechTest SMP Server </h1>
             <Image 
                 alt="loader items"
                 className="coin vert-move" 
