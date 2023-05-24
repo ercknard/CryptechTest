@@ -1,17 +1,13 @@
 import PipeToRight from "@components/materials/PipeToRight";
 import GateFeed from "@components/materials/gates/GateFeed";
-import GitFeedWeb from "./GitFeedWeb";
-import GitFeedGame from "./GitFeedGame";
-import Web from "./Web";
-import Game from "./Game";
 
-const GitFeed= () => (
+const WorldCredits= () => (
 
     <>
 
     <PipeToRight />
 
-    {/* <GateFeed /> */}
+    <GateFeed />
 
     <section className="width-class">
 
@@ -26,24 +22,10 @@ const GitFeed= () => (
         CryptechTest</div>{" "}
     </h2>
 
-    <div id="feed-active-btn" className="agent-home">
-
-    <Web /> <Game />
-
-    </div>
-
-    <div className="the-ship feed-op">
-
-    <GitFeedGame username="CryptechTest"/>
-
-    <GitFeedWeb username="ercknard"/>
-
-    </div>
-
     </section>
 
     </>
  
     );
       
-    export default GitFeed;
+    export default WorldCredits;

@@ -1,8 +1,22 @@
 import Image from "next/image"
+import WorldCredits from "./WorldCredits";
 
 const BottomWorld= () => (
 
+  <>
+
+  <WorldCredits />
+
         <section>
+          <Image
+          src='/assets/images/pepemid.png'
+          alt='parallax-bgs'
+          priority='true'
+          width={3620}
+          height={1969}
+          className="cave-pepe"
+          />
+
           <Image 
           alt="Clouds Bottom"
           className="cloudII clouds-earth" 
@@ -18,6 +32,7 @@ const BottomWorld= () => (
           height={1969} />
         </section>
 
+</>
     
     );
       
