@@ -27,3 +27,35 @@
 	-webkit-clip-path: circle(50% at 50% 50%);
 	clip-path: circle(50% at 50% 50%);
 }
+
+.right-valve {
+	background-image: url(/assets/images/kyuhigateR.png);
+	background-position: center center;
+	background-size: cover;
+  }
+
+  .left-valve {
+	background-image: url(/assets/images/kyuhigateL.png);
+	background-position: center center;
+	background-size: cover;
+  }
+
+  .right-valve-out {
+	background-image: url(/assets/images/kyuhiRight.png);
+  }
+
+  .left-valve-out {
+	background-image: url(/assets/images/kyuhiLeft.png);
+  }
+
+  .right-valve-modal {
+	background-image: url(/assets/images/kyuhigateR.png);
+  }
+  
+  .left-valve-modal {
+	background-image: url(/assets/images/kyuhigateL.png);
+  }
+
+  .modal {
+	background-image: radial-gradient(circle at top, rgba(0, 0, 0, 1), rgba(0, 0, 0, .50)), url(/assets/images/kyuhigate.png);
+  }
