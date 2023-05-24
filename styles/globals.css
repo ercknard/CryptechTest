@@ -1460,7 +1460,7 @@
 	background-image: url(/assets/images/aluminum.png);
 	background-position: top left;
 	background-size: 8.4vh;
-	border: 1rem solid #5d5d5d75;
+	border: 1rem solid #5d5d5d;
 	z-index: 18;
 	box-shadow: inset 10px 10px 100px black, 10px 10px 10px black;
 	transform: translateX(50vw) skewX(-20deg);
@@ -1495,7 +1495,7 @@
 	background-image: url(/assets/images/aluminum.png);
 	background-position: top right;
 	background-size: 8.4vh;
-	border: 1rem solid #5d5d5d75;
+	border: 1rem solid #5d5d5d;
 	z-index: 18;
 	box-shadow: inset -10px 10px 100px black, -10px 10px 10px black;
 	transform: translateX(0vw) skewX(20deg);
