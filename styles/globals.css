@@ -2116,6 +2116,11 @@
 	list-style-type: none;
 	align-items: center;
 	z-index: 100;
+	box-shadow: 5px 5px 10px var(--kyuhi);
+  }
+
+  .git-feed:hover {
+	box-shadow: none;
   }
 
   .feeds {
