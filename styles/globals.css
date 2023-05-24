@@ -545,6 +545,7 @@
 	width: 100vw;
 	height: auto;
 	z-index: 99;
+	filter: drop-shadow(10px 10px 10px black);
   }
   
   .typed-text {
