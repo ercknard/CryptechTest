@@ -1450,7 +1450,7 @@
 	bottom: 0;
 	margin: auto 0;
 	overflow: hidden;
-	filter: saturate(150%);
+	/* filter: saturate(150%); */
 	/* animation: gate 15s infinite ease-in-out; */
   }
   
@@ -1486,7 +1486,7 @@
 	bottom: 0;
 	margin: auto 0;
 	overflow: hidden;
-	filter: saturate(150%);
+	/* filter: saturate(150%); */
 	/* animation: gate 15s infinite ease-in-out; */
   }
   
