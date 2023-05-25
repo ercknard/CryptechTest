@@ -73,6 +73,14 @@ const LandingPage = () => (
                 id='secondary-front-bg'
                 className='bg-img' />
 
+            <Image data-aos="fade-up" data-aos-duration="3000"
+                src='/assets/images/BG-FFFFF.png'
+                alt='parallax-bgs'
+                priority='true'
+                width={3620}
+                height={1969}
+                className='squid' />
+
         <WebTitle /> 
 
         </section>
