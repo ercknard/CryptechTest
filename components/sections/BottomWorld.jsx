@@ -8,7 +8,10 @@ const BottomWorld= () => (
   <WorldCredits />
 
         <section>
-          <Image
+          <Image             
+          data-aos="zoom-in"
+          data-aos-duration={2000}
+          data-aos-anchor-placement="bottom-bottom"
           src='/assets/images/pepemid.png'
           alt='parallax-bgs'
           priority='true'
