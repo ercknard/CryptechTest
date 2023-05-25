@@ -8,7 +8,7 @@ const Game= () => (
 
     <div
       onClick = {() => currentSlidefeeds(1)}
-      className="banner mod push-color feed-buttons"
+      className="banner push-color feed-buttons"
     >
               {/* <Image alt="Squid" className="loader-icon-23" src="/assets/images/squid-land.png"           width={357}
           height={649}/> */}

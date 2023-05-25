@@ -13,19 +13,23 @@ const GithubFeeds= () => (
 
      <section className="width-class">
 
+
     <div className="the-ship feed-op">
+
+    <div className="glow" />
+            <div className="pipe-padding">
+                <h3> Git Feed: </h3>      <span id="feed-active-btn" className="agent-home">
+
+<Web /> <Game />
+
+</span>
+
+                </div>
 
     <GitFeedGame username="CryptechTest"/>
 
     <GitFeedWeb username="ercknard"/>
-
     </div>
-
-         <div id="feed-active-btn" className="agent-home">
-
-<Web /> <Game />
-
-</div>
 
     </section>
 

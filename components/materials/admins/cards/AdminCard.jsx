@@ -24,7 +24,7 @@ const AdminCard= () => (
          <div className="pipe-padding">
             <h3>
                {" "}
-               CryptechTest Admins:{" "}
+               CryptechTest Team:{" "}
                <span>
                   <Image alt="Admin Head" 
                   className="default" 
@@ -46,13 +46,13 @@ const AdminCard= () => (
                   <DemilCard />
                   <TonicCard />
                </div>
-               <a
+               {/* <a
                   className="a-button story-button"
                   href="https://discord.com/invite/WxvrzzPFAH"
                   target="_blank"
                   >
                {" "}
-               Discord: CryptechTest{" "} </a>
+               Discord: CryptechTest{" "} </a> */}
             </div>
          </div>
       </div>

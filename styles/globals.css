@@ -649,11 +649,7 @@
   }
 
   .active-feed {
-	border-radius: 10px;
-	z-index: 10;
-	-webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
-	clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
-	filter: drop-shadow(20px 10px 20px rgba(0, 0, 0, 1));
+	box-shadow: inset 1px 1px 10px var(--kyuhi);
 	-webkit-animation: squid .85s infinite alternate;
 	animation: squid .85s infinite alternate;
   }
@@ -837,6 +833,7 @@
 	background: linear-gradient(-45deg, var(--kyuhi) 0%, rgba(0, 0, 0, .75) 5%, transparent 50%), linear-gradient(135deg, var(--kyuhi) 0%, rgba(0, 0, 0, .75) 5%, transparent 50%), black;
 	border: 2.5px solid var(--kyuhi);
 	transition: .5s ease-in-out;
+	margin-top: -6rem;
   }
   
   .squid-color:hover {
@@ -1134,7 +1131,7 @@
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	top: 63vh;
+	top: 60vh;
 	width: 50%;
 	z-index: 999;
   }
@@ -1269,7 +1266,7 @@
   .admin-op,
   .coins-op,
   .feed-op {
-	padding: 3rem 2rem;
+	padding: 2rem 2rem;
 	border: 3px solid var(--kyuhi);
 	background: linear-gradient(-45deg, var(--kyuhi) 0%, rgba(0, 0, 0, .75) 5%, transparent 50%), linear-gradient(135deg, var(--kyuhi) 0%, rgba(0, 0, 0, .75) 5%, transparent 50%), url(/assets/images/Stone-S.png);
 	background: linear-gradient(-45deg, var(--kyuhi) 0%, rgba(0, 0, 0, .75) 5%, transparent 50%), linear-gradient(135deg, var(--kyuhi) 0%, rgba(0, 0, 0, .75) 5%, transparent 50%), black;
@@ -1424,7 +1421,8 @@
   .sky-op::before,
   .world-op::before,
   .admin-op::before,
-  .coins-op::before {
+  .coins-op::before,
+  .feed-op::before {
 	content: "❖";
 	font-weight: bolder;
 	color: var(--kyuhi);
@@ -1648,9 +1646,9 @@
   
   .coin-bg {
 	text-align: center;
-	padding: 1rem;
+	padding: .7rem;
 	background-color: black;
-	border: 5px double white;
+	border: 1px solid white;
   }
   
   .primary-pic {
@@ -1946,8 +1944,8 @@
   
   .gear {
 	position: absolute;
-	right: 3vh;
-	top: 3vh;
+	right: 2vh;
+	top: 2vh;
 	width: 5rem;
 	height: 5rem;
   }
@@ -2192,13 +2190,15 @@
 	scrollbar-width: thin;
 	scrollbar-color: var(--kyuhi);
 	width: 100%;
-	max-height: 55vh;
+	max-height: 52.5vh;
 	/* backdrop-filter: blur(1px);
     -webkit-backdrop-filter: blur(1px);
     background-color: rgba(17, 25, 40, 0.25);
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.125); */
 	z-index: 10;
+	margin-top: -4rem;
+
   }
 
   /* width */
@@ -2275,4 +2275,23 @@
 	position: fixed;
 	top: 26vh;
 	right: 26vw;
+  }
+
+  .sci-fi-buttons {
+	-webkit-clip-path: polygon(80% 0, 100% 20%, 100% 100%, 20% 100%, 0% 80%, 0 0);
+	clip-path: polygon(80% 0, 100% 20%, 100% 100%, 20% 100%, 0% 80%, 0 0);
+	color: #fff;
+	background: linear-gradient(to right, var(--kyuhi), transparent);
+	box-shadow: inset 0px 0px 20px #000;
+	font-size: 1.5rem;
+	padding: 1rem;
+	border: 3px solid var(--kyuhi);
+	border-radius: 5px;
+	cursor: pointer;
+	filter: saturate(180%);
+  }
+
+  .sci-fi-buttons:hover {
+	box-shadow: 3px 3px 10px white;
+	transform: translateY(2px);
   }
