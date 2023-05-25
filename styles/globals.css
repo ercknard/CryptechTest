@@ -35,7 +35,6 @@
 	}
   }
 
-
   body::-webkit-scrollbar {
 	display: none;
 	-ms-overflow-style: none;
@@ -1976,6 +1975,19 @@
 	-webkit-animation: squid-chain .85s infinite alternate;
 	animation: squid-chain .85s infinite alternate;
   
+  }
+
+  @media (max-width: 1920px) {
+	.chain:after {
+		margin-left: -14.6rem;
+	}
+  }
+  
+  @media (max-width: 1600px) {
+	.chain:after {
+		margin-left: -18rem;
+		bottom: -50rem;
+	}
   }
   
   /* ________________________________________________________________________________________________________________________________ */
