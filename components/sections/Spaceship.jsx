@@ -31,7 +31,7 @@ const Spaceship = () => (
             >
                 <Image
                 alt="Spacehips"
-                className="ship"
+                className="ship squid"
                 data-aos="zoom-in-right"
                 data-aos-duration={5000}
                 data-aos-anchor-placement="bottom-bottom"
