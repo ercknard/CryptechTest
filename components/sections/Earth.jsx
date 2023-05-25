@@ -34,7 +34,7 @@ const Earth = () => (
                 data-aos="zoom-in-right"
                 data-aos-duration={5000}
                 data-aos-anchor-placement="bottom-bottom"
-                src="/assets/images/ship-3.png"
+                src="/assets/images/ship-4.png"
                 width={1024}
                 height={1024}
                 />
