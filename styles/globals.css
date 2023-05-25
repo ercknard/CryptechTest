@@ -2185,7 +2185,6 @@
   .feeds {
 	position: relative;
 	display: block;
-	margin-top: -1rem;
 	padding: 0 5rem;
 	padding-bottom: 2.5rem;
 	scroll-snap-align: center;

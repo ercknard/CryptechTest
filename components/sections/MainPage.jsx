@@ -16,8 +16,9 @@ import Navigation from "@components/sections/Navigation";
 import PepeKeychain from "@components/materials/PepeKeychain";
 import Donate from "@components/sections/Donate";
 import Fabs from "@components/materials/Fabs";
-import GitFeed from "@components/fetch/GitFeed";
 import Feed from "./Feed";
+import GithubFeeds from "./GithubFeeds";
+import OurPartners from "./OurPartners";
 
 const MainPage= () => (
 
@@ -38,7 +39,8 @@ const MainPage= () => (
           <AdminCard />
           <TestCoin />
           <Donate />
-          <GitFeed />
+          <OurPartners />
+          <GithubFeeds />
           {/* <Feed /> */}
           <BottomWorld />
             </div>
