@@ -14,9 +14,9 @@ const VideoModal = ({ videoUrl, closeModal }) => {
         <iframe
             className='videomodal'
           src={videoUrl}
-          width="10000"
-          height="315"
-          frameBorder="0"
+          width="1920"
+          height="1080"
+          frameBorder="1"
           allowFullScreen
           allow="autoplay"
         ></iframe>

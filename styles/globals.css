@@ -364,7 +364,7 @@
   }
   
   .index-navigation-main {
-	z-index: 999;
+	z-index: 1000;
 	position: fixed;
 	width: 100%;
 	top: 0;
@@ -1122,7 +1122,7 @@
 	margin-right: auto;
 	margin-top: 20rem;
 	width: 20%;
-	z-index: 1000;
+	z-index: 999;
   }
   
   .play-button:hover {
@@ -2218,11 +2218,20 @@
 	left: 0;
 	top: 0;
 	overflow-y: hidden;
+	width: 100vw;
+	height: 100vh;
+	background-color: #00000075;
   }
 
   .videomodal {
-	width: 100vw;
-	height: 100vh;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	width: 50vw;
+	height: 50vh;
 	overflow-y: hidden;
   }
 
@@ -2238,7 +2247,6 @@
 
   .close-button {
 	position: fixed;
-	top: 1vh;
-	right: 1vw;
-
+	top: 26vh;
+	right: 26vw;
   }
