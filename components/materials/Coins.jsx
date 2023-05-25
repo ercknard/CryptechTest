@@ -10,7 +10,7 @@ const Coins= () => (
     >
       <Image
         alt="Coins"
-        className="leads-photo-abs3"
+        className="leads-photo-abs3 vert-move"
         src="/assets/images/bitcoin.webp"
         width={50}
         height={50}
@@ -23,7 +23,7 @@ const Coins= () => (
     >
       <Image
         alt="Coins"
-        className="leads-photo-abs3"
+        className="leads-photo-abs3 vert-move-2"
         src="/assets/images/dash-logo.webp"
         width={50}
         height={50}
@@ -36,7 +36,7 @@ const Coins= () => (
     >
       <Image
         alt="Coins"
-        className="leads-photo-abs3"
+        className="leads-photo-abs3 vert-move-3"
         src="/assets/images/dogecoin.webp"
         width={50}
         height={50}
@@ -49,7 +49,7 @@ const Coins= () => (
     >
       <Image
         alt="Coins"
-        className="leads-photo-abs3"
+        className="leads-photo-abs3 vert-move-4"
         src="/assets/images/etc.webp"
         width={50}
         height={50}
@@ -62,7 +62,7 @@ const Coins= () => (
     >
       <Image
         alt="Coins"
-        className="leads-photo-abs3"
+        className="leads-photo-abs3 vert-move-5"
         src="/assets/images/ethereum.webp"
         width={50}
         height={50}
@@ -75,7 +75,7 @@ const Coins= () => (
     >
       <Image
         alt="Coins"
-        className="leads-photo-abs3"
+        className="leads-photo-abs3 vert-move"
         src="/assets/images/litecoin.webp"
         width={50}
         height={50}
@@ -88,7 +88,7 @@ const Coins= () => (
     >
       <Image
         alt="Coins"
-        className="leads-photo-abs3"
+        className="leads-photo-abs3 vert-move-2"
         src="/assets/images/metrix-coin.png"
         width={50}
         height={50}
@@ -101,7 +101,7 @@ const Coins= () => (
     >
       <Image
         alt="Coins"
-        className="leads-photo-abs3"
+        className="leads-photo-abs3 vert-move-3"
         src="/assets/images/namecoin.png"
         width={50}
         height={50}
@@ -114,7 +114,7 @@ const Coins= () => (
     >
       <Image
         alt="Coins"
-        className="leads-photo-abs3"
+        className="leads-photo-abs3 vert-move-4"
         src="/assets/images/ohm.png"
         width={50}
         height={50}
@@ -127,7 +127,7 @@ const Coins= () => (
     >
       <Image
         alt="Coins"
-        className="leads-photo-abs3"
+        className="leads-photo-abs3 vert-move-5"
         src="/assets/images/zcash.webp"
         width={50}
         height={50}
