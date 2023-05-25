@@ -1,3 +1,7 @@
+function toNoneModal() {
+  document.getElementById("modalforbid").style.display = "none";
+}
+
 var modal = document.getElementById("myModal");
 const themeDelay = 2000;
 

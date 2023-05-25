@@ -1,7 +1,7 @@
 import Image from "next/image";
 import SampleText from "@components/materials/SampleText";
 import Gear from "@components/materials/gears/Gear";
-import IntroVideo from "@components/materials/InfroVideo";
+import IntroVideo from "@components/materials/videos/IntroVideo";
 
 const ShipText = () => (
   

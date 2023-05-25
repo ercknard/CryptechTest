@@ -1,4 +1,4 @@
-import IntroVideo from "../InfroVideo";
+import IntroVideo from "../videos/IntroVideo";
 
 const RightGate= () => (
 

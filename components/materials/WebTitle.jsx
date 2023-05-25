@@ -1,5 +1,8 @@
 
 "use client"
+
+import PlayVideo from "./videos/PlayVideo";
+
 const WebTitle= () => (
 
     <>
@@ -21,14 +24,7 @@ const WebTitle= () => (
         </g>
     </svg>
 
-         <div
-            id="IntroBtn"
-            className="a-button play-button"
-          >
-            {" "}
-            PLAY{" "} </div>
-
-
+    <PlayVideo />
 
     </>
     
