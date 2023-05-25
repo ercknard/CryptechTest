@@ -26,13 +26,13 @@ const GitFeed= () => (
         Git Feed</div>{" "}
     </h2>
 
-    </section>
-
     <div id="feed-active-btn" className="agent-home">
 
     <Web /> <Game />
 
     </div>
+
+    </section>
 
     <section className="container-main-feed">
      <div className="container-main feed-bg">
