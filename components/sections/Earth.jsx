@@ -18,11 +18,11 @@ const Earth = () => (
                 data-aos-duration={2000}
                 data-aos-anchor-placement="bottom-bottom"
                 className="glitch"
-                data-glitch="STARSHIP: SCOUT CLASS"
+                data-glitch="STARSHIP:"
             >
                 {" "}
                 <div className="sec-title">
-                STARSHIP: SCOUT CLASS</div>{" "}
+                STARSHIP:</div>{" "}
             </h2>
             <div
                 className="the-ship radial-effect"
