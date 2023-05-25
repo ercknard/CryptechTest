@@ -642,7 +642,6 @@
 	filter: drop-shadow(20px 10px 20px rgba(0, 0, 0, 1));
 	-webkit-animation: squid .85s infinite alternate;
 	animation: squid .85s infinite alternate;
-	transform: scale(1.5);
   }
   
   /* ________________________________________________________________________________________________________________________________ */
