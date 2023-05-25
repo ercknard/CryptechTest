@@ -1,26 +1,29 @@
+"use client"
 import React from 'react';
 
-const VideoModal = ({ videoUrl, closeModals }) => {
+const VideoModal = ({ videoUrl, closeModal }) => {
+    const handleClose = () => {
+        closeModal(); // Call the provided closeModal function to close the modal
+      };
   return (
 
     <>
-    <div id="modalforbid" className="modal-overlay">
-      <div className="modal-vid">
-
-      <div className="close-button" onClick = {() => toNoneModal()}>
-          X
-        </div>
-
+    <div id="modalforbid" className="modal-overlay" onClick={handleClose}>
+      <div className="modal-vid" onClick={(e) => e.stopPropagation()}>
 
         <iframe
             className='videomodal'
           src={videoUrl}
           width="10000"
           height="315"
-          frameBorder="10"
+          frameBorder="0"
           allowFullScreen
           allow="autoplay"
         ></iframe>
+
+<div className="close-button" onClick = {handleClose}>
+        Close
+      </div>
 
       </div>
 
