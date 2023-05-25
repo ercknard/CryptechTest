@@ -1182,14 +1182,10 @@
   
   .leads-photo-abs3 {
 	display: block;
-	/* border: 10px dotted white;
+	border: 10px dotted white;
 	border-radius: 50%;
-	border-left: none;
-	border-bottom: none; */
-	border-radius: 50%;
-	border: 2px solid white;
-	border-top: none;
 	border-right: none;
+	border-top: none;
 	margin-top: 2rem;
 	margin-bottom: 2rem;
 	margin-left: auto;
