@@ -24,10 +24,10 @@ const Navigation= () => (
                 <div className="nav-buttons">SUPPORT</div>
                 </li>
                 <li>
-                <div className="nav-buttons">ABOUT</div>
+                <div className="nav-buttons">DONATE</div>
                 </li>
                 <li>
-                <div className="nav-buttons">DONATE</div>
+                <div className="nav-buttons">FEEDS</div>
                 </li>
             </ul>
             </div>
