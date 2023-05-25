@@ -1,4 +1,5 @@
 
+"use client"
 const WebTitle= () => (
 
     <>
@@ -20,13 +21,12 @@ const WebTitle= () => (
         </g>
     </svg>
 
-    <a
+         <div
+            id="IntroBtn"
             className="a-button play-button"
-            href="https://discord.com/invite/WxvrzzPFAH"
-            target="_blank"
           >
             {" "}
-            PLAY{" "} </a>
+            PLAY{" "} </div>
 
 
 
