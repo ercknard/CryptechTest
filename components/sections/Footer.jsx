@@ -40,8 +40,8 @@ const Footer = () => (
             <a 
             title="Instagram" 
             className="social-icon__link" 
-            href="#">
-                <ion-icon name="logo-instagram" />
+            href="https://github.com/CryptechTest">
+                <ion-icon name="logo-github" />
             </a>
 
             </li>

@@ -21,7 +21,21 @@
 	scroll-snap-type: both proximity;
 	scroll-behavior: smooth;
   }
+
+
+  @media (max-width: 1920px) {
+	html {
+		font-size: .85rem;
+	}
+  }
   
+  @media (max-width: 1600px) {
+	html {
+		font-size: .70rem;
+	}
+  }
+
+
   body::-webkit-scrollbar {
 	display: none;
 	-ms-overflow-style: none;
@@ -1121,7 +1135,8 @@
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 20rem;
+	top: 63vh;
+	width: 50%;
 	z-index: 999;
   }
   
