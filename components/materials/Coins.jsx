@@ -134,7 +134,7 @@ const Coins= () => (
       />
       <h4> ZCASH </h4>
     </div>
-    <div
+    {/* <div
       onClick = {() => currentSlidecoins(11)}
       className="banner mod vanikoro-color coin-buttons"
     >
@@ -146,7 +146,7 @@ const Coins= () => (
         height={50}
       />
       <h4> SCC </h4>
-    </div>
+    </div> */}
   </div>
   
     
