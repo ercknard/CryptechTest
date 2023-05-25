@@ -38,13 +38,13 @@
 	background-size: cover;
   }
 
-  .right-valve-out {
+  /* .right-valve-out {
 	background-image: url(/assets/images/squidRight.png);
   }
 
   .left-valve-out {
 	background-image: url(/assets/images/squidLeft.png);
-  }
+  } */
 
   .right-valve-modal {
 	background-image: url(/assets/images/squidgateR.png);

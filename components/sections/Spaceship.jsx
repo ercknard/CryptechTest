@@ -19,11 +19,11 @@ const Spaceship = () => (
                 data-aos-duration={2000}
                 data-aos-anchor-placement="bottom-bottom"
                 className="glitch"
-                data-glitch="THE SPACE STATION"
+                data-glitch="CT ORBITAL STATION"
             >
                 {" "}
                 <div className="sec-title">
-                THE SPACE STATION</div>{" "}
+                CT ORBITAL STATION </div>{" "}
             </h2>
             <div
                 className="the-ship radial-effect"

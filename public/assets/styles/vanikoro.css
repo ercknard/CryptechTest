@@ -38,13 +38,13 @@
 	background-size: cover;
   }
 
-  .right-valve-out {
+  /* .right-valve-out {
 	background-image: url(/assets/images/vaniRight.png);
   }
 
   .left-valve-out {
 	background-image: url(/assets/images/vaniLeft.png);
-  }
+  } */
 
   .right-valve-modal {
 	background-image: url(/assets/images/vanigateR.png);

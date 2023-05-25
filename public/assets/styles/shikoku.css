@@ -38,13 +38,13 @@
 	background-size: cover;
   }
 
-  .right-valve-out {
+  /* .right-valve-out {
 	background-image: url(/assets/images/shikokuRight.png);
   }
 
   .left-valve-out {
 	background-image: url(/assets/images/shikokuLeft.png);
-  }
+  } */
 
   .right-valve-modal {
 	background-image: url(/assets/images/shikokugateR.png);

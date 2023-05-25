@@ -1068,28 +1068,41 @@
   
   .story-button {
 	display: block;
-	border: 1px solid;
-	border-image: linear-gradient(to right, Transparent, var(--kyuhi), transparent) 100;
-	border-radius: 5px;
+	/* border: 1px solid; */
+	/* border-image: linear-gradient(to right, Transparent, var(--kyuhi), transparent) 100; */
+	/* border-radius: 5px; */
+	border-radius: .25rem;
 	padding: 1.2rem 3rem;
-	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), var(--kyuhi), rgba(0, 0, 0, 0));
+	/* background-image: linear-gradient(to right, rgba(0, 0, 0, 0), var(--kyuhi), rgba(0, 0, 0, 0)); */
 	font-weight: bold;
 	font-size: 1.5rem;
 	text-shadow: -2px 2px 4px rgba(0, 0, 0, 0.5),
 	  2px -2px 0 rgba(255, 255, 255, 0.5);
-	-webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.1));
+	/* -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.1)); */
 	cursor: pointer;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 1rem;
 	z-index: 1000;
+	-webkit-clip-path: polygon(0 0,0 0,100% 0,100% 0,100% calc(100% - 15px),calc(100% - 15px) 100%,15px 100%,0 100%);
+	clip-path: polygon(0 0,0 0,100% 0,100% 0,100% calc(100% - 15px),calc(100% - 15px) 100%,15px 100%,0 100%);
+	letter-spacing: 1.2px;
+	transition: .2s .1s;
+	background-image: linear-gradient(90deg,transparent, var(--kyuhi));
+	overflow: hidden;
+	filter: saturate(180%);
   }
   
   .story-button:hover {
 	transform: translateY(-2px);
-	background-image: linear-gradient(to right, rgba(0, 0, 0, .3), var(--kyuhi), rgba(0, 0, 0, .3));
-	color: #000;
+	/* background-image: linear-gradient(to right, rgba(0, 0, 0, .3), var(--kyuhi), rgba(0, 0, 0, .3)); */
+	/* color: #000; */
+	cursor: pointer;
+	transition: all .3s ease-in;
+	padding-right: 30px;
+	padding-left: 30px;
+	filter: saturate(120%);
   }
   
   .play-button {

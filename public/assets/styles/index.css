@@ -38,13 +38,13 @@
 	background-size: cover;
   }
 
-  .right-valve-out {
+  /* .right-valve-out {
 	background-image: url(/assets/images/modRight.png);
   }
 
   .left-valve-out {
 	background-image: url(/assets/images/modLeft.png);
-  }
+  } */
 
   .right-valve-modal {
 	background-image: url(/assets/images/modgateR.png);
