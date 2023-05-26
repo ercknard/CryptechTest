@@ -29,31 +29,31 @@
 }
 
 .right-valve {
-	background-image: url(/assets/images/kyuhigateR.png);
+	background-image: url(/assets/images/kyuhigateR.webp);
 	background-size: cover;
   }
 
   .left-valve {
-	background-image: url(/assets/images/kyuhigateL.png);
+	background-image: url(/assets/images/kyuhigateL.webp);
 	background-size: cover;
   }
 
   /* .right-valve-out {
-	background-image: url(/assets/images/kyuhiRight.png);
+	background-image: url(/assets/images/kyuhiRight.webp);
   }
 
   .left-valve-out {
-	background-image: url(/assets/images/kyuhiLeft.png);
+	background-image: url(/assets/images/kyuhiLeft.webp);
   } */
 
   .right-valve-modal {
-	background-image: url(/assets/images/kyuhigateR.png);
+	background-image: url(/assets/images/kyuhigateR.webp);
   }
   
   .left-valve-modal {
-	background-image: url(/assets/images/kyuhigateL.png);
+	background-image: url(/assets/images/kyuhigateL.webp);
   }
 
   .modal {
-	background-image: radial-gradient(circle at top, rgba(0, 0, 0, 1), rgba(0, 0, 0, .50)), url(/assets/images/kyuhigate.png);
+	background-image: radial-gradient(circle at top, rgba(0, 0, 0, 1), rgba(0, 0, 0, .50)), url(/assets/images/kyuhigate.webp);
   }

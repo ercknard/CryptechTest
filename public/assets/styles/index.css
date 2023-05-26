@@ -29,31 +29,31 @@
 }
 
 .right-valve {
-	background-image: url(/assets/images/modgateR.png);
+	background-image: url(/assets/images/modgateR.webp);
 	background-size: cover;
   }
 
   .left-valve {
-	background-image: url(/assets/images/modgateL.png);
+	background-image: url(/assets/images/modgateL.webp);
 	background-size: cover;
   }
 
   /* .right-valve-out {
-	background-image: url(/assets/images/modRight.png);
+	background-image: url(/assets/images/modRight.webp);
   }
 
   .left-valve-out {
-	background-image: url(/assets/images/modLeft.png);
+	background-image: url(/assets/images/modLeft.webp);
   } */
 
   .right-valve-modal {
-	background-image: url(/assets/images/modgateR.png);
+	background-image: url(/assets/images/modgateR.webp);
   }
   
   .left-valve-modal {
-	background-image: url(/assets/images/modgateL.png);
+	background-image: url(/assets/images/modgateL.webp);
   }
 
   .modal {
-	background-image: radial-gradient(circle at top, rgba(0, 0, 0, 1), rgba(0, 0, 0, .50)), url(/assets/images/modgate.png);
+	background-image: radial-gradient(circle at top, rgba(0, 0, 0, 1), rgba(0, 0, 0, .50)), url(/assets/images/modgate.webp);
   }

@@ -29,31 +29,31 @@
 }
 
 .right-valve {
-	background-image: url(/assets/images/shikokugateR.png);
+	background-image: url(/assets/images/shikokugateR.webp);
 	background-size: cover;
   }
 
   .left-valve {
-	background-image: url(/assets/images/shikokugateL.png);
+	background-image: url(/assets/images/shikokugateL.webp);
 	background-size: cover;
   }
 
   /* .right-valve-out {
-	background-image: url(/assets/images/shikokuRight.png);
+	background-image: url(/assets/images/shikokuRight.webp);
   }
 
   .left-valve-out {
-	background-image: url(/assets/images/shikokuLeft.png);
+	background-image: url(/assets/images/shikokuLeft.webp);
   } */
 
   .right-valve-modal {
-	background-image: url(/assets/images/shikokugateR.png);
+	background-image: url(/assets/images/shikokugateR.webp);
   }
   
   .left-valve-modal {
-	background-image: url(/assets/images/shikokugateL.png);
+	background-image: url(/assets/images/shikokugateL.webp);
   }
 
   .modal {
-	background-image: radial-gradient(circle at top, rgba(0, 0, 0, 1), rgba(0, 0, 0, .50)), url(/assets/images/shikokugate.png);
+	background-image: radial-gradient(circle at top, rgba(0, 0, 0, 1), rgba(0, 0, 0, .50)), url(/assets/images/shikokugate.webp);
   }

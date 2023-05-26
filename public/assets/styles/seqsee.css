@@ -29,31 +29,31 @@
 }
 
 .right-valve {
-	background-image: url(/assets/images/seqseegateR.png);
+	background-image: url(/assets/images/seqseegateR.webp);
 	background-size: cover;
   }
 
   .left-valve {
-	background-image: url(/assets/images/seqseegateL.png);
+	background-image: url(/assets/images/seqseegateL.webp);
 	background-size: cover;
   }
 
   /* .right-valve-out {
-	background-image: url(/assets/images/seqseeRight.png);
+	background-image: url(/assets/images/seqseeRight.webp);
   }
 
   .left-valve-out {
-	background-image: url(/assets/images/seqseeLeft.png);
+	background-image: url(/assets/images/seqseeLeft.webp);
   } */
 
   .right-valve-modal {
-	background-image: url(/assets/images/seqseegateR.png);
+	background-image: url(/assets/images/seqseegateR.webp);
   }
   
   .left-valve-modal {
-	background-image: url(/assets/images/seqseegateL.png);
+	background-image: url(/assets/images/seqseegateL.webp);
   }
 
   .modal {
-	background-image: radial-gradient(circle at top, rgba(0, 0, 0, 1), rgba(0, 0, 0, .50)), url(/assets/images/seqseegate.png);
+	background-image: radial-gradient(circle at top, rgba(0, 0, 0, 1), rgba(0, 0, 0, .50)), url(/assets/images/seqseegate.webp);
   }

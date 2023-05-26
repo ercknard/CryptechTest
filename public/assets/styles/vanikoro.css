@@ -29,31 +29,31 @@
 }
 
 .right-valve {
-	background-image: url(/assets/images/vanigateR.png);
+	background-image: url(/assets/images/vanigateR.webp);
 	background-size: cover;
   }
 
   .left-valve {
-	background-image: url(/assets/images/vanigateL.png);
+	background-image: url(/assets/images/vanigateL.webp);
 	background-size: cover;
   }
 
   /* .right-valve-out {
-	background-image: url(/assets/images/vaniRight.png);
+	background-image: url(/assets/images/vaniRight.webp);
   }
 
   .left-valve-out {
-	background-image: url(/assets/images/vaniLeft.png);
+	background-image: url(/assets/images/vaniLeft.webp);
   } */
 
   .right-valve-modal {
-	background-image: url(/assets/images/vanigateR.png);
+	background-image: url(/assets/images/vanigateR.webp);
   }
   
   .left-valve-modal {
-	background-image: url(/assets/images/vanigateL.png);
+	background-image: url(/assets/images/vanigateL.webp);
   }
 
   .modal {
-	background-image: radial-gradient(circle at top, rgba(0, 0, 0, 1), rgba(0, 0, 0, .50)), url(/assets/images/vanigate.png);
+	background-image: radial-gradient(circle at top, rgba(0, 0, 0, 1), rgba(0, 0, 0, .50)), url(/assets/images/vanigate.webp);
   }

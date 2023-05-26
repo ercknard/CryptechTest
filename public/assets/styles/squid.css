@@ -29,31 +29,31 @@
 }
 
 .right-valve {
-	background-image: url(/assets/images/squidgateR.png);
+	background-image: url(/assets/images/squidgateR.webp);
 	background-size: cover;
   }
 
   .left-valve {
-	background-image: url(/assets/images/squidgateL.png);
+	background-image: url(/assets/images/squidgateL.webp);
 	background-size: cover;
   }
 
   /* .right-valve-out {
-	background-image: url(/assets/images/squidRight.png);
+	background-image: url(/assets/images/squidRight.webp);
   }
 
   .left-valve-out {
-	background-image: url(/assets/images/squidLeft.png);
+	background-image: url(/assets/images/squidLeft.webp);
   } */
 
   .right-valve-modal {
-	background-image: url(/assets/images/squidgateR.png);
+	background-image: url(/assets/images/squidgateR.webp);
   }
   
   .left-valve-modal {
-	background-image: url(/assets/images/squidgateL.png);
+	background-image: url(/assets/images/squidgateL.webp);
   }
 
   .modal {
-	background-image: radial-gradient(circle at top, rgba(0, 0, 0, 1), rgba(0, 0, 0, .50)), url(/assets/images/squidgate.png);
+	background-image: radial-gradient(circle at top, rgba(0, 0, 0, 1), rgba(0, 0, 0, .50)), url(/assets/images/squidgate.webp);
   }
