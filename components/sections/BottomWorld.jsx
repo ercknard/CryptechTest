@@ -22,7 +22,7 @@ const BottomWorld= () => (
 
           <Image 
           alt="Clouds Bottom"
-          className="cloudII clouds-earth" 
+          className="cloudI clouds" 
           src="/assets/images/cloud.webp"
           priority='true'
           width={3620}
