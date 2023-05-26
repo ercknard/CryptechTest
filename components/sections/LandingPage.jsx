@@ -10,6 +10,14 @@ const LandingPage = () => (
     
     <section className='earth-bg'>
 
+             <Image data-aos="fade-up" data-aos-duration="3000"
+                src='/assets/images/BG-FFFFF.webp'
+                alt='parallax-bgs'
+                priority='true'
+                width={3620}
+                height={1969}
+                className='squid' />
+
             <Image data-aos="fade-up" data-aos-duration="3000"
                 src='/assets/images/pepe.webp'
                 alt='parallax-bgs'
@@ -72,14 +80,6 @@ const LandingPage = () => (
                 height={1969}
                 id='secondary-front-bg'
                 className='bg-img' />
-
-            <Image data-aos="fade-up" data-aos-duration="3000"
-                src='/assets/images/BG-FFFFF.png'
-                alt='parallax-bgs'
-                priority='true'
-                width={3620}
-                height={1969}
-                className='squid' />
 
         <WebTitle /> 
 

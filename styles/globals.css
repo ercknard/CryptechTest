@@ -323,7 +323,7 @@
   }
   
   .sec-2 {
-	background-image: url(/assets/images/sky-loader-for-sec.png);
+	background-image: url(/assets/images/sky-loader-for-sec.webp);
 	background-attachment: fixed;
 	background-position: center;
   }
@@ -528,7 +528,7 @@
 	position: relative;
 	overflow: hidden;
 	height: 12.5vh;
-	background-image: url('/assets/images/Glass_Pane.png');
+	background-image: url('/assets/images/Glass_Pane.webp');
 	background-color: rgba(255, 255, 255, .1);
 	background-size: 15vh;
 	background-position: center;
@@ -970,7 +970,7 @@
 	text-align: center;
 	inset: 0;
 	z-index: 100000;
-	background-image: url('/assets/images/sky-loader.png'), linear-gradient(to bottom, rgba(19, 15, 20, 1), rgba(0, 0, 0, 1), rgba(29, 33, 42, 1));
+	background-image: url('/assets/images/sky-loader.webp'), linear-gradient(to bottom, rgba(19, 15, 20, 1), rgba(0, 0, 0, 1), rgba(29, 33, 42, 1));
 	background-position: top center;
 	background-repeat: no-repeat;
 	min-height: 100vh;
@@ -1242,7 +1242,7 @@
   }
   
   .sky-bg {
-	background-image: url(/assets/images/spaceship.png) !important;
+	background-image: url(/assets/images/spaceship.webp) !important;
   }
   
   .world-bg {
@@ -1250,15 +1250,15 @@
   }
   
   .admins-bg {
-	background-image: url(/assets/images/landscape.png) !important;
+	background-image: url(/assets/images/landscape.webp) !important;
   }
   
   .coins-bg {
-	background-image: url(/assets/images/gates.png) !important;
+	background-image: url(/assets/images/gates.webp) !important;
   }
   
   .feed-bg {
-	background-image: url(/assets/images/corridor-f.png) !important;
+	background-image: url(/assets/images/corridor-f.webp) !important;
   }
 
   .sky-op,
@@ -1268,7 +1268,7 @@
   .feed-op {
 	padding: 2rem 2rem;
 	border: 3px solid var(--kyuhi);
-	background: linear-gradient(-45deg, var(--kyuhi) 0%, rgba(0, 0, 0, .75) 5%, transparent 50%), linear-gradient(135deg, var(--kyuhi) 0%, rgba(0, 0, 0, .75) 5%, transparent 50%), url(/assets/images/Stone-S.png);
+	background: linear-gradient(-45deg, var(--kyuhi) 0%, rgba(0, 0, 0, .75) 5%, transparent 50%), linear-gradient(135deg, var(--kyuhi) 0%, rgba(0, 0, 0, .75) 5%, transparent 50%), url(/assets/images/Stone-S.webp);
 	background: linear-gradient(-45deg, var(--kyuhi) 0%, rgba(0, 0, 0, .75) 5%, transparent 50%), linear-gradient(135deg, var(--kyuhi) 0%, rgba(0, 0, 0, .75) 5%, transparent 50%), black;
 	border-radius: 5px;
 	box-shadow: 10px 10px 20px black;
@@ -1280,7 +1280,7 @@
   .pipe {
 	margin-top: 10%;
 	position: absolute;
-	background-image: url(/assets/images/tube_H.png);
+	background-image: url(/assets/images/tube_H.webp);
 	z-index: 10;
 	width: 80px;
 	height: 90%;
@@ -1292,7 +1292,7 @@
   .pipe-left {
 	margin-top: 13%;
 	position: absolute;
-	background-image: url(/assets/images/tube_H.png);
+	background-image: url(/assets/images/tube_H.webp);
 	z-index: 0;
 	width: 80px;
 	height: 90%;
@@ -1305,7 +1305,7 @@
   .pipe-right {
 	margin-top: 7%;
 	position: absolute;
-	background-image: url(/assets/images/tube_H.png);
+	background-image: url(/assets/images/tube_H.webp);
 	z-index: -1;
 	width: 80px;
 	height: 90%;
@@ -1330,7 +1330,7 @@
   }
   
   .pipe-to-left::after {
-	content: url(/assets/images/cross-b.png)
+	content: url(/assets/images/cross-b.webp)
   }
   
   .pipe-to-right {
@@ -1349,11 +1349,11 @@
   
   
   .pipe-right::after {
-	content: url(/assets/images/cross.png);
+	content: url(/assets/images/cross.webp);
   }
   
   .pipe-left::after {
-	content: url(/assets/images/cross.png);
+	content: url(/assets/images/cross.webp);
   }
   
   .pipe-padding {
@@ -1361,7 +1361,7 @@
   }
   
   .pipe::before {
-	content: url(/assets/images/cross.png);
+	content: url(/assets/images/cross.webp);
   }
   
   .pipe-right::before {
@@ -1461,7 +1461,7 @@
 	position: absolute;
 	width: 50vw;
 	height: 50vh;
-	background-image: radial-gradient(circle at left , rgba(0, 0, 0, .25), rgba(0, 0, 0, 0)), url(/assets/images/rightgate.png);
+	background-image: radial-gradient(circle at left , rgba(0, 0, 0, .25), rgba(0, 0, 0, 0)), url(/assets/images/rightgate.webp);
 	background-position: center center;
 	background-size: cover;
 	/* background-size: 5vh; */
@@ -1482,7 +1482,7 @@
 	position: absolute;
 	width: 50vw;
 	height: 66.5vh;
-	background-image: url(/assets/images/aluminum.png);
+	background-image: url(/assets/images/aluminum.webp);
 	background-position: top left;
 	background-size: 8.4vh;
 	border: 1rem solid #5d5d5d;
@@ -1497,7 +1497,7 @@
 	position: absolute;
 	width: 50vw;
 	height: 50vh;
-	background-image: radial-gradient(circle at right, rgba(0, 0, 0, .25), rgba(0, 0, 0, 0)), url(/assets/images/leftgate.png);
+	background-image: radial-gradient(circle at right, rgba(0, 0, 0, .25), rgba(0, 0, 0, 0)), url(/assets/images/leftgate.webp);
 	background-position: center center;
 	background-size: cover;
 	/* background-size: 5vh; */
@@ -1518,7 +1518,7 @@
 	position: absolute;
 	width: 50vw;
 	height: 66.5vh;
-	background-image: url(/assets/images/aluminum.png);
+	background-image: url(/assets/images/aluminum.webp);
 	background-position: top right;
 	background-size: 8.4vh;
 	border: 1rem solid #5d5d5d;
@@ -1668,7 +1668,7 @@
   }
   
   .fence {
-	background-image: url(/assets/images/tube_V.png);
+	background-image: url(/assets/images/tube_V.webp);
 	background-position: center;
 	height: 50px;
   
@@ -1753,7 +1753,7 @@
 	-webkit-animation: modal 6s;
 	animation: modal 6s;
 	animation-iteration-count: 1;
-	background-image: radial-gradient(circle at top, rgba(0, 0, 0, 1), rgba(0, 0, 0, .50)), url(/assets/images/gates.png);
+	background-image: radial-gradient(circle at top, rgba(0, 0, 0, 1), rgba(0, 0, 0, .50)), url(/assets/images/gates.webp);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1784,7 +1784,7 @@
 	position: absolute;
 	width: 50vw;
 	height: 100vh;
-	background-image: url(/assets/images/rightgate.png);
+	background-image: url(/assets/images/rightgate.webp);
 	background-position: top left;
 	background-size: cover;
 	/* background-size: 9vh; */
@@ -1803,7 +1803,7 @@
 	position: absolute;
 	width: 50vw;
 	height: 100vh;
-	background-image: url(/assets/images/leftgate.png);
+	background-image: url(/assets/images/leftgate.webp);
 	background-position: top right;
 	background-size: cover;
 	/* background-size: 9vh; */
@@ -1856,7 +1856,7 @@
 	position: absolute;
 	width: 50vw;
 	height: 100vh;
-	background-image: url(/assets/images/aluminum.png);
+	background-image: url(/assets/images/aluminum.webp);
 	background-position: left;
 	background-size: 11vh;
 	border: 1rem solid #5d5d5d75;
@@ -1874,7 +1874,7 @@
 	position: absolute;
 	width: 50vw;
 	height: 100vh;
-	background-image: url(/assets/images/aluminum.png);
+	background-image: url(/assets/images/aluminum.webp);
 	background-position: right;
 	background-size: 11vh;
 	border: 1rem solid #5d5d5d75;
@@ -1966,7 +1966,7 @@
   
   .chain:after {
 	position: fixed;
-	content: url(/assets/images/pepepor05.png);
+	content: url(/assets/images/pepepor05.webp);
 	bottom: -35rem;
 	margin-left: -12.6rem;
 	z-index: 9999;
