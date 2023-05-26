@@ -1280,7 +1280,7 @@
   .pipe {
 	margin-top: 10%;
 	position: absolute;
-	background-image: url(/assets/images/tube_H.webp);
+	background-image: url(/assets/images/tube_H.png);
 	z-index: 10;
 	width: 80px;
 	height: 90%;
@@ -1292,7 +1292,7 @@
   .pipe-left {
 	margin-top: 13%;
 	position: absolute;
-	background-image: url(/assets/images/tube_H.webp);
+	background-image: url(/assets/images/tube_H.png);
 	z-index: 0;
 	width: 80px;
 	height: 90%;
@@ -1305,7 +1305,7 @@
   .pipe-right {
 	margin-top: 7%;
 	position: absolute;
-	background-image: url(/assets/images/tube_H.webp);
+	background-image: url(/assets/images/tube_H.png);
 	z-index: -1;
 	width: 80px;
 	height: 90%;
@@ -1668,7 +1668,7 @@
   }
   
   .fence {
-	background-image: url(/assets/images/tube_V.webp);
+	background-image: url(/assets/images/tube_V.png);
 	background-position: center;
 	height: 50px;
   
