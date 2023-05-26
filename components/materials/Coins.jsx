@@ -134,19 +134,19 @@ const Coins= () => (
       />
       <h4> ZCASH </h4>
     </div>
-    {/* <div
+    <div
       onClick = {() => currentSlidecoins(11)}
       className="banner mod vanikoro-color coin-buttons"
     >
       <Image
         alt="Coins"
-        className="leads-photo-abs3"
+        className="leads-photo-abs3 vert-move-3"
         src="/assets/images/scc.webp"
         width={50}
         height={50}
       />
       <h4> SCC </h4>
-    </div> */}
+    </div>
   </div>
   
     
