@@ -25,7 +25,7 @@ const Squid= () => (
         >
           <Image
            alt="Squid"
-            className="leads-photo"
+            className="leads-photo squid"
             src="/assets/images/squid.gif"
             width={128}
             height={128}

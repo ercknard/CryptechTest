@@ -1124,7 +1124,7 @@
 	display: block;
 	border: 1px solid;
 	border-image: linear-gradient(to right, Transparent, gray, transparent) 100;
-	padding: .5rem 3rem;
+	padding: .5rem;
 	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #28480e, rgba(0, 0, 0, 0));
 	font-weight: bold;
 	font-size: 2rem;
@@ -1133,6 +1133,7 @@
 	cursor: pointer;
 	text-align: center;
 	z-index: 999;
+	margin-top: -5vh;
   }
   
   .play-button:hover {

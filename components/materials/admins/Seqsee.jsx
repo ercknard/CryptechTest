@@ -25,7 +25,7 @@ const Seqsee= () => (
         >
           <Image
            alt="Seqsee"
-            className="leads-photo"
+            className="leads-photo squid"
             src="/assets/images/seqsee.gif"
             width={128}
             height={128}

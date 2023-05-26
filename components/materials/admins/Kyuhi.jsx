@@ -25,7 +25,7 @@ const Kyuhi= () => (
         >
           <Image
            alt="Kyuhi"
-            className="leads-photo"
+            className="leads-photo squid"
             src="/assets/images/kyuhi.webp"
             width={128}
             height={128}

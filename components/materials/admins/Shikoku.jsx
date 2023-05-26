@@ -25,7 +25,7 @@ const Shikoku= () => (
         >
           <Image
            alt="Shikoku"
-            className="leads-photo"
+            className="leads-photo squid"
             src="/assets/images/shikoku.gif"
             width={128}
             height={128}
