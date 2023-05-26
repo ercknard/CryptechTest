@@ -7,7 +7,7 @@ import "@styles/fireflies.css";
 
 export const metadata = {
 title: "CryptechTest",
-description: "CryptechTest SMP",
+description: "CryptechTest SMP Server",
 keywords: "Minetest, CryptechTest, Cryptocurrency, BTC, ETH, MRX, SEND, OHMC, SCC",
 author: "Ercknard Guren I",
 chartset: "UTF-8",
