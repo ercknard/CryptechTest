@@ -1970,8 +1970,8 @@
 	bottom: -35rem;
 	margin-left: -12.6rem;
 	z-index: 9999;
-	-webkit-animation: squid-chain .85s infinite alternate;
-	animation: squid-chain .85s infinite alternate;
+	-webkit-animation: squid-chain 2s infinite alternate;
+	animation: squid-chain 2s infinite alternate;
   
   }
 
