@@ -17,7 +17,7 @@ const AdminCard= () => (
    <div
       data-aos="fade-left"
       data-aos-easing="ease-in-out"
-      data-aos-duration={1000}
+      data-aos-duration={500}
       className="width-class admin-op card"
       >
       <div className="glow" />
