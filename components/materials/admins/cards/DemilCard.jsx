@@ -20,7 +20,7 @@ const DemilCard = () => {
                 <Image
                 alt="Demil"
                   className="leads-photo-abs2"
-                  src="/assets/images/pepe-head.png"
+                  src="/assets/images/pepe-head.webp"
                   width={128}
                   height={128}
                 />

@@ -27,14 +27,12 @@ const TestCoin= () => (
         <div className="the-ship">
             <Comets />
             <div className="test">
-            {/* <Image alt="Coin Mascot" className="leads-portrait-1 squid" src="/assets/images/kyuhi-land.png" width={357} height={649}/> */}
             <div>
-                <Image alt="Testcoin" className="test-coin vert-move" src="/assets/images/testcoin.png" width={512} height={512}/>
+                <Image alt="Testcoin" className="test-coin vert-move" src="/assets/images/testcoin.webp" width={512} height={512}/>
                 <div className="fence" />
                     <TestCoinText />
                 <div className="fence" />
             </div>
-            {/* <Image alt="Coin Mascot" className="leads-portrait-1 squid" src="/assets/images/pepita-land.png" width={357} height={649}/> */}
             </div>
         </div>
         </section>

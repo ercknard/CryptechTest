@@ -4,26 +4,10 @@ import Comets from "../Comets";
 const Shikoku= () => (
 
 <div className="mySlides-leads fade">
-      <Image  alt="Shikoku" className="pepe-admin" src="/assets/images/shikoku-land.png"           width={357}
+      <Image  alt="Shikoku" className="pepe-admin" src="/assets/images/shikoku-land.webp"           width={357}
           height={649}/>
       <div className="to-flex">
-        {/* <Image
-        alt="Shikoku"
-        //   data-aos="fade-up-right"
-        //   data-aos-easing="linear"
-        //   data-aos-duration={500}
-        //   data-aos-anchor-placement="bottom-bottom"
-          className="leads-portrait squid"
-          src="/assets/images/shikoku-land.png"
-          width={357}
-          height={649}
-        /> */}
-        <div
-        //   data-aos="zoom-out-left"
-        //   data-aos-easing="linear"
-        //   data-aos-duration={500}
-        //   data-aos-anchor-placement="bottom-bottom"
-        >
+        <div>
           <Comets />
           <Image
            alt="Shikoku"

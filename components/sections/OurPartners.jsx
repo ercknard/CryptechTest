@@ -1,8 +1,6 @@
-import Gate from "@components/materials/gates/Gate";
 import PipeToRight from "@components/materials/PipeToRight";
 import PipeToLeft from "@components/materials/PipeToLeft";
 import Image from "next/image"
-import GlassPipe from "@components/materials/GlassPipe";
 import GatePartners from "@components/materials/gates/GatePartners";
 import Comets from "@components/materials/Comets";
 
@@ -37,7 +35,7 @@ const OurPartners = () => (
                 data-aos="zoom-in-right"
                 data-aos-duration={5000}
                 data-aos-anchor-placement="bottom-bottom"
-                src="/assets/images/ship-2.png"
+                src="/assets/images/ship-2.webp"
                 width={1024}
                 height={1024}
                 />

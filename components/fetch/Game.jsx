@@ -1,5 +1,4 @@
 "use client"
-import Image from "next/image";
 import React from "react";
 
 const Game= () => (
@@ -10,8 +9,6 @@ const Game= () => (
       onClick = {() => currentSlidefeeds(1)}
       className="banner push-color feed-buttons"
     >
-              {/* <Image alt="Squid" className="loader-icon-23" src="/assets/images/squid-land.png"           width={357}
-          height={649}/> */}
       <h4> Game </h4>
     </div>
 

@@ -11,8 +11,6 @@ const GitFeed= () => (
 
     <PipeToRight />
 
-    {/* <GateFeed /> */}
-
     <section className="width-class">
 
     <h2

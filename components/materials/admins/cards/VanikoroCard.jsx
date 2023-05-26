@@ -25,7 +25,7 @@ const VanikoroCard= () => {
                   height={128}
                 />
               </span>
-              <Image alt="Vanikoro" className="loader-icon-23" src="/assets/images/pepe-land.png"           width={357}
+              <Image alt="Vanikoro" className="loader-icon-23" src="/assets/images/pepe-land.webp"           width={357}
           height={649}/>
               <p className="admin-name"> Vanikoro </p>
             </div>

@@ -4,26 +4,10 @@ import Comets from "../Comets";
 const Kyuhi= () => (
 
 <div className="mySlides-leads fade">
-      <Image  alt="Kyuhi" className="pepe-admin" src="/assets/images/kyuhi-land.png"           width={357}
+      <Image  alt="Kyuhi" className="pepe-admin" src="/assets/images/kyuhi-land.webp"           width={357}
           height={649}/>
       <div className="to-flex">
-        {/* <Image
-        alt="Kyuhi"
-        //   data-aos="fade-up-right"
-        //   data-aos-easing="linear"
-        //   data-aos-duration={500}
-        //   data-aos-anchor-placement="bottom-bottom"
-          className="leads-portrait squid"
-          src="/assets/images/kyuhi-land.png"
-          width={357}
-          height={649}
-        /> */}
-        <div
-        //   data-aos="zoom-out-left"
-        //   data-aos-easing="linear"
-        //   data-aos-duration={500}
-        //   data-aos-anchor-placement="bottom-bottom"
-        >
+        <div       >
           <Comets />
           <Image
            alt="Kyuhi"

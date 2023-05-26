@@ -25,7 +25,7 @@ const SeqseeCard= () => {
                   height={128}
                 />
               </span>
-              <Image alt="Seqsee" className="loader-icon-23" src="/assets/images/pepita-land.png"           width={357}
+              <Image alt="Seqsee" className="loader-icon-23" src="/assets/images/pepita-land.webp"           width={357}
           height={649}/>
               <p className="admin-name"> Seqsee </p>
             </div>

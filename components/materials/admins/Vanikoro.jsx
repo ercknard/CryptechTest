@@ -4,26 +4,10 @@ import Comets from "../Comets";
 const Vanikoro= () => (
 
 <div className="mySlides-leads fade">
-      <Image  alt="Vanikoro" className="pepe-admin" src="/assets/images/pepe-land.png"           width={357}
+      <Image  alt="Vanikoro" className="pepe-admin" src="/assets/images/pepe-land.webp"           width={357}
           height={649}/>
       <div className="to-flex">
-        {/* <Image
-        alt="Vanikoro"
-        //   data-aos="fade-up-right"
-        //   data-aos-easing="linear"
-        //   data-aos-duration={500}
-        //   data-aos-anchor-placement="bottom-bottom"
-          className="leads-portrait squid"
-          src="/assets/images/pepe-land.png"
-          width={357}
-          height={649}
-        /> */}
-        <div
-        //   data-aos="zoom-out-left"
-        //   data-aos-easing="linear"
-        //   data-aos-duration={500}
-        //   data-aos-anchor-placement="bottom-bottom"
-        >
+        <div>
           <Comets />
           <Image
            alt="Vanikoro"

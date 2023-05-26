@@ -73,7 +73,7 @@ return (<div className="floating-container">
       <Image 
       alt="Fab Icon" 
       className="image-selection-fab" 
-      src="/assets/images/squid-head.png" 
+      src="/assets/images/squid-head.webp" 
       width={150}
       height={150} />
     </span>
@@ -84,7 +84,7 @@ return (<div className="floating-container">
       <Image 
       alt="Fab Icon" 
       className="image-selection-fab" 
-      src="/assets/images/pepita-head.png" 
+      src="/assets/images/pepita-head.webp" 
       width={150}
       height={150} />
     </span>
@@ -95,7 +95,7 @@ return (<div className="floating-container">
       <Image 
       alt="Fab Icon" 
       className="image-selection-fab" 
-      src="/assets/images/pepe-head.png" 
+      src="/assets/images/pepe-head.webp" 
       width={150}
       height={150} />
     </span>
@@ -106,7 +106,7 @@ return (<div className="floating-container">
       <Image 
       alt="Fab Icon" 
       className="image-selection-fab" 
-      src="/assets/images/kyuhi-head.png" 
+      src="/assets/images/kyuhi-head.webp" 
       width={150}
       height={150} />
     </span>
@@ -117,7 +117,7 @@ return (<div className="floating-container">
       <Image
       alt="Fab Icon"
       className="image-selection-fab" 
-      src="/assets/images/naen-head.png"
+      src="/assets/images/naen-head.webp"
       width={150}
       height={150} />
     </span>

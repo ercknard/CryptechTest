@@ -1,7 +1,6 @@
 import LandingPage from "@components/sections/LandingPage";
 import PepeSpace from "@components/sections/PepeSpace";
 import Footer from "@components/sections/Footer";
-import CustomLoader from "@components/materials/CustomLoader";
 import GateLoader from "@components/materials/GateLoader";
 import Spaceship from "@components/sections/Spaceship";
 import ShipText from "@components/sections/ShipText";
@@ -16,7 +15,6 @@ import Navigation from "@components/sections/Navigation";
 import PepeKeychain from "@components/materials/PepeKeychain";
 import Donate from "@components/sections/Donate";
 import Fabs from "@components/materials/Fabs";
-import Feed from "./Feed";
 import GithubFeeds from "./GithubFeeds";
 import OurPartners from "./OurPartners";
 

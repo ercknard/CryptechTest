@@ -26,7 +26,7 @@ const KyuhiCard = () => {
                   height={128}
                 />
               </span>
-              <Image alt="Kyuhi" className="loader-icon-23" src="/assets/images/kyuhi-land.png"           width={357}
+              <Image alt="Kyuhi" className="loader-icon-23" src="/assets/images/kyuhi-land.webp"           width={357}
           height={649}/>
               <p className="admin-name"> Kyuhi </p>
             </div>

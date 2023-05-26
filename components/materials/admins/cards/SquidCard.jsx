@@ -25,7 +25,7 @@ const SquidCard= () => {
                   height={128}
                 />
               </span>
-              <Image alt="Squid" className="loader-icon-23" src="/assets/images/squid-land.png"           width={357}
+              <Image alt="Squid" className="loader-icon-23" src="/assets/images/squid-land.webp"           width={357}
           height={649}/>
               <p className="admin-name"> Squidicuz </p>
             </div>

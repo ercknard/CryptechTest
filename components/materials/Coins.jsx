@@ -89,7 +89,7 @@ const Coins= () => (
       <Image
         alt="Coins"
         className="leads-photo-abs3 vert-move-2"
-        src="/assets/images/metrix-coin.png"
+        src="/assets/images/metrix-coin.webp"
         width={50}
         height={50}
       />
@@ -102,7 +102,7 @@ const Coins= () => (
       <Image
         alt="Coins"
         className="leads-photo-abs3 vert-move-3"
-        src="/assets/images/namecoin.png"
+        src="/assets/images/namecoin.webp"
         width={50}
         height={50}
       />
@@ -115,7 +115,7 @@ const Coins= () => (
       <Image
         alt="Coins"
         className="leads-photo-abs3 vert-move-4"
-        src="/assets/images/ohm.png"
+        src="/assets/images/ohm.webp"
         width={50}
         height={50}
       />
@@ -141,7 +141,7 @@ const Coins= () => (
       <Image
         alt="Coins"
         className="leads-photo-abs3"
-        src="/assets/images/scc.png"
+        src="/assets/images/scc.webp"
         width={50}
         height={50}
       />

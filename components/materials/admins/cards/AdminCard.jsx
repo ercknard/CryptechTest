@@ -28,7 +28,7 @@ const AdminCard= () => (
                <span>
                   <Image alt="Admin Head" 
                   className="default" 
-                  src="/assets/images/pepe-head.png"           
+                  src="/assets/images/pepe-head.webp"           
                   width={267}
                   height={267}/>
                </span>
@@ -46,13 +46,6 @@ const AdminCard= () => (
                   <DemilCard />
                   <TonicCard />
                </div>
-               {/* <a
-                  className="a-button story-button"
-                  href="https://discord.com/invite/WxvrzzPFAH"
-                  target="_blank"
-                  >
-               {" "}
-               Discord: CryptechTest{" "} </a> */}
             </div>
          </div>
       </div>

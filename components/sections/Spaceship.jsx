@@ -36,7 +36,7 @@ const Spaceship = () => (
                 data-aos="zoom-in-right"
                 data-aos-duration={5000}
                 data-aos-anchor-placement="bottom-bottom"
-                src="/assets/images/ship-2.png"
+                src="/assets/images/ship-2.webp"
                 width={1024}
                 height={1024}
                 />

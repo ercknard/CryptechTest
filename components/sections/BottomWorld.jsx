@@ -12,7 +12,7 @@ const BottomWorld= () => (
           <Image             
           data-aos="zoom-in"
           data-aos-duration={2000}
-          src='/assets/images/pepesolo.png'
+          src='/assets/images/pepesolo.webp'
           alt='parallax-bgs'
           priority='true'
           width={3620}

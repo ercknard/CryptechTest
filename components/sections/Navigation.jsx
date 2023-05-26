@@ -1,5 +1,3 @@
-// import Image from "next/image";
-
 const Navigation= () => (
 
         <nav>
@@ -16,8 +14,6 @@ const Navigation= () => (
                 <div className="nav-buttons">AGES</div>
                 </li>
                 <li>
-                {/* {" "}
-                <Image alt="Front Logo" className="index-logo" src="/assets/images/CryptechTest.png" width={680} height={79}/>{" "} */}
                 <h1 className="CT-logo "> CT </h1>
                 </li>
                 <li>

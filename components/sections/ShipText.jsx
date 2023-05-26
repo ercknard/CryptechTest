@@ -23,7 +23,7 @@ const ShipText = () => (
             <Image 
             alt="Pepita Head"
             className="loader-icon-1" 
-            src="/assets/images/pepita-head.png"
+            src="/assets/images/pepita-head.webp"
             width={267}
             height={267} 
             />

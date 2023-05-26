@@ -25,7 +25,7 @@ const ShikokuCard= () => {
                   height={128}
                 />
               </span>
-              <Image alt="Shikoku" className="loader-icon-23" src="/assets/images/shikoku-land.png"           width={357}
+              <Image alt="Shikoku" className="loader-icon-23" src="/assets/images/shikoku-land.webp"           width={357}
           height={649}/>
               <p className="admin-name"> Shikoku </p>
             </div>

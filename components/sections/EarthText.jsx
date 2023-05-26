@@ -21,7 +21,7 @@ const EarthText = () => (
             <Image 
             alt="Pepe Head"
             className="loader-icon-1" 
-            src="/assets/images/pepe-head.png"
+            src="/assets/images/pepe-head.webp"
             width={267}
             height={267} 
             />
