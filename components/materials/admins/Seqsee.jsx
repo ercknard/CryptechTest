@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Comets from "../Comets";
 
 const Seqsee= () => (
 
@@ -23,46 +24,7 @@ const Seqsee= () => (
         //   data-aos-duration={500}
         //   data-aos-anchor-placement="bottom-bottom"
         >
-          <Image
-                alt="Earth"
-                className="ship"
-                data-aos="zoom-in-left"
-                data-aos-duration={3000}
-                data-aos-anchor-placement="bottom-bottom"
-                src="/assets/images/asteroid-1-1.webp"
-                width={1024}
-                height={1024}
-                />
-                <Image
-                alt="Earth"
-                className="ship"
-                data-aos="zoom-in-right"
-                data-aos-duration={3000}
-                data-aos-anchor-placement="bottom-bottom"
-                src="/assets/images/asteroid-2-2.webp"
-                width={1024}
-                height={1024}
-                />
-                <Image
-                alt="Earth"
-                className="ship"
-                data-aos="zoom-in-left"
-                data-aos-duration={3000}
-                data-aos-anchor-placement="bottom-bottom"
-                src="/assets/images/asteroid-3-2.webp"
-                width={1024}
-                height={1024}
-                />
-                <Image
-                alt="Earth"
-                className="ship"
-                data-aos="zoom-in-right"
-                data-aos-duration={3000}
-                data-aos-anchor-placement="bottom-bottom"
-                src="/assets/images/asteroid-4-2.webp"
-                width={1024}
-                height={1024}
-                />
+          <Comets />
           <Image
            alt="Seqsee"
             className="leads-photo squid"

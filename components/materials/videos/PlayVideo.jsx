@@ -14,7 +14,7 @@ const PlayVideo = () => {
 
   return (
     <div onClick={openModal} className="a-button play-button">
-            {" "}Watch Teaser{" "}
+            {" "}Watch Trailer{" "}
 
       {modalOpen && (
         <VideoModal

@@ -1,3 +1,4 @@
+import Comets from "@components/materials/Comets";
 import PipeToLeft from "@components/materials/PipeToLeft";
 import PipeToRight from "@components/materials/PipeToRight";
 import TestCoinText from "@components/materials/TestCoinText";
@@ -24,46 +25,7 @@ const TestCoin= () => (
             TEST COIN</div>{" "}
         </h2>
         <div className="the-ship">
-        <Image
-                alt="Earth"
-                className="ship"
-                data-aos="zoom-in-left"
-                data-aos-duration={3000}
-                data-aos-anchor-placement="bottom-bottom"
-                src="/assets/images/asteroid-1-1.webp"
-                width={1024}
-                height={1024}
-                />
-                <Image
-                alt="Earth"
-                className="ship"
-                data-aos="zoom-in-right"
-                data-aos-duration={3000}
-                data-aos-anchor-placement="bottom-bottom"
-                src="/assets/images/asteroid-2-2.webp"
-                width={1024}
-                height={1024}
-                />
-                <Image
-                alt="Earth"
-                className="ship"
-                data-aos="zoom-in-left"
-                data-aos-duration={3000}
-                data-aos-anchor-placement="bottom-bottom"
-                src="/assets/images/asteroid-3-2.webp"
-                width={1024}
-                height={1024}
-                />
-                <Image
-                alt="Earth"
-                className="ship"
-                data-aos="zoom-in-right"
-                data-aos-duration={3000}
-                data-aos-anchor-placement="bottom-bottom"
-                src="/assets/images/asteroid-4-2.webp"
-                width={1024}
-                height={1024}
-                />
+            <Comets />
             <div className="test">
             {/* <Image alt="Coin Mascot" className="leads-portrait-1 squid" src="/assets/images/kyuhi-land.png" width={357} height={649}/> */}
             <div>

@@ -2,6 +2,7 @@ import PipeToRight from "@components/materials/PipeToRight";
 import PipeToLeft from "@components/materials/PipeToLeft";
 import Image from "next/image"
 import GateEarth from "@components/materials/gates/GateEarth";
+import Comets from "@components/materials/Comets";
 
 const Earth = () => (
 
@@ -28,6 +29,7 @@ const Earth = () => (
                 className="the-ship radial-effect"
                 data-aos-anchor-placement="bottom-bottom"
             >
+                <Comets />
                 <Image
                 alt="Earth"
                 className="ship squid"
@@ -35,46 +37,6 @@ const Earth = () => (
                 data-aos-duration={5000}
                 data-aos-anchor-placement="bottom-bottom"
                 src="/assets/images/ship-4.png"
-                width={1024}
-                height={1024}
-                />
-                <Image
-                alt="Earth"
-                className="ship"
-                data-aos="zoom-in-left"
-                data-aos-duration={3000}
-                data-aos-anchor-placement="bottom-bottom"
-                src="/assets/images/asteroid-1-1.webp"
-                width={1024}
-                height={1024}
-                />
-                <Image
-                alt="Earth"
-                className="ship"
-                data-aos="zoom-in-right"
-                data-aos-duration={3000}
-                data-aos-anchor-placement="bottom-bottom"
-                src="/assets/images/asteroid-2-2.webp"
-                width={1024}
-                height={1024}
-                />
-                <Image
-                alt="Earth"
-                className="ship"
-                data-aos="zoom-in-left"
-                data-aos-duration={3000}
-                data-aos-anchor-placement="bottom-bottom"
-                src="/assets/images/asteroid-3-2.webp"
-                width={1024}
-                height={1024}
-                />
-                <Image
-                alt="Earth"
-                className="ship"
-                data-aos="zoom-in-right"
-                data-aos-duration={3000}
-                data-aos-anchor-placement="bottom-bottom"
-                src="/assets/images/asteroid-4-2.webp"
                 width={1024}
                 height={1024}
                 />

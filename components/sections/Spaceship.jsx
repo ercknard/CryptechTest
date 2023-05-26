@@ -3,6 +3,7 @@ import PipeToRight from "@components/materials/PipeToRight";
 import PipeToLeft from "@components/materials/PipeToLeft";
 import Image from "next/image"
 import GlassPipe from "@components/materials/GlassPipe";
+import Comets from "@components/materials/Comets";
 
 const Spaceship = () => (
 
@@ -39,46 +40,7 @@ const Spaceship = () => (
                 width={1024}
                 height={1024}
                 />
-                <Image
-                alt="Spacehips"
-                className="ship"
-                data-aos="zoom-in-left"
-                data-aos-duration={3000}
-                data-aos-anchor-placement="bottom-bottom"
-                src="/assets/images/asteroid-1-1.webp"
-                width={1024}
-                height={1024}
-                />
-                <Image
-                alt="Spacehips"
-                className="ship"
-                data-aos="zoom-in-right"
-                data-aos-duration={3000}
-                data-aos-anchor-placement="bottom-bottom"
-                src="/assets/images/asteroid-2-2.webp"
-                width={1024}
-                height={1024}
-                />
-                <Image
-                alt="Spacehips"
-                className="ship"
-                data-aos="zoom-in-left"
-                data-aos-duration={3000}
-                data-aos-anchor-placement="bottom-bottom"
-                src="/assets/images/asteroid-3-2.webp"
-                width={1024}
-                height={1024}
-                />
-                <Image
-                alt="Spacehips"
-                className="ship"
-                data-aos="zoom-in-right"
-                data-aos-duration={3000}
-                data-aos-anchor-placement="bottom-bottom"
-                src="/assets/images/asteroid-4-2.webp"
-                width={1024}
-                height={1024}
-                />
+                <Comets />
             </div>
 
             <GlassPipe />
