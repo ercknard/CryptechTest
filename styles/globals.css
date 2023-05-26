@@ -666,7 +666,7 @@
 	overflow: hidden;
 	align-items: center;
 	vertical-align: middle;
-	z-index: 20;
+	z-index: 15;
   }
   
   .ship {
