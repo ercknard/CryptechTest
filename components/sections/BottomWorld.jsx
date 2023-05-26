@@ -8,6 +8,7 @@ const BottomWorld= () => (
   <WorldCredits />
 
         <section>
+          
           <Image             
           data-aos="zoom-in"
           data-aos-duration={2000}
