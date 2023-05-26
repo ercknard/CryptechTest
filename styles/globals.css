@@ -1288,6 +1288,17 @@
 	-webkit-animation: bones 15s infinite;
 	animation: bones 15s infinite;
   }
+
+  .pipe::after {
+	content: url(/assets/images/pack.webp);
+	position: absolute;
+	left: 0;
+	-webkit-animation: bones-2 30s infinite;
+	animation: bones-2 30s infinite;
+	-webkit-clip-path: circle(50% at 50% 50%);
+	clip-path: circle(50% at 50% 50%);
+	transform: scale(1);
+}
   
   .pipe-left {
 	margin-top: 13%;
@@ -2183,7 +2194,6 @@
 	width: 100%;
 	list-style-type: none;
 	align-items: center;
-	z-index: 100;
 	box-shadow: 5px 5px 10px var(--kyuhi);
   }
 
@@ -2207,7 +2217,7 @@
     background-color: rgba(17, 25, 40, 0.25);
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.125); */
-	z-index: 10;
+	z-index: 0;
 	margin-top: -4rem;
 
   }

@@ -9,7 +9,7 @@ const PepeSpace = () => (
         <Image 
         alt='Pepe NPC'
         className='pepe' 
-        src='/assets/images/pepe-land.webp' 
+        src='/assets/images/pepe-land.png' 
         width={357}
         height={649}
         />
@@ -22,7 +22,7 @@ const PepeSpace = () => (
             data-aos-easing='linear'
             data-aos-duration={500}
             data-aos-anchor-placement='bottom-bottom'
-            src='/assets/images/pepe-land.webp'
+            src='/assets/images/pepe-land.png'
             id='pepe-land'
             width={357}
             height={649}
