@@ -18,7 +18,7 @@ const Earth = () => (
                 data-aos-duration={2000}
                 data-aos-anchor-placement="bottom-bottom"
                 className="glitch"
-                data-glitch="STARSHIP:"
+                data-glitch="STARSHIPS"
             >
                 {" "}
                 <div className="sec-title">
