@@ -1953,7 +1953,6 @@
   /* ________________________________________________________________________________________________________________________________ */
   
   .chain {
-	display: block;
 	position: fixed;
 	background-image: url(/assets/images/chain-V.png);
 	width: 5rem;
@@ -1966,7 +1965,7 @@
   }
   
   .chain:after {
-	position: absolute;
+	position: fixed;
 	content: url(/assets/images/pepepor05.png);
 	bottom: -35rem;
 	margin-left: -12.6rem;
