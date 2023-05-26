@@ -1,5 +1,4 @@
 import PipeToRight from "@components/materials/PipeToRight";
-import PipeToLeft from "@components/materials/PipeToLeft";
 import Image from "next/image"
 import GatePartners from "@components/materials/gates/GatePartners";
 import Comets from "@components/materials/Comets";
@@ -44,8 +43,6 @@ const OurPartners = () => (
             </div>
             
             </section>
-
-            <PipeToLeft />
    
     </>
 

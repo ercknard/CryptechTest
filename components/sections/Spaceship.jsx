@@ -1,6 +1,5 @@
 import Gate from "@components/materials/gates/Gate";
 import PipeToRight from "@components/materials/PipeToRight";
-import PipeToLeft from "@components/materials/PipeToLeft";
 import Image from "next/image"
 import GlassPipe from "@components/materials/GlassPipe";
 import Comets from "@components/materials/Comets";
@@ -46,8 +45,6 @@ const Spaceship = () => (
             <GlassPipe />
             
             </section>
-
-            <PipeToLeft />
    
     </>
 

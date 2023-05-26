@@ -1316,6 +1316,7 @@
   }
   
   .pipe-to-left {
+	display: none;
 	visibility: hidden;
 	position: absolute;
 	background-image: url(/assets/images/chain.png);
@@ -1330,7 +1331,7 @@
   }
   
   .pipe-to-left::after {
-	content: url(/assets/images/cross-b.webp)
+	content: url(/assets/images/cross-b.png)
   }
   
   .pipe-to-right {

@@ -1,5 +1,4 @@
 import Comets from "@components/materials/Comets";
-import PipeToLeft from "@components/materials/PipeToLeft";
 import PipeToRight from "@components/materials/PipeToRight";
 import TestCoinText from "@components/materials/TestCoinText";
 import GateCoin from "@components/materials/gates/GateCoin";
@@ -36,8 +35,6 @@ const TestCoin= () => (
             </div>
         </div>
         </section>
-
-        <PipeToLeft />
 
     </>
     
