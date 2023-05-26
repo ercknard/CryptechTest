@@ -155,7 +155,7 @@ const CoinsAddress= () => (
         height={50}
       />
           <p className="coin-bg address" onClick= {() => copy(this)}>
-      t1RCU5Sbaj15EiA2sVVZQZLAsffGW1m1WAt
+      N/A
     </p>
     </div>
   </div>
