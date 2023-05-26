@@ -22,7 +22,7 @@ const Earth = () => (
             >
                 {" "}
                 <div className="sec-title">
-                STARSHIP:</div>{" "}
+                STARSHIPS</div>{" "}
             </h2>
             <div
                 className="the-ship radial-effect"
