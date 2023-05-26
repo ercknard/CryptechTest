@@ -1,4 +1,4 @@
-const leftGateEarth= () => (
+const LeftGateEarth= () => (
 
     <>
 
@@ -12,4 +12,4 @@ const leftGateEarth= () => (
     
     );
       
-    export default leftGateEarth;
+    export default LeftGateEarth;

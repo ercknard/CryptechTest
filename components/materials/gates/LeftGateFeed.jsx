@@ -1,4 +1,4 @@
-const leftGateFeed= () => (
+const LeftGateFeed= () => (
 
     <>
 
@@ -12,4 +12,4 @@ const leftGateFeed= () => (
     
     );
       
-    export default leftGateFeed;
+    export default LeftGateFeed;

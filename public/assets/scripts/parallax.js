@@ -16,6 +16,8 @@ let leftcoin = document.getElementById('left-valve-coin');
 let rightcoin = document.getElementById('right-valve-coin');
 let leftfeed = document.getElementById('left-valve-feed');
 let rightfeed = document.getElementById('right-valve-feed');
+let leftpartner = document.getElementById('left-valve-partners');
+let rightpartner = document.getElementById('right-valve-partners');
 // let space = document.getElementById('op-space');
 // let world = document.getElementById('op-world');
 // let admin = document.getElementById('op-admin');
@@ -39,6 +41,8 @@ window.addEventListener('scroll',function(){
     chain.style.top = value * -.1 + 'px';
     leftcoin.style.left = value * -.15 + 'px';
     rightcoin.style.left = value * .15 + 'px';
+    leftpartner.style.left = value * -.08 + 'px';
+    rightpartner.style.left = value * .08 + 'px';
     leftfeed.style.left = value * -.05 + 'px';
     rightfeed.style.left = value * .05 + 'px';
     // space.style.left = value * 0.40 + 'px';
