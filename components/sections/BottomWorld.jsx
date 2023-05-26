@@ -24,6 +24,7 @@ const BottomWorld= () => (
           alt="Clouds Bottom"
           className="cloudII clouds-earth" 
           src="/assets/images/cloud.webp"
+          priority='true'
           width={3620}
           height={1969} />
 
@@ -31,6 +32,7 @@ const BottomWorld= () => (
           alt="Earth Bottom"
           className="cave" 
           src="/assets/images/earth.webp"
+          priority='true'
           width={3620}
           height={1969} />
         </section>
