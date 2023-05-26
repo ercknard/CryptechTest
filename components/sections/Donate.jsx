@@ -16,7 +16,7 @@ const Donate= () => (
             <div
             data-aos="fade-left"
             data-aos-easing="ease-in-out"
-            data-aos-duration={1000}
+            data-aos-duration={500}
             className="width-class coins-op card"
             >
             <div className="glow" />

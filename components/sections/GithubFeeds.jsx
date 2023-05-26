@@ -13,8 +13,10 @@ const GithubFeeds= () => (
 
      <section className="width-class">
 
-
-    <div className="the-ship feed-op">
+    
+    <div             data-aos="fade-left"
+            data-aos-easing="ease-in-out"
+            data-aos-duration={500} className="the-ship feed-op">
 
     <div className="glow" />
             <div className="pipe-padding">
