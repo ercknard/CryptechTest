@@ -38,7 +38,7 @@ window.addEventListener('scroll',function(){
     rightearth.style.left = value * .25 + 'px';
     leftadmin.style.left = value * -.15 + 'px';
     rightadmin.style.left = value * .15 + 'px';
-    chain.style.top = value * -.1 + 'px';
+    chain.style.top = value * .9 + 'px';
     leftcoin.style.left = value * -.115 + 'px';
     rightcoin.style.left = value * .115 + 'px';
     leftpartner.style.left = value * -.08 + 'px';
