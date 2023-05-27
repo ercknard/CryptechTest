@@ -1307,7 +1307,7 @@
 	background-position: center !important;
 	background-attachment: fixed !important;
 	background-size: cover !important;
-	background-image: url(/assets/images/station.webp), url(/assets/images/transparent-stone.webp), url(/assets/images/wireframe.webp)!important;
+	background-image: url(/assets/images/station.webp), url(/assets/images/station-stand.webp), url(/assets/images/wireframe.webp)!important;
   }
   
   /* .sky-bg {
