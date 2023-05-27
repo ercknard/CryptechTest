@@ -537,9 +537,21 @@
 	clip-path: polygon(5% 0%, 100% 0%, 100% 100%, 5% 100%, 0% 50%);
 	border: 5px solid #a2a2a7;
   }
+
+  @media (max-width: 768px) {
+	#npc-text {
+		display: none;
+	}
+  }
   
   .npc {
 	width: 10px;
+  }
+
+  @media (max-width: 768px) {
+	.npc {
+		display: none;
+	}
   }
   
   #pepe {
@@ -554,12 +566,6 @@
 	/* transform: skewY(-5deg); */
 	border-bottom: 2px solid var(--kyuhi);
 	border-top: 2px solid var(--kyuhi);
-  }
-
-  @media (max-width: 768px) {
-	#pepe {
-		display: none;
-	}
   }
   
   .pepe {
