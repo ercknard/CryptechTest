@@ -1320,7 +1320,7 @@
 	background-position: center center !important;
 	background-attachment: fixed !important;
 	background-size: cover !important;
-	background-image: url(/assets/images/station-1.webp), url(/assets/images/scifi-1.png) !important;
+	background-image: url(/assets/images/station-1.webp), url(/assets/images/scifi.png) !important;
 	/* background-image: url(/assets/images/station.webp), url(/assets/images/station-stand.webp), url(/assets/images/wireframe.webp)!important; */
   }
   
