@@ -11,16 +11,19 @@ const GithubFeeds= () => (
     <section className="container-main-feed">
      <div className="container-main feed-bg">
 
-     <section className="width-class">
+     <section className="width-class feed-op">
 
     
-    <div             data-aos="fade-left"
-            data-aos-easing="ease-in-out"
-            data-aos-duration={500} className="the-ship feed-op">
+    <div             
+        data-aos="fade-left"
+        data-aos-easing="ease-in-out"
+        data-aos-duration={500} 
+        className="the-ship">
 
     <div className="glow" />
             <div className="pipe-padding">
-                <h3> Git Feed: </h3>      <span id="feed-active-btn" className="agent-home">
+                <h3> Git Feed: </h3>      
+                <span id="feed-active-btn" className="agent-home">
 
 <Web /> <Game />
 
