@@ -1316,7 +1316,7 @@
   .admins-bg,
   .coins-bg,
   .feed-bg {
-	background-position: top center !important;
+	background-position: center center !important;
 	background-attachment: fixed !important;
 	background-size: cover !important;
 	background-image: url(/assets/images/station-1.webp), url(/assets/images/scifi.png) !important;
