@@ -54,7 +54,7 @@ const Coins= () => (
         width={50}
         height={50}
       />
-      <h4> ETHEREUM CLASSIC </h4>
+      <h4> ETC </h4>
     </div>
     <div
       onClick = {() => currentSlidecoins(5)}
@@ -71,11 +71,11 @@ const Coins= () => (
     </div>
     <div
       onClick = {() => currentSlidecoins(6)}
-      className="banner mod squid-color coin-buttons"
+      className="banner mod mod-color coin-buttons"
     >
       <Image
         alt="Coins"
-        className="leads-photo-abs3 vert-move"
+        className="leads-photo-abs3 vert-move-6"
         src="/assets/images/litecoin.webp"
         width={50}
         height={50}
@@ -84,11 +84,11 @@ const Coins= () => (
     </div>
     <div
       onClick = {() => currentSlidecoins(7)}
-      className="banner mod seqsee-color coin-buttons"
+      className="banner mod squid-color coin-buttons"
     >
       <Image
         alt="Coins"
-        className="leads-photo-abs3 vert-move-2"
+        className="leads-photo-abs3 vert-move"
         src="/assets/images/metrix-coin.webp"
         width={50}
         height={50}
@@ -97,11 +97,11 @@ const Coins= () => (
     </div>
     <div
       onClick = {() => currentSlidecoins(8)}
-      className="banner mod vanikoro-color coin-buttons"
+      className="banner mod seqsee-color coin-buttons"
     >
       <Image
         alt="Coins"
-        className="leads-photo-abs3 vert-move-3"
+        className="leads-photo-abs3 vert-move-2"
         src="/assets/images/namecoin.webp"
         width={50}
         height={50}
@@ -110,11 +110,11 @@ const Coins= () => (
     </div>
     <div
       onClick = {() => currentSlidecoins(9)}
-      className="banner mod kyuhi-color coin-buttons"
+      className="banner mod vanikoro-color coin-buttons"
     >
       <Image
         alt="Coins"
-        className="leads-photo-abs3 vert-move-4"
+        className="leads-photo-abs3 vert-move-3"
         src="/assets/images/ohm.webp"
         width={50}
         height={50}
@@ -123,11 +123,11 @@ const Coins= () => (
     </div>
     <div
       onClick = {() => currentSlidecoins(10)}
-      className="banner mod shikoku-color coin-buttons"
+      className="banner mod kyuhi-color coin-buttons"
     >
       <Image
         alt="Coins"
-        className="leads-photo-abs3 vert-move-5"
+        className="leads-photo-abs3 vert-move-4"
         src="/assets/images/zcash.webp"
         width={50}
         height={50}
@@ -136,11 +136,11 @@ const Coins= () => (
     </div>
     <div
       onClick = {() => currentSlidecoins(11)}
-      className="banner mod vanikoro-color coin-buttons"
+      className="banner mod shikoku-color coin-buttons"
     >
       <Image
         alt="Coins"
-        className="leads-photo-abs3 vert-move-3"
+        className="leads-photo-abs3 vert-move-5"
         src="/assets/images/scc.webp"
         width={50}
         height={50}

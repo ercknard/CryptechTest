@@ -888,6 +888,11 @@
 	transition: .5s ease-in-out;
   }
 
+  .mod-color {
+	background-image: linear-gradient(to top, rgb(141, 2, 31), transparent, transparent);
+	transition: .5s ease-in-out;
+  }
+
   .push-color {
 	background: linear-gradient(-45deg, var(--kyuhi) 0%, rgba(0, 0, 0, .75) 5%, transparent 50%), linear-gradient(135deg, var(--kyuhi) 0%, rgba(0, 0, 0, .75) 5%, transparent 50%), black;
 	border: 2.5px solid var(--kyuhi);
@@ -918,6 +923,11 @@
   .shikoku-color:hover {
 	background-image: linear-gradient(to top, rgb(161, 108, 79), transparent);
 	border-top: 5px solid rgb(161, 108, 79);
+  }
+
+  .mod-color:hover {
+	background-image: linear-gradient(to top, rgb(141, 2, 31), transparent);
+	border-top: 5px solid rgb(141, 2, 31);
   }
 
   .push-color:hover {
@@ -1254,7 +1264,7 @@
   
   .leads-photo-abs3 {
 	display: block;
-	border: 10px dotted white;
+	border: 5px dotted white;
 	border-radius: 50%;
 	border-right: none;
 	border-top: none;
@@ -1291,6 +1301,8 @@
   
   .mod {
 	margin-top: 2rem;
+	min-width: 15%;
+	padding-top: .5rem;
   }
   
   .mod:hover {
@@ -1307,7 +1319,7 @@
 	background-position: top center !important;
 	background-attachment: fixed !important;
 	background-size: cover !important;
-	background-image: url(/assets/images/station-1.webp), url(/assets/images/station-stand.webp) !important;
+	background-image: url(/assets/images/station-1.webp), url(/assets/images/station-stand.webp), url(/assets/images/scifi.png)!important;
 	/* background-image: url(/assets/images/station.webp), url(/assets/images/station-stand.webp), url(/assets/images/wireframe.webp)!important; */
   }
   
