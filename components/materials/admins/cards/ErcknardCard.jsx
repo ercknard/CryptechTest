@@ -14,7 +14,7 @@ const ErcknardCard = () => {
 
          return (  <div
               onClick={handleClickErcknard}
-              className="leads-buttons banner mod vanikoro-color"
+              className="leads-buttons banner mod mod-color"
             >
               <span>
                 <Image
