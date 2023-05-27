@@ -9,6 +9,7 @@ import Ferbog05Card from "./Ferbog05Card";
 import MatadorCard from "./MatadorCard";
 import DemilCard from "./DemilCard";
 import TonicCard from "./TonicCard";
+import ErcknardCard from "./ErcknardCard";
 
 const AdminCard= () => (
 <>
@@ -45,6 +46,7 @@ const AdminCard= () => (
                   <MatadorCard />
                   <DemilCard />
                   <TonicCard />
+                  {/* <ErcknardCard /> */}
                </div>
             </div>
          </div>
