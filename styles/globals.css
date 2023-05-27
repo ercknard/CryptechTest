@@ -1339,11 +1339,10 @@
 	padding: 2rem 2rem;
 	border: 3px solid var(--kyuhi);
 	background: linear-gradient(-45deg, var(--kyuhi) 0%, rgba(0, 0, 0, .75) 5%, transparent 50%), linear-gradient(135deg, var(--kyuhi) 0%, rgba(0, 0, 0, .75) 5%, transparent 50%), url(/assets/images/Stone-S.webp);
-	background: linear-gradient(-45deg, var(--kyuhi) 0%, rgba(0, 0, 0, .75) 5%, transparent 50%), linear-gradient(135deg, var(--kyuhi) 0%, rgba(0, 0, 0, .75) 5%, transparent 50%), rgba(0,0,0, .75);
+	background: linear-gradient(-45deg, var(--kyuhi) 0%, rgba(0, 0, 0, .75) 5%, transparent 50%), linear-gradient(135deg, var(--kyuhi) 0%, rgba(0, 0, 0, .75) 5%, transparent 50%), rgba(0,0,0, .90);
 	border-radius: 5px;
 	box-shadow: 10px 10px 20px black;
 	min-height: 50vh;
-	filter: saturate(80%);
   }
   
   /* ________________________________________________________________________________________________________________________________ */
@@ -1530,7 +1529,6 @@
   }
   
   .container-main {
-	filter: saturate(150%);
 	border-top: 3px solid var(--kyuhi);
 	border-bottom: 3px solid var(--kyuhi);
 	padding: 2.5rem 0;
