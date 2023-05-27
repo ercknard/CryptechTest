@@ -341,9 +341,10 @@
   }
   
   .sec-2 {
-	/* background-image: url(/assets/images/sky-loader-for-sec.webp); */
-	background-attachment: fixed;
+	/* background-image: url(/assets/images/force.png); */
+	background-attachment: scroll;
 	background-position: center;
+	background-size: cover;
   }
   
   /* ________________________________________________________________________________________________________________________________ */
