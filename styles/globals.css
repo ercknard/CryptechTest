@@ -226,6 +226,12 @@
 	z-index: 5;
 	transition: .5s ease-in-out;
   }
+
+  @media (max-width: 768px) {
+	#web_title {
+		font-size: 3.5rem;
+	}
+  }
   
   #web_title.scrolled {
 	display: block;
@@ -239,6 +245,12 @@
 		white,
 		rgba(0, 0, 0, 0)) 1;
 	color: #fff;
+  }
+
+  @media (max-width: 768px) {
+	#web_title.scrolled {
+		font-size: 4rem;
+	}
   }
   
   /* ________________________________________________________________________________________________________________________________ */
@@ -299,6 +311,12 @@
 	  border-right: 1rem solid transparent; */
 	/* margin-bottom: 1.5rem;
 	  margin-top: 1rem; */
+  }
+
+  @media (max-width: 768px) {
+	.sec h2{
+		width: 100%;
+	}
   }
   
   .sec h3 {
@@ -537,6 +555,12 @@
 	border-bottom: 2px solid var(--kyuhi);
 	border-top: 2px solid var(--kyuhi);
   }
+
+  @media (max-width: 768px) {
+	#pepe {
+		display: none;
+	}
+  }
   
   .pepe {
 	position: absolute;
@@ -592,6 +616,13 @@
 	width: 100%;
 	z-index: 3;
   }
+
+  @media (max-width: 768px) {
+	svg {
+		font-size: 3.5rem;
+		margin-top: -2.5rem;
+	}
+  }
   
   .text-copy {
 	fill: none;
@@ -600,6 +631,12 @@
 	stroke-width: 3px;
 	stroke-dashoffset: 0%;
 	animation: stroke-offset 5.5s infinite linear;
+  }
+
+  @media (max-width: 768px) {
+	.text-copy {
+		stroke-width: 1px;
+	}
   }
   
   .text-copy:nth-child(1) {
@@ -701,6 +738,12 @@
 	flex-wrap: wrap;
 	margin: 2rem 0;
   }
+
+  @media (max-width: 768px) {
+	.agent-home {
+		gap: 1rem;
+	}
+  }
   
   .banner {
 	transform: skewY(0deg);
@@ -709,8 +752,14 @@
 	border-width: 2.5px;
 	border-style: solid;
 	transition: .5s ease-in-out;
-	width: 17.5%;
+	min-width: 17.5%;
 	border-radius: 5px;
+  }
+
+  @media (max-width: 768px) {
+	.coin-buttons {
+		min-width: 45%;
+	}
   }
   
   .banner:hover {
@@ -1135,6 +1184,12 @@
 	z-index: 999;
 	margin-top: -5vh;
   }
+
+  @media (max-width: 768px) {
+	.play-button {
+		display: none;
+	}
+  }
   
   .play-button:hover {
 	background-image: linear-gradient(to right, rgba(0, 0, 0, .3), var(--kyuhi), rgba(0, 0, 0, .3));
@@ -1220,6 +1275,13 @@
 	width: 8vh;
 	height: 8vh;
   }
+
+  @media (max-width: 768px) {
+	.leads-photo-abs4 {
+		width: 13vh;
+		height: 13vh;
+	}
+  }
   
   .mod {
 	margin-top: 2rem;
@@ -1287,6 +1349,12 @@
 	overflow: hidden;
 	-webkit-animation: bones 15s infinite;
 	animation: bones 15s infinite;
+  }
+
+  @media (max-width: 768px) {
+	.pipe {
+		display: none;
+	}
   }
 
   .pipe::after {
@@ -1359,7 +1427,6 @@
 	margin-top: 1.75rem;
   }
   
-  
   .pipe-right::after {
 	content: url(/assets/images/cross.png);
   }
@@ -1370,6 +1437,12 @@
   
   .pipe-padding {
 	padding-left: 2rem;
+  }
+
+  @media (max-width: 768px) {
+	.pipe-padding {
+		padding-left: 0;
+	}
   }
   
   .pipe::before {
@@ -1711,6 +1784,12 @@
 	display: block;
 	height: 12.5vh;
   }
+
+  @media (max-width: 768px) {
+	.slideshow-container {
+		height: 20vh;
+	}
+  }
   
   .admin-name {
 	position: absolute;
@@ -1979,6 +2058,12 @@
 	transition: 1s ease;
 	margin-top: -105vh;
   }
+
+  @media (max-width: 768px) {
+	.chain {
+		display: none;
+	}
+  }
   
   .chain:after {
 	position: fixed;
@@ -2223,7 +2308,19 @@
     border: 1px solid rgba(255, 255, 255, 0.125); */
 	z-index: 0;
 	margin-top: -2rem;
+  }
 
+  @media (max-width: 768px) {
+	.feeds {
+		padding: 0;
+		padding-right: 1.5rem;
+	}
+  }
+
+  @media (max-width: 768px) {
+	.feed-buttons {
+		margin-top: .1rem;
+	}
   }
 
   /* width */
