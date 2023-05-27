@@ -20,13 +20,13 @@ const BottomWorld= () => (
           className="cave-pepe"
           />
 
-          <Image 
+          {/* <Image 
           alt="Clouds Bottom"
           className="cloudI clouds" 
           src="/assets/images/cloud.webp"
           priority='true'
           width={3620}
-          height={1969} />
+          height={1969} /> */}
 
           <Image 
           alt="Earth Bottom"
