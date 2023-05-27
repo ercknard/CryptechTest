@@ -1304,12 +1304,13 @@
   .admins-bg,
   .coins-bg,
   .feed-bg {
-	background-position: center !important;
+	/* background-position: center !important;
 	background-attachment: fixed !important;
-	background-size: cover !important;
+	background-size: cover !important; */
+	background-image: url(/assets/images/tiles.webp);
   }
   
-  .sky-bg {
+  /* .sky-bg {
 	background-image: url(/assets/images/spaceship.webp) !important;
   }
   
@@ -1327,7 +1328,7 @@
   
   .feed-bg {
 	background-image: url(/assets/images/corridor-f.webp) !important;
-  }
+  } */
 
   .sky-op,
   .world-op,
