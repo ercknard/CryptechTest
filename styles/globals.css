@@ -341,7 +341,7 @@
   }
   
   .sec-2 {
-	background-image: url(/assets/images/sky-loader-for-sec.webp);
+	/* background-image: url(/assets/images/sky-loader-for-sec.webp); */
 	background-attachment: fixed;
 	background-position: center;
   }
@@ -1339,10 +1339,11 @@
 	padding: 2rem 2rem;
 	border: 3px solid var(--kyuhi);
 	background: linear-gradient(-45deg, var(--kyuhi) 0%, rgba(0, 0, 0, .75) 5%, transparent 50%), linear-gradient(135deg, var(--kyuhi) 0%, rgba(0, 0, 0, .75) 5%, transparent 50%), url(/assets/images/Stone-S.webp);
-	background: linear-gradient(-45deg, var(--kyuhi) 0%, rgba(0, 0, 0, .75) 5%, transparent 50%), linear-gradient(135deg, var(--kyuhi) 0%, rgba(0, 0, 0, .75) 5%, transparent 50%), black;
+	background: linear-gradient(-45deg, var(--kyuhi) 0%, rgba(0, 0, 0, .75) 5%, transparent 50%), linear-gradient(135deg, var(--kyuhi) 0%, rgba(0, 0, 0, .75) 5%, transparent 50%), rgba(0,0,0, .75);
 	border-radius: 5px;
 	box-shadow: 10px 10px 20px black;
 	min-height: 50vh;
+	filter: saturate(80%);
   }
   
   /* ________________________________________________________________________________________________________________________________ */
@@ -1529,10 +1530,11 @@
   }
   
   .container-main {
+	filter: saturate(150%);
 	border-top: 3px solid var(--kyuhi);
 	border-bottom: 3px solid var(--kyuhi);
-	padding: 2rem 0;
-	box-shadow: 1px 1px 25px white, 0px 0px 500px 10px rgba(0, 0, 0, .75) inset;
+	padding: 2.5rem 0;
+	box-shadow: 1px 1px 25px white, 0px 0px 500px 10px rgba(0, 0, 0, 1) inset;
 	background: linear-gradient(45deg, rgba(104, 104, 104, .3) 0%, black 10%, transparent 50%), linear-gradient(-135deg, rgba(104, 104, 104, .3) 0%, black 10%, transparent 50%);
   }
   
@@ -1540,7 +1542,7 @@
 	content: "❖";
 	font-weight: bolder;
 	color: var(--kyuhi);
-	font-size: 2.8rem;
+	font-size: 3.5rem;
 	position: absolute;
 	-webkit-animation: ctr 15s infinite;
 	animation: ctr 15s infinite;
