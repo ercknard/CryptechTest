@@ -1,44 +1,42 @@
-
-
 :root {
-    --kyuhi: rgba(97, 105, 207);
-  }
+  --kyuhi: rgba(97, 105, 207);
+}
 
 .pipe::after {
-	content: url(/assets/images/kyuhi.webp);
-	position: absolute;
-	left: -2rem;
-	-webkit-animation: bones-2 30s infinite;
-	animation: bones-2 30s infinite;
-	transform: scale(.5);
-	-webkit-clip-path: circle(40% at 50% 50%);
-	clip-path: circle(40% at 50% 50%);
+  content: url(/assets/images/kyuhi.webp);
+  position: absolute;
+  left: -2rem;
+  -webkit-animation: bones-2 30s infinite;
+  animation: bones-2 30s infinite;
+  transform: scale(0.5);
+  -webkit-clip-path: circle(40% at 50% 50%);
+  clip-path: circle(40% at 50% 50%);
 }
 
 .modal-figure {
-	background-image: url(/assets/images/kyuhi.webp);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	width: 7.5rem;
-	height: 7.5rem;
-	margin-left: auto;
-	margin-right: auto;
-	-webkit-clip-path: circle(50% at 50% 50%);
-	clip-path: circle(50% at 50% 50%);
+  background-image: url(/assets/images/kyuhi.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 7.5rem;
+  height: 7.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-clip-path: circle(50% at 50% 50%);
+  clip-path: circle(50% at 50% 50%);
 }
 
 .right-valve {
-	background-image: url(/assets/images/kyuhigateR.webp);
-	background-size: cover;
-  }
+  background-image: url(/assets/images/kyuhigateR.webp);
+  background-size: cover;
+}
 
-  .left-valve {
-	background-image: url(/assets/images/kyuhigateL.webp);
-	background-size: cover;
-  }
+.left-valve {
+  background-image: url(/assets/images/kyuhigateL.webp);
+  background-size: cover;
+}
 
-  /* .right-valve-out {
+/* .right-valve-out {
 	background-image: url(/assets/images/kyuhiRight.webp);
   }
 
@@ -46,14 +44,19 @@
 	background-image: url(/assets/images/kyuhiLeft.webp);
   } */
 
-  .right-valve-modal {
-	background-image: url(/assets/images/kyuhigateR.webp);
-  }
-  
-  .left-valve-modal {
-	background-image: url(/assets/images/kyuhigateL.webp);
-  }
+.right-valve-modal {
+  background-image: url(/assets/images/kyuhigateR.webp);
+}
 
-  .modal {
-	background-image: radial-gradient(circle at top, rgba(0, 0, 0, 1), rgba(0, 0, 0, .50)), url(/assets/images/kyuhigate.webp);
-  }
+.left-valve-modal {
+  background-image: url(/assets/images/kyuhigateL.webp);
+}
+
+.modal {
+  background-image: radial-gradient(
+      circle at top,
+      rgba(0, 0, 0, 1),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(/assets/images/kyuhigate.webp);
+}

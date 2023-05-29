@@ -1,18 +1,19 @@
 import LeftGateFeed from "./LeftGateFeed";
 import RightGateFeed from "./RightGateFeed";
 
-const GateFeed= () => (
+const GateFeed = () => (
+  <>
+    <input
+      placeholder="controls"
+      alt="controls"
+      type="checkbox"
+      unchecked="true"
+    />
 
-    <>
+    <LeftGateFeed />
 
-    <input placeholder="controls" alt="controls" type="checkbox" unchecked="true" />   
-    
-    <LeftGateFeed/>
+    <RightGateFeed />
+  </>
+);
 
-    <RightGateFeed/>
-
-    </>
-    
-    );
-      
-    export default GateFeed;
+export default GateFeed;

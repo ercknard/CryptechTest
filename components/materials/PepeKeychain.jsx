@@ -1,7 +1,3 @@
-const PepeKeychain= () => (
+const PepeKeychain = () => <span id="chain" className="chain"></span>;
 
-        <span id="chain" className="chain"></span>
-    
-    );
-      
-    export default PepeKeychain;
+export default PepeKeychain;

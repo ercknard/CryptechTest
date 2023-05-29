@@ -1,4 +1,3 @@
-
 // function toNoneModal() {
 //   document.getElementById("modalforbid").style.display = "none";
 //   document.getElementById("modalforbid").style.visibility = "hidden";
@@ -14,19 +13,19 @@ function toGate() {
 }
 
 function toNone() {
-    modal.style.display = "none";
+  modal.style.display = "none";
 }
 
 var modalleft = document.getElementById("modal-main");
 const themeDelayleft = 1250;
 
-var toRun = function() {
+var toRun = function () {
   modalleft.style.display = "block";
   setTimeout(toNoneLeft, themeDelayleft);
-}
+};
 
 toRun();
 
 function toNoneLeft() {
-    modalleft.style.display = "none";
+  modalleft.style.display = "none";
 }

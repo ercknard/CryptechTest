@@ -1,44 +1,42 @@
-
-
 :root {
-    --kyuhi: rgb(141, 2, 31);
-  }
+  --kyuhi: rgb(141, 2, 31);
+}
 
 .pipe::after {
-	content: url(/assets/images/pack.webp);
-	position: absolute;
-	left: 0;
-	-webkit-animation: bones-2 30s infinite;
-	animation: bones-2 30s infinite;
-	-webkit-clip-path: circle(50% at 50% 50%);
-	clip-path: circle(50% at 50% 50%);
-	transform: scale(1);
+  content: url(/assets/images/pack.webp);
+  position: absolute;
+  left: 0;
+  -webkit-animation: bones-2 30s infinite;
+  animation: bones-2 30s infinite;
+  -webkit-clip-path: circle(50% at 50% 50%);
+  clip-path: circle(50% at 50% 50%);
+  transform: scale(1);
 }
 
 .modal-figure {
-	background-image: url(/assets/images/pack.png);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	width: 7.5rem;
-	height: 7.5rem;
-	margin-left: auto;
-	margin-right: auto;
-	-webkit-clip-path: circle(50% at 50% 50%);
-	clip-path: circle(50% at 50% 50%);
+  background-image: url(/assets/images/pack.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 7.5rem;
+  height: 7.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-clip-path: circle(50% at 50% 50%);
+  clip-path: circle(50% at 50% 50%);
 }
 
 .right-valve {
-	background-image: url(/assets/images/modgateR.webp);
-	background-size: cover;
-  }
+  background-image: url(/assets/images/modgateR.webp);
+  background-size: cover;
+}
 
-  .left-valve {
-	background-image: url(/assets/images/modgateL.webp);
-	background-size: cover;
-  }
+.left-valve {
+  background-image: url(/assets/images/modgateL.webp);
+  background-size: cover;
+}
 
-  /* .right-valve-out {
+/* .right-valve-out {
 	background-image: url(/assets/images/modRight.webp);
   }
 
@@ -46,14 +44,19 @@
 	background-image: url(/assets/images/modLeft.webp);
   } */
 
-  .right-valve-modal {
-	background-image: url(/assets/images/modgateR.webp);
-  }
-  
-  .left-valve-modal {
-	background-image: url(/assets/images/modgateL.webp);
-  }
+.right-valve-modal {
+  background-image: url(/assets/images/modgateR.webp);
+}
 
-  .modal {
-	background-image: radial-gradient(circle at top, rgba(0, 0, 0, 1), rgba(0, 0, 0, .50)), url(/assets/images/modgate.webp);
-  }
+.left-valve-modal {
+  background-image: url(/assets/images/modgateL.webp);
+}
+
+.modal {
+  background-image: radial-gradient(
+      circle at top,
+      rgba(0, 0, 0, 1),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(/assets/images/modgate.webp);
+}

@@ -1,11 +1,10 @@
-"use client"
+"use client";
 import Image from "next/image";
 
-const Coins= () => (
-
-    <div id="coin-active-btn" className="agent-home">
+const Coins = () => (
+  <div id="coin-active-btn" className="agent-home">
     <div
-      onClick = {() => currentSlidecoins(1)}
+      onClick={() => currentSlidecoins(1)}
       className="banner mod squid-color coin-buttons"
     >
       <Image
@@ -18,7 +17,7 @@ const Coins= () => (
       <h4> BITCOIN </h4>
     </div>
     <div
-      onClick = {() => currentSlidecoins(2)}
+      onClick={() => currentSlidecoins(2)}
       className="banner mod seqsee-color coin-buttons"
     >
       <Image
@@ -31,7 +30,7 @@ const Coins= () => (
       <h4> DASH </h4>
     </div>
     <div
-      onClick = {() => currentSlidecoins(3)}
+      onClick={() => currentSlidecoins(3)}
       className="banner mod vanikoro-color coin-buttons"
     >
       <Image
@@ -44,7 +43,7 @@ const Coins= () => (
       <h4> DOGE </h4>
     </div>
     <div
-      onClick = {() => currentSlidecoins(4)}
+      onClick={() => currentSlidecoins(4)}
       className="banner mod kyuhi-color coin-buttons"
     >
       <Image
@@ -57,7 +56,7 @@ const Coins= () => (
       <h4> ETC </h4>
     </div>
     <div
-      onClick = {() => currentSlidecoins(5)}
+      onClick={() => currentSlidecoins(5)}
       className="banner mod shikoku-color coin-buttons"
     >
       <Image
@@ -70,7 +69,7 @@ const Coins= () => (
       <h4> ETHEREUM </h4>
     </div>
     <div
-      onClick = {() => currentSlidecoins(6)}
+      onClick={() => currentSlidecoins(6)}
       className="banner mod mod-color coin-buttons"
     >
       <Image
@@ -83,7 +82,7 @@ const Coins= () => (
       <h4> LITECOIN </h4>
     </div>
     <div
-      onClick = {() => currentSlidecoins(7)}
+      onClick={() => currentSlidecoins(7)}
       className="banner mod squid-color coin-buttons"
     >
       <Image
@@ -96,7 +95,7 @@ const Coins= () => (
       <h4> METRIX COIN </h4>
     </div>
     <div
-      onClick = {() => currentSlidecoins(8)}
+      onClick={() => currentSlidecoins(8)}
       className="banner mod seqsee-color coin-buttons"
     >
       <Image
@@ -109,7 +108,7 @@ const Coins= () => (
       <h4> NAME COIN </h4>
     </div>
     <div
-      onClick = {() => currentSlidecoins(9)}
+      onClick={() => currentSlidecoins(9)}
       className="banner mod vanikoro-color coin-buttons"
     >
       <Image
@@ -122,7 +121,7 @@ const Coins= () => (
       <h4> OHM COIN </h4>
     </div>
     <div
-      onClick = {() => currentSlidecoins(10)}
+      onClick={() => currentSlidecoins(10)}
       className="banner mod kyuhi-color coin-buttons"
     >
       <Image
@@ -135,7 +134,7 @@ const Coins= () => (
       <h4> ZCASH </h4>
     </div>
     <div
-      onClick = {() => currentSlidecoins(11)}
+      onClick={() => currentSlidecoins(11)}
       className="banner mod shikoku-color coin-buttons"
     >
       <Image
@@ -148,8 +147,6 @@ const Coins= () => (
       <h4> SCC </h4>
     </div>
   </div>
-  
-    
-    );
-      
-    export default Coins;
+);
+
+export default Coins;

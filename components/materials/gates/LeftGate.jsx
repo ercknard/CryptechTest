@@ -1,17 +1,11 @@
 import IntroVideo from "../videos/IntroVideo";
 
-const LeftGate= () => (
-
-    <>
+const LeftGate = () => (
+  <>
     <div id="left-valve-sky" className="left-valve-out">
-
-    <div className="left-valve"> </div> 
-
+      <div className="left-valve"> </div>
     </div>
+  </>
+);
 
-
-    </>
-    
-    );
-      
-    export default LeftGate;
+export default LeftGate;

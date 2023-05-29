@@ -1,15 +1,9 @@
-const LeftGatePartners= () => (
-
-    <>
-
+const LeftGatePartners = () => (
+  <>
     <div id="left-valve-partners" className="left-valve-out">
-
-    <div className="left-valve"> </div> 
-
+      <div className="left-valve"> </div>
     </div>
+  </>
+);
 
-    </>
-    
-    );
-      
-    export default LeftGatePartners;
+export default LeftGatePartners;

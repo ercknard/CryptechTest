@@ -1,6 +1,6 @@
-"use client"
-import { useEffect, useState } from 'react';
-import { fetchGitFeeds } from './gitServiceGame';
+"use client";
+import { useEffect, useState } from "react";
+import { fetchGitFeeds } from "./gitServiceGame";
 
 const GitFeedGame = ({ username }) => {
   const [feeds, setFeed] = useState([]);
@@ -20,19 +20,40 @@ const GitFeedGame = ({ username }) => {
   };
 
   return (
-<>
-
-        <div className="mySlides-feeds fade feeds">
-            <p className="feed-starter"> CryptechTest Git Feed: (Events) </p>
-          <ul>
-        {feeds.map((event) => (
-            <li key={event.id}> {event.sha} <div className='git-feed banner mod push-color'><div className="avatar-feed"> <img alt="Avatar" src={event.actor.avatar_url} width={50} height={50} /> {event.actor.login} <div className="sha-feed"> ID: {truncateSHAs(event.id)}... | {event.repo.name} - {event.actor.login} </div> </div> <div className="time-feed"> {event.created_at} {event.type}</div></div></li>
-            ))}
-            </ul>
-            <p className="feed-starter"> End. </p>
-            </div>
-
-
+    <>
+      <div className="mySlides-feeds fade feeds">
+        <p className="feed-starter"> CryptechTest Git Feed: (Events) </p>
+        <ul>
+          {feeds.map((event) => (
+            <li key={event.id}>
+              {" "}
+              {event.sha}{" "}
+              <div className="git-feed banner mod push-color">
+                <div className="avatar-feed">
+                  {" "}
+                  <img
+                    alt="Avatar"
+                    src={event.actor.avatar_url}
+                    width={50}
+                    height={50}
+                  />{" "}
+                  {event.actor.login}{" "}
+                  <div className="sha-feed">
+                    {" "}
+                    ID: {truncateSHAs(event.id)}... | {event.repo.name} -{" "}
+                    {event.actor.login}{" "}
+                  </div>{" "}
+                </div>{" "}
+                <div className="time-feed">
+                  {" "}
+                  {event.created_at} {event.type}
+                </div>
+              </div>
+            </li>
+          ))}
+        </ul>
+        <p className="feed-starter"> End. </p>
+      </div>
     </>
   );
 };

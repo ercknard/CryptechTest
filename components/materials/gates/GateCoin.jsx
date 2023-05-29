@@ -1,18 +1,19 @@
 import LeftGateCoin from "./LeftGateCoin";
 import RightGateCoin from "./RightGateCoin";
 
-const GateCoin= () => (
+const GateCoin = () => (
+  <>
+    <input
+      placeholder="controls"
+      alt="controls"
+      type="checkbox"
+      unchecked="true"
+    />
 
-    <>
+    <LeftGateCoin />
 
-    <input placeholder="controls" alt="controls" type="checkbox" unchecked="true" />   
-    
-    <LeftGateCoin/>
+    <RightGateCoin />
+  </>
+);
 
-    <RightGateCoin/>
-
-    </>
-    
-    );
-      
-    export default GateCoin;
+export default GateCoin;

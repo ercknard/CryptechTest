@@ -1,34 +1,29 @@
 import Particles from "@components/materials/Particles";
 
 const Glitters = () => (
-
-<>
+  <>
     <section id="particles-js">
-        <Particles />
+      <Particles />
     </section>
 
-        <div>
+    <div>
+      <div className="firefly" />
+      <div className="firefly" />
+      <div className="firefly" />
+      <div className="firefly" />
+      <div className="firefly" />
+      <div className="firefly" />
+      <div className="firefly" />
+      <div className="firefly" />
+      <div className="firefly" />
+      <div className="firefly" />
+      <div className="firefly" />
+      <div className="firefly" />
+      <div className="firefly" />
+      <div className="firefly" />
+      <div className="firefly" />
+    </div>
+  </>
+);
 
-        <div className="firefly" />
-        <div className="firefly" />
-        <div className="firefly" />
-        <div className="firefly" />
-        <div className="firefly" />
-        <div className="firefly" />
-        <div className="firefly" />
-        <div className="firefly" />
-        <div className="firefly" />
-        <div className="firefly" />
-        <div className="firefly" />
-        <div className="firefly" />
-        <div className="firefly" />
-        <div className="firefly" />
-        <div className="firefly" />
-
-        </div>
-</>
-
-    
-    );
-      
-    export default Glitters;
+export default Glitters;

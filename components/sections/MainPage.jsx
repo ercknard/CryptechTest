@@ -18,38 +18,34 @@ import Fabs from "@components/materials/Fabs";
 import GithubFeeds from "./GithubFeeds";
 import OurPartners from "./OurPartners";
 
-const MainPage= () => (
-
-    <>
-
-<PepeKeychain />
+const MainPage = () => (
+  <>
+    <PepeKeychain />
     {/* <CustomLoader /> */}
     <Navigation />
-      <LandingPage />
-        <PepeSpace />
-        <div className="sec-2">
-          <div className="sec">
-          <Spaceship />
-          <ShipText />
-          <Earth />
-          <EarthText />
-          <AdminCover />
-          <AdminCard />
-          <TestCoin />
-          <Donate />
-          <OurPartners />
-          <GithubFeeds />
-          {/* <Feed /> */}
-          <BottomWorld />
-            </div>
-        </div>
-          <Footer />
-        <Modal />
-      <GateLoader />
-      <Fabs />
-      
-    </>
-    
-    );
-      
-    export default MainPage;
+    <LandingPage />
+    <PepeSpace />
+    <div className="sec-2">
+      <div className="sec">
+        <Spaceship />
+        <ShipText />
+        <Earth />
+        <EarthText />
+        <AdminCover />
+        <AdminCard />
+        <TestCoin />
+        <Donate />
+        <OurPartners />
+        <GithubFeeds />
+        {/* <Feed /> */}
+        <BottomWorld />
+      </div>
+    </div>
+    <Footer />
+    <Modal />
+    <GateLoader />
+    <Fabs />
+  </>
+);
+
+export default MainPage;

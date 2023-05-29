@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import VideoModal from './VideoModal';
+import React, { useState } from "react";
+import VideoModal from "./VideoModal";
 
 const PlayVideo = () => {
   const [modalOpen, setModalOpen] = useState(false);
@@ -14,8 +14,8 @@ const PlayVideo = () => {
 
   return (
     <div onClick={openModal} className="a-button play-button">
-            {" "}Watch Trailer{" "}
-
+      {" "}
+      Watch Trailer{" "}
       {modalOpen && (
         <VideoModal
           videoUrl="https://firebasestorage.googleapis.com/v0/b/cryptech-3c327.appspot.com/o/CryptechTest_Teaser_final%20(1).mp4?alt=media&token=466d45d1-f730-4e0f-9b23-a24cc7dccc96"

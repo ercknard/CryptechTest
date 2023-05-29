@@ -1,11 +1,11 @@
-import { createPopper } from '@popperjs/core';
-const popcorn = document.querySelector('#fab-logo');
-const tooltip = document.querySelector('#tooltip');
+import { createPopper } from "@popperjs/core";
+const popcorn = document.querySelector("#fab-logo");
+const tooltip = document.querySelector("#tooltip");
 createPopper(popcorn, tooltip, {
-  placement: 'left',
+  placement: "left",
   modifiers: [
     {
-      name: 'offset',
+      name: "offset",
       options: {
         offset: [0, 8],
       },

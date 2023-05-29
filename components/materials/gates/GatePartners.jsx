@@ -1,18 +1,19 @@
 import LeftGatePartners from "./LeftGatePartners";
 import RightGatePartners from "./RightGatePartners";
 
-const GatePartners= () => (
+const GatePartners = () => (
+  <>
+    <input
+      placeholder="controls"
+      alt="controls"
+      type="checkbox"
+      unchecked="true"
+    />
 
-    <>
+    <LeftGatePartners />
 
-    <input placeholder="controls" alt="controls" type="checkbox" unchecked="true" />   
-    
-    <LeftGatePartners/>
+    <RightGatePartners />
+  </>
+);
 
-    <RightGatePartners/>
-
-    </>
-    
-    );
-      
-    export default GatePartners;
+export default GatePartners;

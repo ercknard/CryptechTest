@@ -7,42 +7,34 @@ import Shikoku from "./Shikoku";
 import Squid from "./Squid";
 import Vanikoro from "./Vanikoro";
 
-const AdminCover= () => (
-
-    <>
-
-    <PipeToRight/>
+const AdminCover = () => (
+  <>
+    <PipeToRight />
 
     <GateAdmin />
 
-        <section className="width-class">
+    <section className="width-class">
+      <h2
+        data-aos="zoom-in"
+        data-aos-duration={2000}
+        data-aos-anchor-placement="bottom-bottom"
+        className="glitch"
+        data-glitch="TEAM LEADS"
+      >
+        {" "}
+        <div className="sec-title">TEAM LEADS</div>{" "}
+      </h2>
+      <div className="the-ship">
+        <Squid />
+        <Seqsee />
+        <Vanikoro />
+        <Kyuhi />
+        <Shikoku />
+      </div>
+    </section>
 
-        <h2
-            data-aos="zoom-in"
-            data-aos-duration={2000}
-            data-aos-anchor-placement="bottom-bottom"
-            className="glitch"
-            data-glitch="TEAM LEADS"
-        >
-            {" "}
-            <div className="sec-title">
-            TEAM LEADS</div>{" "}
-        </h2>
-        <div className="the-ship">
+    <PipeToLeft />
+  </>
+);
 
-            <Squid />
-            <Seqsee />
-            <Vanikoro />
-            <Kyuhi />
-            <Shikoku />
-
-        </div>
-        </section>     
-
-        <PipeToLeft /> 
-
-    </>
-    
-    );
-      
-    export default AdminCover;
+export default AdminCover;

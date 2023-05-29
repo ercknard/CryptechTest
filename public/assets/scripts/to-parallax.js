@@ -90,7 +90,7 @@
 //     y: topY - bounds.height / 2
 //   }
 //   const distance = Math.sqrt(center.x**2 + center.y**2);
-  
+
 //   $card.style.transform = `
 //     scale3d(1.07, 1.07, 1.07)
 //     rotate3d(
@@ -100,7 +100,7 @@
 //       ${Math.log(distance)* 2}deg
 //     )
 //   `;
-  
+
 //   $card.querySelector('.glow').style.backgroundImage = `
 //     radial-gradient(
 //       circle at
