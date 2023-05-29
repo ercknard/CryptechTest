@@ -341,7 +341,7 @@
   }
   
   .sec-2 {
-	/* background-image: url(/assets/images/force.png); */
+	/* background-image: url(/assets/images/scifi-2-violet-2.png); */
 	background-attachment: scroll;
 	background-position: center;
 	background-size: cover;
@@ -1317,10 +1317,7 @@
   .admins-bg,
   .coins-bg,
   .feed-bg {
-	background-position: center center !important;
-	background-attachment: fixed !important;
-	background-size: cover !important;
-	background-image: url(/assets/images/station-1.webp), url(/assets/images/scifi.png) !important;
+	animation: ship-bg 15s infinite;
 	/* background-image: url(/assets/images/station.webp), url(/assets/images/station-stand.webp), url(/assets/images/wireframe.webp)!important; */
   }
   

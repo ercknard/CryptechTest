@@ -1123,3 +1123,50 @@
 		background-position: center top;
 	}
   }
+
+
+  @-webkit-keyframes ship-bg {
+	0% {
+		background-position: center center !important;
+		background-attachment: fixed !important;
+		background-size: cover !important;
+		background-image: url(/assets/images/station-1.webp), url(/assets/images/scifi.png) !important;
+	  }
+  
+	  50% {
+		background-position: center center !important;
+		background-attachment: fixed !important;
+		background-size: cover !important;
+		background-image: url(/assets/images/station-1.webp), url(/assets/images/scifi-opac.png) !important;
+		}
+	  
+	  100% {
+		background-position: center center !important;
+		background-attachment: fixed !important;
+		background-size: cover !important;
+		background-image: url(/assets/images/scifi.png) !important;
+	}
+  }
+  
+  @keyframes ship-bg {
+	0% {
+		background-position: center center;
+		background-attachment: fixed;
+		background-size: cover;
+		background-image: url(/assets/images/station-1.webp), url(/assets/images/scifi-2-violet-2.png);
+	  }
+  
+	  50% {
+		background-position: center center;
+		background-attachment: fixed;
+		background-size: cover;
+		background-image: url(/assets/images/station-1.webp), url(/assets/images/scifi-2-violet.png);
+		}
+	  
+	  100% {
+		background-position: center center;
+		background-attachment: fixed;
+		background-size: cover;
+		background-image: url(/assets/images/station-1.webp), url(/assets/images/scifi-2-violet-2.png);
+	}
+  }
