@@ -787,8 +787,8 @@ svg {
 }
 
 .banner {
-  transform: skewY(0deg);
-  background-color: rgba(0, 0, 0, 1);
+  transform: skewY(2deg);
+  background: url(/assets/images/1.png), rgba(0, 0, 0, 1);
   border-image: linear-gradient(rgba(255, 255, 255, 0.5), transparent) 10;
   border-width: 2.5px;
   border-style: solid;
