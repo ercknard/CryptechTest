@@ -26,11 +26,12 @@ const TestCoin = () => (
           <div>
             <Image
               alt="Testcoin"
-              className="test-coin vert-move"
+              className="test-coin squid"
               src="/assets/images/testcoin.webp"
               width={512}
               height={512}
             />
+            <h3 className="to-center">TestCoin</h3>
             {/* <div className="fence" /> */}
             <TestCoinText />
             {/* <div className="fence" /> */}
