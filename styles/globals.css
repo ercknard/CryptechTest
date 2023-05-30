@@ -782,6 +782,7 @@ svg {
   margin-bottom: 1rem;
   flex-wrap: wrap;
   margin: 2rem 0;
+  row-gap: 2rem;
 }
 
 @media (max-width: 768px) {
