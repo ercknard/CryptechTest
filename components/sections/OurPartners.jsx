@@ -16,10 +16,10 @@ const OurPartners = () => (
         data-aos-duration={2000}
         data-aos-anchor-placement="bottom-bottom"
         className="glitch"
-        data-glitch="Our Partners"
+        data-glitch="OUR PARTNERS"
       >
         {" "}
-        <div className="sec-title">Our Partners </div>{" "}
+        <div className="sec-title">OUR PARTNERS </div>{" "}
       </h2>
       <div
         className="the-ship radial-effect"

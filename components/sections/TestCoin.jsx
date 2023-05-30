@@ -15,10 +15,10 @@ const TestCoin = () => (
         data-aos-duration={2000}
         data-aos-anchor-placement="bottom-bottom"
         className="glitch"
-        data-glitch="FEATURED MODS"
+        data-glitch="FEATURED MOD"
       >
         {" "}
-        <div className="sec-title">FEATURED MODS</div>{" "}
+        <div className="sec-title">FEATURED MOD</div>{" "}
       </h2>
       <div className="the-ship">
         <Comets />
