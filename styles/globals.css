@@ -2499,6 +2499,10 @@ input[type="checkbox"]:checked ~ div.right-valve-out {
   list-style-type: none;
   align-items: center;
   box-shadow: 5px 5px 10px var(--kyuhi);
+  background-image: url(/assets/images/ship-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 140%;
 }
 
 .git-feed:hover {
@@ -2632,50 +2636,6 @@ p.feed-starter {
   box-shadow: 3px 3px 10px white;
   transform: translateY(2px);
 }
-
-.custom-shape-divider-top-1685374219 {
-  top: 0;
-  left: 0;
-}
-
-.custom-shape-divider-top-1685374219 svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 25px;
-}
-
-.custom-shape-divider-top-1685374219 .shape-fill {
-  fill: white;
-  border-top: 3px solid white;
-}
-
-.custom-shape-divider-bottom-1685374548 {
-  bottom: 0;
-  left: 0;
-  transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1685374548 svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 25px;
-}
-
-.custom-shape-divider-bottom-1685374548 .shape-fill {
-  fill: #ffffff;
-}
-
-/* .poly {
-  background: linear-gradient(to bottom, wheat, gray 100%);
-  clip-path: polygon(1% 0%, 100% 0%, 99% 100%, 0% 100%);
-  transition: 1s;
-}
-
-.poly:hover {
-  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
-} */
 
 .to-center {
   text-align: center;
