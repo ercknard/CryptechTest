@@ -2,6 +2,7 @@ import PipeToRight from "@components/materials/PipeToRight";
 import Image from "next/image";
 import GatePartners from "@components/materials/gates/GatePartners";
 import Comets from "@components/materials/Comets";
+import Scc from "@components/materials/partners/Scc";
 
 const OurPartners = () => (
   <>
@@ -24,16 +25,7 @@ const OurPartners = () => (
         className="the-ship radial-effect"
         data-aos-anchor-placement="bottom-bottom"
       >
-        <Image
-          alt="Spacehips"
-          className="ship squid"
-          data-aos="zoom-in-right"
-          data-aos-duration={5000}
-          data-aos-anchor-placement="bottom-bottom"
-          src="/assets/images/ship-2.webp"
-          width={1024}
-          height={1024}
-        />
+        <Scc />
 
         <Comets />
       </div>

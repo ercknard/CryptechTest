@@ -31,9 +31,9 @@ const TestCoin = () => (
               width={512}
               height={512}
             />
-            <div className="fence" />
+            {/* <div className="fence" /> */}
             <TestCoinText />
-            <div className="fence" />
+            {/* <div className="fence" /> */}
           </div>
         </div>
       </div>

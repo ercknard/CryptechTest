@@ -1,6 +1,6 @@
 const TestCoinText = () => (
   <>
-    <p className="mod">
+    <p className="details">
       {" "}
       Test Coin is a fake hybrid PoW/PoS cryptocurrency used as in-game currency
       Sin CryptechTest game. Test Coin can be "mined" in game by building a PoS

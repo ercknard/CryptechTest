@@ -146,6 +146,7 @@ p {
   margin-left: auto;
   margin-right: auto;
   vertical-align: middle;
+  width: 75%;
   height: 50vh;
 }
 
@@ -2671,3 +2672,16 @@ p.feed-starter {
 .poly:hover {
   clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
 } */
+
+.to-center {
+  text-align: center;
+}
+
+.details {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  width: 60%;
+  overflow: hidden;
+  text-align: justify;
+}
