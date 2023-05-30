@@ -30,8 +30,6 @@ const ShipText = () => (
             </h3>
           </div>
 
-          {/* <IntroVideo /> */}
-
           <SampleText />
         </div>
       </div>
