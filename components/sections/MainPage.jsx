@@ -21,7 +21,6 @@ import OurPartners from "./OurPartners";
 const MainPage = () => (
   <>
     <PepeKeychain />
-    {/* <CustomLoader /> */}
     <Navigation />
     <LandingPage />
     <PepeSpace />
@@ -37,7 +36,6 @@ const MainPage = () => (
         <Donate />
         <OurPartners />
         <GithubFeeds />
-        {/* <Feed /> */}
         <BottomWorld />
       </div>
     </div>

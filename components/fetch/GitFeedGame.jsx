@@ -22,7 +22,10 @@ const GitFeedGame = ({ username }) => {
   return (
     <>
       <div className="mySlides-feeds fade feeds">
-        <p className="feed-starter"> CryptechTest Git Feed: (Events) </p>
+        <p className="feed-starter">
+          {" "}
+          CryptechTest Git Feed: (Showing 30 latest entries.){" "}
+        </p>
         <ul>
           {feeds.map((event) => (
             <li key={event.id}>

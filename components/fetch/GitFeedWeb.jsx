@@ -22,7 +22,10 @@ const GitFeedWeb = ({ username }) => {
   return (
     <>
       <div className="mySlides-feeds fade feeds">
-        <p className="feed-starter"> Website Git Feed: </p>
+        <p className="feed-starter">
+          {" "}
+          Website Git Feed: (Showing 30 latest entries.)
+        </p>
         <ul>
           {feed.map((commits) => (
             <li key={commits.sha}>
