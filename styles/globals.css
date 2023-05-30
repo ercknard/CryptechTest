@@ -1414,10 +1414,10 @@ img.vert-move-6 {
 
 .leads-photo-abs4 {
   display: block;
-  border: 10px dotted white;
+  /* border: 10px dotted white;
   border-radius: 50%;
   border-left: none;
-  border-bottom: none;
+  border-bottom: none; */
   margin-top: 2rem;
   margin-bottom: 2rem;
   margin-left: auto;
@@ -1425,6 +1425,10 @@ img.vert-move-6 {
   padding: 1rem;
   width: 8vh;
   height: 8vh;
+  background-image: url(/assets/images/mods-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 150%;
 }
 
 @media (max-width: 768px) {
