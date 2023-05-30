@@ -726,7 +726,6 @@ svg {
   filter: drop-shadow(20px 10px 20px rgba(0, 0, 0, 1));
   -webkit-animation: squid 0.85s infinite alternate;
   animation: squid 0.85s infinite alternate;
-  transform: scale(1.1);
 }
 
 .active-feed {
@@ -748,7 +747,7 @@ svg {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  z-index: 1;
+  z-index: 15;
 }
 
 .ship {
@@ -793,7 +792,7 @@ svg {
 .banner {
   transform: skewY(0deg);
   background: rgba(0, 0, 0, 0.5);
-  border-image: linear-gradient(rgba(255, 255, 255, 0.5), transparent) 10;
+  border-image: linear-gradient(rgba(255, 255, 255, 0.25), transparent) 10;
   border-width: 2.5px;
   border-style: solid;
   transition: 0.5s ease-in-out;
@@ -1284,7 +1283,7 @@ img.vert-move-6 {
   letter-spacing: 1.2px;
   transition: 0.2s 0.1s;
   background-image: url(/assets/images/white-border.png),
-    linear-gradient(90deg, transparent, var(--kyuhi)) !important;
+    linear-gradient(90deg, var(--kyuhi)) !important;
   overflow: hidden;
   filter: saturate(180%);
   background-size: 120%;
@@ -1377,16 +1376,20 @@ img.vert-move-6 {
 
 .leads-photo-abs2 {
   display: block;
-  border: 10px double white;
+  /* border: 10px double white;
   border-radius: 50%;
   border-left: none;
-  border-bottom: none;
+  border-bottom: none; */
   margin-top: 2rem;
   margin-bottom: 2rem;
   margin-left: auto;
   margin-right: auto;
   width: 35%;
   height: 35%;
+  background-image: url(/assets/images/mods-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
 .leads-photo-abs3 {
@@ -1402,6 +1405,10 @@ img.vert-move-6 {
   padding: 0.5rem;
   width: 35%;
   height: 35%;
+  background-image: url(/assets/images/ship-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .leads-photo-abs4 {

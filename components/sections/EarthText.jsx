@@ -38,7 +38,6 @@ const EarthText = () => (
             <OrbitalStation />
             <OrbitalStation />
             <OrbitalStation />
-            <OrbitalStation />
           </div>
         </div>
       </div>
