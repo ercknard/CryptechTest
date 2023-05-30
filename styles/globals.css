@@ -1903,7 +1903,11 @@ img.vert-move-6 {
   transition-property: transform, box-shadow;
   transition-timing-function: ease-out;
   transform: rotate3d();
-  background: linear-gradient(71deg, #080509, #1a171c, #080509);
+  background: url(/assets/images/ship-bg.png),
+    linear-gradient(71deg, #080509, #1a171c, #080509);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
 .card:hover {
