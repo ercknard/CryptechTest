@@ -787,14 +787,15 @@ svg {
 }
 
 .banner {
-  transform: skewY(2deg);
-  background: url(/assets/images/1.png), rgba(0, 0, 0, 1);
+  transform: skewY(0deg);
+  background: rgba(0, 0, 0, 0.5);
   border-image: linear-gradient(rgba(255, 255, 255, 0.5), transparent) 10;
   border-width: 2.5px;
   border-style: solid;
   transition: 0.5s ease-in-out;
   min-width: 17.5%;
   border-radius: 5px;
+  filter: saturate(125%);
   /* clip-path: polygon(2.5% 0%, 100% 0%, 97.5% 100%, 0% 100%); */
 }
 
@@ -807,6 +808,7 @@ svg {
 .banner:hover {
   transform: scale(1.1);
   clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  transition: 0.5s ease-in-out;
 }
 
 .agent-home:hover .banner:not(:hover) {
@@ -830,7 +832,7 @@ svg {
 }
 
 .banner:hover .loader-icon-23 {
-  filter: blur(5px);
+  filter: blur(1px);
 }
 
 .banner-for-admin-sq:hover::after {
@@ -896,63 +898,57 @@ svg {
 /* ________________________________________________________________________________________________________________________________ */
 
 .squid-color {
-  background-image: linear-gradient(
-    to top,
-    rgb(134, 134, 69),
-    transparent,
-    transparent
-  );
+  background-image: url(/assets/images/squid-border.png),
+    linear-gradient(to top, rgb(134, 134, 69), transparent, transparent);
   transition: 0.5s ease-in-out;
+  background-size: 138%;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .seqsee-color {
-  background-image: linear-gradient(
-    to top,
-    rgb(183, 112, 173),
-    transparent,
-    transparent
-  );
+  background-image: url(/assets/images/seqsee-border.png),
+    linear-gradient(to top, rgb(183, 112, 173), transparent, transparent);
   transition: 0.5s ease-in-out;
+  background-size: 138%;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .vanikoro-color {
-  background-image: linear-gradient(
-    to top,
-    rgb(69, 101, 69),
-    transparent,
-    transparent
-  );
+  background-image: url(/assets/images/vanikoro-border.png),
+    linear-gradient(to top, rgb(69, 101, 69), transparent, transparent);
   transition: 0.5s ease-in-out;
+  background-size: 138%;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .kyuhi-color {
-  background-image: linear-gradient(
-    to top,
-    rgb(97, 105, 207),
-    transparent,
-    transparent
-  );
+  background-image: url(/assets/images/kyuhi-border.png),
+    linear-gradient(to top, rgb(97, 105, 207), transparent, transparent);
   transition: 0.5s ease-in-out;
+  background-size: 138%;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .shikoku-color {
-  background-image: linear-gradient(
-    to top,
-    rgb(161, 108, 79),
-    transparent,
-    transparent
-  );
+  background-image: url(/assets/images/shikoku-border.png),
+    linear-gradient(to top, rgb(161, 108, 79), transparent, transparent);
   transition: 0.5s ease-in-out;
+  background-size: 138%;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .mod-color {
-  background-image: linear-gradient(
-    to top,
-    rgb(141, 2, 31),
-    transparent,
-    transparent
-  );
+  background-image: url(/assets/images/mod-border.png),
+    linear-gradient(to top, rgb(141, 2, 31), transparent, transparent);
   transition: 0.5s ease-in-out;
+  background-size: 138%;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .push-color {
