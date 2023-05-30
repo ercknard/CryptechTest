@@ -15,7 +15,7 @@ const EarthText = () => (
       >
         <div className="glow" />
         <div className="pipe-padding">
-          <h3> Cryptech Ships: </h3>{" "}
+          <h3> Starship Tiers: </h3>{" "}
           <div id="op-world" className="agent-home">
             {/* <GearEarth />
 
@@ -33,9 +33,12 @@ const EarthText = () => (
             </h3> */}
 
             <OrbitalStation />
-            <SeqseeCard />
-            <SeqseeCard />
-            <SeqseeCard />
+            <OrbitalStation />
+            <OrbitalStation />
+            <OrbitalStation />
+            <OrbitalStation />
+            <OrbitalStation />
+            <OrbitalStation />
           </div>
         </div>
       </div>

@@ -744,7 +744,11 @@ svg {
   overflow: hidden;
   align-items: center;
   vertical-align: middle;
-  z-index: 15;
+  background-image: url(/assets/images/ship-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  z-index: 1;
 }
 
 .ship {
@@ -901,7 +905,7 @@ svg {
   background-image: url(/assets/images/squid-border.png),
     linear-gradient(to top, rgb(134, 134, 69), transparent, transparent);
   transition: 0.5s ease-in-out;
-  background-size: 138%;
+  background-size: 145% 138%;
   background-position: center center;
   background-repeat: no-repeat;
 }
@@ -910,7 +914,7 @@ svg {
   background-image: url(/assets/images/seqsee-border.png),
     linear-gradient(to top, rgb(183, 112, 173), transparent, transparent);
   transition: 0.5s ease-in-out;
-  background-size: 138%;
+  background-size: 145% 138%;
   background-position: center center;
   background-repeat: no-repeat;
 }
@@ -919,7 +923,7 @@ svg {
   background-image: url(/assets/images/vanikoro-border.png),
     linear-gradient(to top, rgb(69, 101, 69), transparent, transparent);
   transition: 0.5s ease-in-out;
-  background-size: 138%;
+  background-size: 145% 138%;
   background-position: center center;
   background-repeat: no-repeat;
 }
@@ -928,7 +932,7 @@ svg {
   background-image: url(/assets/images/kyuhi-border.png),
     linear-gradient(to top, rgb(97, 105, 207), transparent, transparent);
   transition: 0.5s ease-in-out;
-  background-size: 138%;
+  background-size: 145% 138%;
   background-position: center center;
   background-repeat: no-repeat;
 }
@@ -937,7 +941,7 @@ svg {
   background-image: url(/assets/images/shikoku-border.png),
     linear-gradient(to top, rgb(161, 108, 79), transparent, transparent);
   transition: 0.5s ease-in-out;
-  background-size: 138%;
+  background-size: 145% 138%;
   background-position: center center;
   background-repeat: no-repeat;
 }
@@ -946,7 +950,7 @@ svg {
   background-image: url(/assets/images/mod-border.png),
     linear-gradient(to top, rgb(141, 2, 31), transparent, transparent);
   transition: 0.5s ease-in-out;
-  background-size: 138%;
+  background-size: 145% 138%;
   background-position: center center;
   background-repeat: no-repeat;
 }
@@ -971,33 +975,45 @@ svg {
 }
 
 .squid-color:hover {
-  background-image: linear-gradient(to top, rgb(134, 134, 69), transparent);
+  background-image: url(/assets/images/squid-border.png),
+    linear-gradient(to top, rgb(134, 134, 69), transparent);
   border-top: 5px solid rgb(134, 134, 69);
+  background-size: 120% 110%;
 }
 
 .seqsee-color:hover {
-  background-image: linear-gradient(to top, rgb(183, 112, 173), transparent);
+  background-image: url(/assets/images/seqsee-border.png),
+    linear-gradient(to top, rgb(183, 112, 173), transparent);
   border-top: 5px solid rgb(183, 112, 173);
+  background-size: 120% 110%;
 }
 
 .vanikoro-color:hover {
-  background-image: linear-gradient(to top, rgb(69, 101, 69), transparent);
+  background-image: url(/assets/images/vanikoro-border.png),
+    linear-gradient(to top, rgb(69, 101, 69), transparent);
   border-top: 5px solid rgb(69, 101, 69);
+  background-size: 120% 110%;
 }
 
 .kyuhi-color:hover {
-  background-image: linear-gradient(to top, rgb(97, 105, 207), transparent);
+  background-image: url(/assets/images/kyuhi-border.png),
+    linear-gradient(to top, rgb(97, 105, 207), transparent);
   border-top: 5px solid rgb(97, 105, 207);
+  background-size: 120% 110%;
 }
 
 .shikoku-color:hover {
-  background-image: linear-gradient(to top, rgb(161, 108, 79), transparent);
+  background-image: url(/assets/images/shikoku-border.png),
+    linear-gradient(to top, rgb(161, 108, 79), transparent);
   border-top: 5px solid rgb(161, 108, 79);
+  background-size: 120% 110%;
 }
 
 .mod-color:hover {
-  background-image: linear-gradient(to top, rgb(141, 2, 31), transparent);
+  background-image: url(/assets/images/mod-border.png),
+    linear-gradient(to top, rgb(141, 2, 31), transparent);
   border-top: 5px solid rgb(141, 2, 31);
+  background-size: 120% 110%;
 }
 
 .push-color:hover {
@@ -1267,9 +1283,12 @@ img.vert-move-6 {
   );
   letter-spacing: 1.2px;
   transition: 0.2s 0.1s;
-  background-image: linear-gradient(90deg, transparent, var(--kyuhi));
+  background-image: url(/assets/images/white-border.png),
+    linear-gradient(90deg, transparent, var(--kyuhi)) !important;
   overflow: hidden;
   filter: saturate(180%);
+  background-size: 120%;
+  background-repeat: no-repeat;
 }
 
 .story-button:hover {

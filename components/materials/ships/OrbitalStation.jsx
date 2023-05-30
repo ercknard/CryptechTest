@@ -4,31 +4,21 @@ import React from "react";
 
 const OrbitalStation = () => {
   const handleClick = () => {
-    currentSlideleads(2);
+    toGate();
   };
 
   return (
-    <div
-      onClick={handleClick}
-      className="leads-buttons banner banner-for-admin-se seqsee-color"
-    >
+    <div onClick={handleClick} className="leads-buttons banner mod mod-color">
       <span>
         <Image
-          alt="Mug"
-          className="leads-photo-abs"
-          src="/assets/images/mug.png"
+          alt="Ercknard"
+          className="leads-photo-abs2"
+          src="/assets/images/pepe-head.webp"
           width={128}
           height={128}
         />
       </span>
-      <Image
-        alt="Ship"
-        className="loader-icon-23"
-        src="/assets/images/ship-2.webp"
-        width={1024}
-        height={1024}
-      />
-      <p className="admin-name"> Orbital Station </p>
+      <h4> Orbital Station </h4>
     </div>
   );
 };
