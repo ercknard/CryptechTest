@@ -38,7 +38,7 @@ const Footer = () => (
       </ul>
       <h3 className="main-footer-text text-motion-index">
         {" "}
-        © 2023 CryptechTest : MINETEST Server | All rights reserved.
+        © 2023 CryptechTest SMP Server | All rights reserved.
       </h3>
     </footer>
   </>
