@@ -8,7 +8,7 @@ const OrbitalStation = () => {
   };
 
   return (
-    <div onClick={handleClick} className="leads-buttons banner mod mod-color">
+    <div onClick={handleClick} className="leads-buttons banner mod kyuhi-color">
       <span>
         <Image
           alt="Ercknard"
