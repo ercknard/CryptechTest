@@ -788,13 +788,14 @@ svg {
 
 .banner {
   transform: skewY(0deg);
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 1);
   border-image: linear-gradient(rgba(255, 255, 255, 0.5), transparent) 10;
   border-width: 2.5px;
   border-style: solid;
   transition: 0.5s ease-in-out;
   min-width: 17.5%;
   border-radius: 5px;
+  /* clip-path: polygon(2.5% 0%, 100% 0%, 97.5% 100%, 0% 100%); */
 }
 
 @media (max-width: 768px) {
@@ -805,6 +806,7 @@ svg {
 
 .banner:hover {
   transform: scale(1.1);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
 }
 
 .agent-home:hover .banner:not(:hover) {
@@ -1198,6 +1200,7 @@ img.vert-move-6 {
   background-color: var(--kyuhi);
   animation: text-motion-load 1.7s infinite;
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: rgba(255, 255, 255, 0);
 }
 
@@ -1459,33 +1462,54 @@ img.vert-move-6 {
   background: linear-gradient(
       -45deg,
       var(--kyuhi) 0%,
-      rgba(0, 0, 0, 0.75) 5%,
+      rgba(0, 0, 0, 1) 5%,
       transparent 50%
     ),
     linear-gradient(
       135deg,
       var(--kyuhi) 0%,
-      rgba(0, 0, 0, 0.75) 5%,
+      rgba(0, 0, 0, 1) 5%,
       transparent 50%
     ),
     url(/assets/images/Stone-S.webp);
   background: linear-gradient(
       -45deg,
       var(--kyuhi) 0%,
-      rgba(0, 0, 0, 0.75) 5%,
+      rgba(0, 0, 0, 1) 5%,
       transparent 50%
     ),
     linear-gradient(
       135deg,
       var(--kyuhi) 0%,
-      rgba(0, 0, 0, 0.75) 5%,
+      rgba(0, 0, 0, 1) 5%,
       transparent 50%
     ),
-    rgba(0, 0, 0, 0.9);
+    rgba(0, 0, 0, 0.95);
   border-radius: 5px;
   box-shadow: 10px 10px 20px black;
   min-height: 50vh;
 }
+
+/* .sky-op::before,
+.sky-op::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 10%;
+  background-color: transparent;
+  border-radius: 50%;
+  left: 0;
+}
+
+.sky-op::before {
+  top: -5%;
+  border-bottom: 3px solid white;
+}
+
+.sky-op::after {
+  bottom: -5%;
+  border-top: 3px solid white;
+} */
 
 /* ________________________________________________________________________________________________________________________________ */
 
@@ -1655,7 +1679,7 @@ img.vert-move-6 {
 
 /* ________________________________________________________________________________________________________________________________ */
 
-.sky-op::before,
+/* .sky-op::before,
 .world-op::before,
 .admin-op::before,
 .coins-op::before,
@@ -1670,7 +1694,7 @@ img.vert-move-6 {
   text-shadow: 2px 2px 10px var(--kyuhi);
   z-index: 15;
   top: -2rem;
-}
+} */
 
 .container-main {
   border-top: 3px solid var(--kyuhi);
@@ -1873,6 +1897,7 @@ img.vert-move-6 {
   transition-property: transform, box-shadow;
   transition-timing-function: ease-out;
   transform: rotate3d();
+  background: linear-gradient(71deg, #080509, #1a171c, #080509);
 }
 
 .card:hover {
@@ -1885,7 +1910,7 @@ img.vert-move-6 {
   height: 100%;
   left: 0;
   top: 0;
-  background-image: radial-gradient(circle at -50% 20%, #ffffff22, #0000000f);
+  /* background-image: radial-gradient(circle at -50% 20%, #ffffff22, #0000000f); */
 }
 
 /* ________________________________________________________________________________________________________________________________ */
@@ -2581,23 +2606,46 @@ p.feed-starter {
   transform: translateY(2px);
 }
 
-.custom-shape-divider-bottom-1685368766 {
-  position: absolute;
-  bottom: 0;
+.custom-shape-divider-top-1685374219 {
+  top: 0;
   left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1685368766 svg {
+.custom-shape-divider-top-1685374219 svg {
   position: relative;
   display: block;
   width: calc(100% + 1.3px);
-  height: 16px;
+  height: 25px;
 }
 
-.custom-shape-divider-bottom-1685368766 .shape-fill {
+.custom-shape-divider-top-1685374219 .shape-fill {
+  fill: white;
+  border-top: 3px solid white;
+}
+
+.custom-shape-divider-bottom-1685374548 {
+  bottom: 0;
+  left: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1685374548 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 25px;
+}
+
+.custom-shape-divider-bottom-1685374548 .shape-fill {
   fill: #ffffff;
 }
+
+/* .poly {
+  background: linear-gradient(to bottom, wheat, gray 100%);
+  clip-path: polygon(1% 0%, 100% 0%, 99% 100%, 0% 100%);
+  transition: 1s;
+}
+
+.poly:hover {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+} */

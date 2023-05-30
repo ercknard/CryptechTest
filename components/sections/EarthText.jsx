@@ -1,6 +1,8 @@
 import Image from "next/image";
 import SampleText from "@components/materials/SampleText";
 import GearEarth from "@components/materials/gears/GearEarth";
+import SeqseeCard from "@components/materials/admins/cards/SeqseeCard";
+import OrbitalStation from "@components/materials/ships/OrbitalStation";
 
 const EarthText = () => (
   <section className="container-main-world">
@@ -13,8 +15,9 @@ const EarthText = () => (
       >
         <div className="glow" />
         <div className="pipe-padding">
-          <div id="op-world" className="agent">
-            <GearEarth />
+          <h3> Cryptech Ships: </h3>{" "}
+          <div id="op-world" className="agent-home">
+            {/* <GearEarth />
 
             <Image
               alt="Pepe Head"
@@ -27,10 +30,13 @@ const EarthText = () => (
             <h3 className="glitch" data-glitch=" Pepe... ">
               {" "}
               Pepe...{" "}
-            </h3>
-          </div>
+            </h3> */}
 
-          <SampleText />
+            <OrbitalStation />
+            <SeqseeCard />
+            <SeqseeCard />
+            <SeqseeCard />
+          </div>
         </div>
       </div>
     </div>
