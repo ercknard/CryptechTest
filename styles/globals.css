@@ -1439,7 +1439,6 @@ img.vert-move-6 {
 }
 
 .mod {
-  margin-top: 2rem;
   min-width: 15%;
   padding-top: 0.5rem;
 }
@@ -2486,6 +2485,7 @@ input[type="checkbox"]:checked ~ div.right-valve-out {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 140%;
+  margin-top: 1.5rem;
 }
 
 .git-feed:hover {
