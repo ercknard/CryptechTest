@@ -1,5 +1,5 @@
 import SampleText from "@components/materials/SampleText";
-import Issues from "@components/fetch/Issues";
+import Announcements from "@components/fetch/News";
 
 const ShipText = () => (
   <section className="container-main-sky">
@@ -13,7 +13,7 @@ const ShipText = () => (
         <div className="glow" />
         <div className="pipe-padding">
           <h3> Announcements: </h3> <div id="op-space" className="agent"></div>
-          <Issues />
+          <Announcements />
         </div>
       </div>
     </div>

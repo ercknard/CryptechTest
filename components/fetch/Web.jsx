@@ -4,7 +4,7 @@ import React from "react";
 const Web = () => (
   <>
     <div
-      onClick={() => currentSlidefeeds(2)}
+      onClick={() => currentSlidefeeds(3)}
       className="banner push-color feed-buttons"
     >
       <h4> Web </h4>
