@@ -44,8 +44,8 @@ const announcement = () => {
   return (
     <div className="sos">
       {announcement.slice(0, 3).map((announcement) => (
-        <>
-          <ul className="sos-1 mod" key={announcement.node_id}>
+        <div key={announcement.node_id}>
+          <ul className="sos-1 mod">
             <li>
               <h3 className="sos-2">
                 {" "}
@@ -57,13 +57,11 @@ const announcement = () => {
                 />
                 #{announcement.number} : {announcement.title}
               </h3>
+              <p>{truncateSHAs(announcement.body)}....</p>
             </li>
             {/* <li>
             <p>{announcement.labels.map((label) => label.name)}</p>
           </li> */}
-            <li>
-              <p>{truncateSHAs(announcement.body)}....</p>
-            </li>
           </ul>
           <a
             className="a-button to-right"
@@ -73,7 +71,7 @@ const announcement = () => {
             {" "}
             Read more...{" "}
           </a>
-        </>
+        </div>
       ))}
     </div>
   );

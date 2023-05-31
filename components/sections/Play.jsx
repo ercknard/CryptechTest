@@ -34,7 +34,7 @@ const Spaceship = () => (
               width={512}
               height={512}
             />
-            <h3 className="to-center">Join Us Now!!!</h3>
+            <h3 className="to-center">Join Us Now!</h3>
             <h4 className="details-server">Address: cryptechcraft.xyz </h4>
             <h4 className="details-server">Port: 30000</h4>
             <p className="details">

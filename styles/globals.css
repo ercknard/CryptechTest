@@ -748,7 +748,7 @@ svg {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  z-index: 30;
+  z-index: 15;
 }
 
 .ship {
