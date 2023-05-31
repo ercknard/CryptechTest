@@ -12,7 +12,8 @@ const ShipText = () => (
       >
         <div className="glow" />
         <div className="pipe-padding">
-          <h3> Announcements: </h3> <div id="op-space" className="agent"></div>
+          <h3> News and Updates: </h3>{" "}
+          <div id="op-space" className="agent"></div>
           <Announcements />
         </div>
       </div>
