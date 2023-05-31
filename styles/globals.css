@@ -748,7 +748,7 @@ svg {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  z-index: 15;
+  z-index: 30;
 }
 
 .ship {
@@ -2632,6 +2632,15 @@ p.feed-starter {
   width: 60%;
   overflow: hidden;
   text-align: justify;
+}
+
+.details-server {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  width: 20%;
+  overflow: hidden;
+  text-align: center;
 }
 
 .sos {

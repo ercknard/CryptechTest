@@ -25,16 +25,25 @@ const Spaceship = () => (
         className="the-ship radial-effect"
         data-aos-anchor-placement="bottom-bottom"
       >
-        {/* <Image
-          alt="Spacehips"
-          className="ship squid"
-          data-aos="zoom-in-right"
-          data-aos-duration={5000}
-          data-aos-anchor-placement="bottom-bottom"
-          src="/assets/images/ship-2.webp"
-          width={1024}
-          height={1024}
-        /> */}
+        <div className="test">
+          <div>
+            <Image
+              alt="Testcoin"
+              className="test-coin squid"
+              src="/assets/images/mug.png"
+              width={512}
+              height={512}
+            />
+            <h3 className="to-center">Join Us Now!!!</h3>
+            <h4 className="details-server">Address: cryptechcraft.xyz </h4>
+            <h4 className="details-server">Port: 30000</h4>
+            <p className="details">
+              "Minetest is an open source voxel game engine. It is available for
+              free on Windows, macOS, GNU/Linux, FreeBSD, OpenBSD, DragonFly
+              BSD, and Android."
+            </p>
+          </div>
+        </div>
         <Comets />
       </div>
 
