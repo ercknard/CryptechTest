@@ -15,10 +15,10 @@ const Earth = () => (
         data-aos-duration={2000}
         data-aos-anchor-placement="bottom-bottom"
         className="glitch"
-        data-glitch="STARSHIPS"
+        data-glitch="ORBITAL STATION"
       >
         {" "}
-        <div className="sec-title">STARSHIPS</div>{" "}
+        <div className="sec-title">ORBITAL STATION</div>{" "}
       </h2>
       <div
         className="the-ship radial-effect"
@@ -31,7 +31,7 @@ const Earth = () => (
           data-aos="zoom-in-right"
           data-aos-duration={5000}
           data-aos-anchor-placement="bottom-bottom"
-          src="/assets/images/ship-4.webp"
+          src="/assets/images/ship-2.webp"
           width={1024}
           height={1024}
         />

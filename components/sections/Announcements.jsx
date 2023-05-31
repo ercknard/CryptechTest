@@ -13,23 +13,7 @@ const ShipText = () => (
       >
         <div className="glow" />
         <div className="pipe-padding">
-          <div id="op-space" className="agent">
-            <Gear />
-
-            <Image
-              alt="Pepita Head"
-              className="loader-icon-1"
-              src="/assets/images/pepita-head.webp"
-              width={267}
-              height={267}
-            />
-
-            <h3 className="glitch" data-glitch=" Pepita... ">
-              {" "}
-              Pepita...{" "}
-            </h3>
-          </div>
-
+          <h3> Announcements: </h3> <div id="op-space" className="agent"></div>
           <SampleText />
         </div>
       </div>

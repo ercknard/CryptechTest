@@ -25,7 +25,7 @@ const Spaceship = () => (
         className="the-ship radial-effect"
         data-aos-anchor-placement="bottom-bottom"
       >
-        <Image
+        {/* <Image
           alt="Spacehips"
           className="ship squid"
           data-aos="zoom-in-right"
@@ -34,7 +34,7 @@ const Spaceship = () => (
           src="/assets/images/ship-2.webp"
           width={1024}
           height={1024}
-        />
+        /> */}
         <Comets />
       </div>
 
