@@ -47,7 +47,10 @@ const GitFeedIssues = ({ username }) => {
                       ID: {issues.id}... | {issues.title} - {issues.user.login}{" "}
                     </div>{" "}
                   </div>{" "}
-                  <div className="time-feed"> {issues.created_at}</div>
+                  <div className="time-feed">
+                    {" "}
+                    {issues.created_at} {issues.comments} comment/s.
+                  </div>
                 </div>
               </a>
             </li>
