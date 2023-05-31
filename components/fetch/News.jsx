@@ -42,9 +42,9 @@ const announcement = () => {
   };
 
   return (
-    <div className="sos">
+    <div>
       {announcement.slice(0, 3).map((announcement) => (
-        <div key={announcement.node_id}>
+        <div className="sos" key={announcement.node_id}>
           <ul className="sos-1 mod">
             <li>
               <h3 className="sos-2">
