@@ -37,7 +37,7 @@ const announcement = () => {
   }, []);
 
   const truncateSHAs = (sha) => {
-    const lengths = 1000;
+    const lengths = 750;
     return sha.substring(0, lengths);
   };
 
