@@ -1,6 +1,5 @@
-import Image from "next/image";
 import SampleText from "@components/materials/SampleText";
-import Gear from "@components/materials/gears/Gear";
+import Issues from "@components/fetch/Issues";
 
 const ShipText = () => (
   <section className="container-main-sky">
@@ -14,7 +13,7 @@ const ShipText = () => (
         <div className="glow" />
         <div className="pipe-padding">
           <h3> Announcements: </h3> <div id="op-space" className="agent"></div>
-          <SampleText />
+          <Issues />
         </div>
       </div>
     </div>
