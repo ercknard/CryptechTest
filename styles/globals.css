@@ -2643,16 +2643,19 @@ p.feed-starter {
 
 .sos-1 {
   border-radius: 5px;
-  background: url(/assets/images/ship-bg.png), #080509;
-  background-repeat: no-repeat;
-  background-position: right center;
-  background-size: 10%;
+  background-color: #00000075;
   border: 1.5px solid white;
   width: 100%;
 }
 
 .sos-1 {
   padding: 1rem;
+}
+
+.sos-1 p {
+  border-top: 1px dotted white;
+  padding-top: 1rem;
+  text-indent: 4rem;
 }
 
 .sos-1 h3 {
