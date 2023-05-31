@@ -12,22 +12,23 @@ const Donate = () => (
       {" "}
     </div>
     <div className="container-main coins-bg">
-      <div
-        data-aos="fade-left"
-        data-aos-easing="ease-in-out"
-        data-aos-duration={500}
-        className="width-class coins-op card"
-      >
-        <div className="glow" />
-        <div className="pipe-padding">
-          <h3> Donate: </h3>{" "}
-          <p>
-            {" "}
-            If you enjoy our server, or the plugins we make, and want to help
-            contribute financial we happily accept cryptocurrency donations!{" "}
-          </p>
-          <Coins />
-          <CoinsAddress />
+      <div className="width-class coins-op card">
+        <div
+          data-aos="fade-left"
+          data-aos-easing="ease-in-out"
+          data-aos-duration={500}
+        >
+          <div className="glow" />
+          <div className="pipe-padding">
+            <h3> Donate: </h3>{" "}
+            <p>
+              {" "}
+              If you enjoy our server, or the plugins we make, and want to help
+              contribute financial we happily accept cryptocurrency donations!{" "}
+            </p>
+            <Coins />
+            <CoinsAddress />
+          </div>
         </div>
       </div>
     </div>
