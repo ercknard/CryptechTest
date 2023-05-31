@@ -2633,3 +2633,40 @@ p.feed-starter {
   overflow: hidden;
   text-align: justify;
 }
+
+.sos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.sos-1 {
+  border-radius: 5px;
+  background: url(/assets/images/ship-bg.png), #080509;
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 10%;
+  border: 1.5px solid white;
+  width: 100%;
+}
+
+.sos-1 {
+  padding: 1rem;
+}
+
+.sos-1 h3 {
+  font-size: 1.75rem;
+}
+
+.sos-2 {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.to-right {
+  z-index: 20;
+  margin-left: auto;
+  font-size: 1.35rem;
+}

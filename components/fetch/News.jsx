@@ -36,23 +36,44 @@ const announcement = () => {
     fetchlabels();
   }, []);
 
+  const truncateSHAs = (sha) => {
+    const lengths = 1000;
+    return sha.substring(0, lengths);
+  };
+
   return (
-    <div>
-      {announcement.slice(0, 5).map((announcement) => (
-        <ul key={announcement.node_id}>
-          <li>
-            <h4>Title: {announcement.title}</h4>
-          </li>
-          <li>
-            <p>Update No. : {announcement.number}</p>
-          </li>
-          {/* <li>
+    <div className="sos">
+      {announcement.slice(0, 3).map((announcement) => (
+        <>
+          <ul className="sos-1 mod" key={announcement.node_id}>
+            <li>
+              <h3 className="sos-2">
+                {" "}
+                <img
+                  alt="Avatar"
+                  src="/assets/images/mug.png"
+                  width={50}
+                  height={50}
+                />
+                #{announcement.number} : {announcement.title}
+              </h3>
+            </li>
+            {/* <li>
             <p>{announcement.labels.map((label) => label.name)}</p>
           </li> */}
-          <li>
-            <p>{announcement.body}</p>
-          </li>
-        </ul>
+            <li>
+              <p>{truncateSHAs(announcement.body)}....</p>
+            </li>
+          </ul>
+          <a
+            className="a-button to-right"
+            target="_blank"
+            href={announcement.html_url}
+          >
+            {" "}
+            Read more...{" "}
+          </a>
+        </>
       ))}
     </div>
   );
