@@ -5,7 +5,7 @@ const Navigation = () => (
       <div className="width-class-nav">
         <ul className="navigation-list">
           <li>
-            <Link href="#play" className="nav-buttons">
+            <Link href="#play" scroll={false} className="nav-buttons">
               PLAY
             </Link>
           </li>

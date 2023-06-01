@@ -11,7 +11,6 @@ const Gate = () => (
     />
 
     <LeftGate />
-
     <RightGate />
   </>
 );

@@ -27,6 +27,7 @@ const MainPage = () => (
     <div className="sec-2">
       <div className="sec">
         <Spaceship />
+        <div id="play" />
         <ShipText />
         <Earth />
         <EarthText />
