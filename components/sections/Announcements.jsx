@@ -1,4 +1,3 @@
-import SampleText from "@components/materials/SampleText";
 import Announcements from "@components/fetch/News";
 
 const ShipText = () => (

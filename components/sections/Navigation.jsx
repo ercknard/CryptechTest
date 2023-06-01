@@ -1,28 +1,41 @@
+import Link from "next/link";
 const Navigation = () => (
   <nav>
     <div className="index-navigation-main">
       <div className="width-class-nav">
         <ul className="navigation-list">
           <li>
-            <div className="nav-buttons">PLAY</div>
+            <Link href="#play" className="nav-buttons">
+              PLAY
+            </Link>
           </li>
           <li>
-            <div className="nav-buttons">NEWS</div>
+            <Link href="#news" className="nav-buttons">
+              NEWS
+            </Link>
           </li>
           <li>
-            <div className="nav-buttons">STARSHIPS</div>
+            <Link href="#starships" className="nav-buttons">
+              STARSHIPS
+            </Link>
           </li>
           <li>
             <h1 className="CT-logo "> CT </h1>
           </li>
           <li>
-            <div className="nav-buttons">TEAM</div>
+            <Link href="#team" className="nav-buttons">
+              TEAM
+            </Link>
           </li>
           <li>
-            <div className="nav-buttons">DONATE</div>
+            <Link href="#donate" className="nav-buttons">
+              DONATE
+            </Link>
           </li>
           <li>
-            <div className="nav-buttons">FEEDS</div>
+            <Link href="#feeds" className="nav-buttons">
+              FEEDS
+            </Link>
           </li>
         </ul>
       </div>

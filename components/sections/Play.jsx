@@ -10,7 +10,7 @@ const Spaceship = () => (
 
     <Gate />
 
-    <section className="width-class">
+    <section id="play" className="width-class">
       <h2
         data-aos="zoom-in"
         data-aos-duration={2000}

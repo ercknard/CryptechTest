@@ -6,9 +6,7 @@ import Comets from "@components/materials/Comets";
 const Earth = () => (
   <>
     <PipeToRight />
-
     <GateEarth />
-
     <section className="width-class">
       <h2
         data-aos="zoom-in"
