@@ -16,7 +16,7 @@ const Navigation = () => (
           </li>
           <li>
             <Link href="#starships" className="nav-buttons">
-              STARSHIPS
+              SHIPS
             </Link>
           </li>
           <li>
