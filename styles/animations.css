@@ -1205,3 +1205,15 @@
     background-image: url(/assets/images/scifi-2-violet-2.png);
   }
 } */
+
+@keyframes fake {
+  0% {
+    display: block;
+    transform: translateY(0);
+  }
+
+  100% {
+    display: none;
+    transform: translateY(-10px);
+  }
+}

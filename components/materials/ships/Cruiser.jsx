@@ -18,7 +18,7 @@ const Cruiser = () => {
           height={128}
         />
       </span>
-      <h4> Cruiser </h4>
+      <h4> 3. Cruiser </h4>
     </div>
   );
 };

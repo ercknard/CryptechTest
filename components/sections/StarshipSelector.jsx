@@ -27,7 +27,7 @@ const EarthText = () => (
                 <MediumCruiser />
                 <LargeCruiser />
                 <SuperCruiser />
-                {/* <MegaCruiser /> */}
+                <MegaCruiser />
               </div>
               <ShipSpecification />
             </div>

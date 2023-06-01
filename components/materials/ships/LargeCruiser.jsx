@@ -18,7 +18,7 @@ const LargeCruiser = () => {
           height={128}
         />
       </span>
-      <h4> Large Cruiser </h4>
+      <h4> 5. Large Cruiser </h4>
     </div>
   );
 };

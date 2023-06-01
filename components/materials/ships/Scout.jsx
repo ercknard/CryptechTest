@@ -8,7 +8,10 @@ const Scout = () => {
   };
 
   return (
-    <div onClick={handleClick} className="ships-buttons banner mod ship-color">
+    <div
+      onClick={handleClick}
+      className="ships-buttons banner mod ship-color active-ships"
+    >
       <span>
         <Image
           alt="Ercknard"
@@ -18,7 +21,7 @@ const Scout = () => {
           height={128}
         />
       </span>
-      <h4> Scout </h4>
+      <h4> 1. Scout </h4>
     </div>
   );
 };
