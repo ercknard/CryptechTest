@@ -4,7 +4,7 @@ import React from "react";
 
 const Scout = () => {
   const handleClick = () => {
-    toGate();
+    currentSlideships(1);
   };
 
   return (

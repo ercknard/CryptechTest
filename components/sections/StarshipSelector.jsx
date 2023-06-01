@@ -5,6 +5,7 @@ import MediumCruiser from "@components/materials/ships/MediumCruiser";
 import LargeCruiser from "@components/materials/ships/LargeCruiser";
 import SuperCruiser from "@components/materials/ships/SuperCruiser";
 import MegaCruiser from "@components/materials/ships/MegaCruiser";
+import ShipSpecification from "@components/materials/ships/ShipSpecifications";
 
 const EarthText = () => (
   <section className="container-main-world">
@@ -18,14 +19,17 @@ const EarthText = () => (
           <div className="glow" />
           <div className="pipe-padding">
             <h3> Starship Tiers: </h3>{" "}
-            <div id="op-world" className="agent-home">
-              <Scout />
-              <Surveyor />
-              <Cruiser />
-              <MediumCruiser />
-              <LargeCruiser />
-              <SuperCruiser />
-              <MegaCruiser />
+            <div id="op-world">
+              <div id="ships-active-btn" className="agent-home">
+                <Scout />
+                <Surveyor />
+                <Cruiser />
+                <MediumCruiser />
+                <LargeCruiser />
+                <SuperCruiser />
+                {/* <MegaCruiser /> */}
+              </div>
+              <ShipSpecification />
             </div>
           </div>
         </div>

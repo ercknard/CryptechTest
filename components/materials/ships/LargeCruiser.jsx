@@ -4,7 +4,7 @@ import React from "react";
 
 const LargeCruiser = () => {
   const handleClick = () => {
-    toGate();
+    currentSlideships(5);
   };
 
   return (

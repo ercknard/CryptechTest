@@ -4,7 +4,7 @@ import React from "react";
 
 const Cruiser = () => {
   const handleClick = () => {
-    toGate();
+    currentSlideships(3);
   };
 
   return (

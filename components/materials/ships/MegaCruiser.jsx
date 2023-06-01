@@ -4,7 +4,7 @@ import React from "react";
 
 const MegaCruiser = () => {
   const handleClick = () => {
-    toGate();
+    currentSlideships(7);
   };
 
   return (

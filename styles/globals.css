@@ -735,6 +735,17 @@ svg {
   animation: squid 0.85s infinite alternate;
 }
 
+.active-ships {
+  border-radius: 10px;
+  z-index: 10;
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  filter: drop-shadow(20px 10px 20px rgba(0, 0, 0, 1));
+  -webkit-animation: squid 0.85s infinite alternate;
+  animation: squid 0.85s infinite alternate;
+  transform: scale(1.1);
+}
+
 /* ________________________________________________________________________________________________________________________________ */
 
 .the-ship {
@@ -2713,4 +2724,26 @@ p.feed-starter {
   margin-left: auto;
   font-size: 1.35rem;
   margin-bottom: 1rem;
+}
+
+.mySlides-ships-flex {
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .ship-specs {
+  width: 50%;
+  height: 50%;
+} */
+
+.mySlides-ships ul {
+  font-size: 1.5rem;
+  padding-top: 1rem;
+}
+
+.specs {
+  color: white;
+  text-align: left;
 }

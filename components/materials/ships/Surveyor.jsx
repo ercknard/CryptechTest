@@ -4,7 +4,7 @@ import React from "react";
 
 const Surveyor = () => {
   const handleClick = () => {
-    toGate();
+    currentSlideships(2);
   };
 
   return (

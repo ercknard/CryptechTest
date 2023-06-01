@@ -211,3 +211,58 @@ for (var i = 0; i < btnsfeed.length; i++) {
     this.className += " active-feed";
   });
 }
+
+var slideIndexships = 0;
+carouselships();
+
+function carouselships() {
+  var i;
+  var x = document.getElementsByClassName("mySlides-ships");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  slideIndexships++;
+  if (slideIndexships > x.length) {
+    slideIndexships = 1;
+  }
+  x[slideIndexships - 1].style.display = "block";
+}
+
+function plusSlidesships(n) {
+  showSlideships((slideIndexships += n));
+}
+function currentSlideships(n) {
+  showSlideships((slideIndexships = n));
+}
+
+function showSlideships(n) {
+  autoScroll = false;
+  var i;
+  var slides = document.getElementsByClassName("mySlides-ships");
+  if (n > slides.length) {
+    slideIndexships = 1;
+  }
+  if (n < 1) {
+    slideIndexships = slides.length;
+  }
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slides[slideIndexships - 1].style.display = "block";
+}
+
+var btnContainerships = document.getElementById("ships-active-btn");
+
+var btnsships = btnContainerships.getElementsByClassName("ships-buttons");
+
+for (var i = 0; i < btnsships.length; i++) {
+  btnsships[i].addEventListener("click", function () {
+    var current = document.getElementsByClassName("active-ships");
+
+    if (current.length > 0) {
+      current[0].className = current[0].className.replace(" active-ships", "");
+    }
+
+    this.className += " active-ships";
+  });
+}
