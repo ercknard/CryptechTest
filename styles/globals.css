@@ -264,7 +264,7 @@ p {
     180deg,
     transparent,
     transparent,
-    rgba(96, 180, 244, .1)
+    rgba(96, 180, 244, 0.1)
   );
   background-size: contain;
   z-index: 3;
@@ -956,6 +956,15 @@ svg {
   background-repeat: no-repeat;
 }
 
+.ship-color {
+  background-image: url(/assets/images/ship-border.png),
+    linear-gradient(to top, rgb(130, 60, 223), transparent, transparent);
+  transition: 0.5s ease-in-out;
+  background-size: 145% 138%;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
 .push-color {
   background: linear-gradient(
       -45deg,
@@ -1014,6 +1023,13 @@ svg {
   background-image: url(/assets/images/mod-border.png),
     linear-gradient(to top, rgb(141, 2, 31), transparent);
   border-top: 5px solid rgb(141, 2, 31);
+  background-size: 120% 110%;
+}
+
+.ship-color:hover {
+  background-image: url(/assets/images/ship-border.png),
+    linear-gradient(to top, rgb(130, 60, 223), transparent);
+  border-top: 5px solid rgb(130, 60, 223);
   background-size: 120% 110%;
 }
 
@@ -1388,6 +1404,19 @@ img.vert-move-6 {
   margin-right: auto;
   width: 35%;
   height: 35%;
+  background-image: url(/assets/images/mods-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.ship-icons {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100%;
   background-image: url(/assets/images/mods-bg.png);
   background-repeat: no-repeat;
   background-position: center;

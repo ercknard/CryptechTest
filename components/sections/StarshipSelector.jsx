@@ -1,4 +1,10 @@
-import OrbitalStation from "@components/materials/ships/OrbitalStation";
+import Scout from "@components/materials/ships/Scout";
+import Surveyor from "@components/materials/ships/Surveyor";
+import Cruiser from "@components/materials/ships/Cruiser";
+import MediumCruiser from "@components/materials/ships/MediumCruiser";
+import LargeCruiser from "@components/materials/ships/LargeCruiser";
+import SuperCruiser from "@components/materials/ships/SuperCruiser";
+import MegaCruiser from "@components/materials/ships/MegaCruiser";
 
 const EarthText = () => (
   <section className="container-main-world">
@@ -13,12 +19,13 @@ const EarthText = () => (
           <div className="pipe-padding">
             <h3> Starship Tiers: </h3>{" "}
             <div id="op-world" className="agent-home">
-              <OrbitalStation />
-              <OrbitalStation />
-              <OrbitalStation />
-              <OrbitalStation />
-              <OrbitalStation />
-              <OrbitalStation />
+              <Scout />
+              <Surveyor />
+              <Cruiser />
+              <MediumCruiser />
+              <LargeCruiser />
+              <SuperCruiser />
+              <MegaCruiser />
             </div>
           </div>
         </div>
