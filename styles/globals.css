@@ -2720,7 +2720,7 @@ p.feed-starter {
 }
 
 .slideshow-container-ships {
-  height: 30vh;
+  min-height: 30vh;
 }
 
 .mySlides-ships-flex {
