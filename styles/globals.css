@@ -2726,6 +2726,10 @@ p.feed-starter {
   margin-bottom: 1rem;
 }
 
+.slideshow-container-ships {
+  height: 35vh;
+}
+
 .mySlides-ships-flex {
   display: flex !important;
   flex-wrap: wrap;
