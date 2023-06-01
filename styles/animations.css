@@ -1162,7 +1162,7 @@
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
-    background-image: url(/assets/images/station-1.webp),
+    background-image: url(/assets/images/station-2.webp),
       url(/assets/images/scifi-2-violet-2.png);
   }
 
@@ -1170,7 +1170,7 @@
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
-    background-image: url(/assets/images/station-1.webp),
+    background-image: url(/assets/images/station-2.webp),
       url(/assets/images/scifi-2-violet.png);
   }
 
@@ -1178,7 +1178,30 @@
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
-    background-image: url(/assets/images/station-1.webp),
+    background-image: url(/assets/images/station-2.webp),
       url(/assets/images/scifi-2-violet-2.png);
   }
 }
+
+/* @keyframes ship-bg {
+  0% {
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(/assets/images/scifi-2-violet-2.png);
+  }
+
+  50% {
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(/assets/images/scifi-2-violet.png);
+  }
+
+  100% {
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(/assets/images/scifi-2-violet-2.png);
+  }
+} */
