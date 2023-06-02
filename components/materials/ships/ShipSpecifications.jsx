@@ -5,7 +5,7 @@ import Image from "next/image";
 const ShipSpecification = () => (
   <div className="slideshow-container-ships">
     <div className="mySlides-ships fade">
-      <div className="mySlides-ships-flex">
+      <div className="mySlides-ships-flex banner mods ship-selected-color">
         <Image
           alt="Ships"
           className="ship-specs squid"
@@ -25,7 +25,7 @@ const ShipSpecification = () => (
       </div>
     </div>
     <div className="mySlides-ships fade">
-      <div className="mySlides-ships-flex">
+      <div className="mySlides-ships-flex banner mods ship-selected-color">
         <Image
           alt="Ships"
           className="ship-specs squid"
@@ -46,7 +46,7 @@ const ShipSpecification = () => (
       </div>
     </div>
     <div className="mySlides-ships fade">
-      <div className="mySlides-ships-flex">
+      <div className="mySlides-ships-flex banner mods ship-selected-color">
         <Image
           alt="Ships"
           className="ship-specs squid"
@@ -67,7 +67,7 @@ const ShipSpecification = () => (
       </div>
     </div>
     <div className="mySlides-ships fade">
-      <div className="mySlides-ships-flex">
+      <div className="mySlides-ships-flex banner mods ship-selected-color">
         <Image
           alt="Ships"
           className="ship-specs squid"
@@ -89,7 +89,7 @@ const ShipSpecification = () => (
       </div>
     </div>
     <div className="mySlides-ships fade">
-      <div className="mySlides-ships-flex">
+      <div className="mySlides-ships-flex banner mods ship-selected-color">
         <Image
           alt="Ships"
           className="ship-specs squid"
@@ -112,7 +112,7 @@ const ShipSpecification = () => (
       </div>
     </div>
     <div className="mySlides-ships fade">
-      <div className="mySlides-ships-flex">
+      <div className="mySlides-ships-flex banner mods ship-selected-color">
         <Image
           alt="Ships"
           className="ship-specs squid"
@@ -135,7 +135,7 @@ const ShipSpecification = () => (
       </div>
     </div>
     <div className="mySlides-ships fade">
-      <div className="mySlides-ships-flex">
+      <div className="mySlides-ships-flex banner mods ship-selected-color">
         <Image
           alt="Ships"
           className="ship-specs squid"

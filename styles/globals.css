@@ -969,6 +969,16 @@ svg {
   background-repeat: no-repeat;
 }
 
+.ship-selected-color {
+  background-image: url(/assets/images/stars.png),
+    url(/assets/images/station-3.webp),
+    linear-gradient(to top, rgba(130, 60, 223, 0.75), transparent, transparent);
+  transition: 0.5s ease-in-out;
+  background-size: cover;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+}
+
 .push-color {
   background: linear-gradient(
       -45deg,
@@ -1479,6 +1489,10 @@ img.vert-move-6 {
 
 .mod:hover {
   transform: scale(1.05);
+}
+
+.mods:hover {
+  transform: scale(1);
 }
 
 /* ________________________________________________________________________________________________________________________________ */
@@ -2735,6 +2749,7 @@ p.feed-starter {
 @media (max-width: 1920px) {
   .slideshow-container-ships {
     height: 40vh;
+    margin-bottom: 7rem;
   }
 }
 
