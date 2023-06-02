@@ -21,7 +21,7 @@ const Scout = () => {
           height={128}
         />
       </span>
-      <h4> 1. Scout </h4>
+      <h4> Tier 1: Scout </h4>
     </div>
   );
 };

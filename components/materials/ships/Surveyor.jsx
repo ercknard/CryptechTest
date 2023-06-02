@@ -18,7 +18,7 @@ const Surveyor = () => {
           height={128}
         />
       </span>
-      <h4> 2. Surveyor </h4>
+      <h4> Tier 2: Surveyor </h4>
     </div>
   );
 };

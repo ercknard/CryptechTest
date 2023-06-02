@@ -18,7 +18,7 @@ const MegaCruiser = () => {
           height={128}
         />
       </span>
-      <h4> 7. Mega Cruiser </h4>
+      <h4> Tier 7: Mega Cruiser </h4>
     </div>
   );
 };

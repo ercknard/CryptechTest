@@ -2720,7 +2720,9 @@ p.feed-starter {
 }
 
 .slideshow-container-ships {
-  height: 30vh;
+  position: relative;
+  height: 35vh;
+  width: auto;
 }
 
 .mySlides-ships-flex {
@@ -2731,9 +2733,8 @@ p.feed-starter {
 }
 
 @media (max-width: 1920px) {
-  .ship-specs {
-    width: 20%;
-    height: 20%;
+  .slideshow-container-ships {
+    height: 40vh;
   }
 }
 

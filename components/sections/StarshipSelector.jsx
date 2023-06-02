@@ -20,6 +20,7 @@ const EarthText = () => (
           <div className="pipe-padding">
             <h3> Starship Tiers: </h3>{" "}
             <div id="op-world">
+              <ShipSpecification />
               <div id="ships-active-btn" className="agent-home">
                 <Scout />
                 <Surveyor />
@@ -29,7 +30,6 @@ const EarthText = () => (
                 <SuperCruiser />
                 <MegaCruiser />
               </div>
-              <ShipSpecification />
             </div>
           </div>
         </div>
