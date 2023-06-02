@@ -808,6 +808,24 @@ svg {
   /* clip-path: polygon(2.5% 0%, 100% 0%, 97.5% 100%, 0% 100%); */
 }
 
+.banner-ships {
+  margin-top: 1rem;
+  transform: skewY(0deg);
+  background: rgba(0, 0, 0, 0.5);
+  border-image: linear-gradient(
+      rgba(255, 255, 255, 0.25),
+      rgba(255, 255, 255, 0.75)
+    )
+    10;
+  border-width: 2.5px;
+  border-style: solid;
+  transition: 0.5s ease-in-out;
+  min-width: 17.5%;
+  border-radius: 5px;
+  filter: saturate(125%);
+  /* clip-path: polygon(2.5% 0%, 100% 0%, 97.5% 100%, 0% 100%); */
+}
+
 @media (max-width: 768px) {
   .coin-buttons {
     min-width: 45%;
@@ -970,9 +988,12 @@ svg {
 }
 
 .ship-selected-color {
-  background-image: url(/assets/images/stars.png),
-    url(/assets/images/station-3.webp),
-    linear-gradient(to top, rgba(130, 60, 223, 0.75), transparent, transparent);
+  background-image: linear-gradient(
+    to top,
+    rgba(130, 60, 223, 0.75),
+    transparent,
+    transparent
+  );
   transition: 0.5s ease-in-out;
   background-size: cover;
   background-position: bottom center;
