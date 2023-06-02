@@ -2753,9 +2753,23 @@ p.feed-starter {
   }
 }
 
+/* @media (max-width: 1600px) {
+  .slideshow-container-ships {
+    height: 40vh;
+    margin-bottom: 15rem;
+  }
+} */
+
 /* .ship-specs {
   
 } */
+
+@media (max-width: 1600px) {
+  .ship-specs {
+    width: 30%;
+    height: 20%;
+  }
+}
 
 .mySlides-ships ul {
   font-size: 1.5rem;
