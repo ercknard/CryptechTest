@@ -5,7 +5,7 @@ const ShipText = () => (
     <div className="container-main sky-bg">
       <div className="width-class sky-op card">
         <div
-          data-aos="fade-left"
+          data-aos="zoom-out"
           data-aos-easing="ease-in-out"
           data-aos-duration={500}
         >

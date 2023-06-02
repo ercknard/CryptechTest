@@ -18,7 +18,7 @@ const AdminCard = () => (
         <div className="width-class admin-op card">
           {" "}
           <div
-            data-aos="fade-left"
+            data-aos="zoom-out"
             data-aos-easing="ease-in-out"
             data-aos-duration={500}
           >
