@@ -792,6 +792,13 @@ svg {
   filter: drop-shadow(5px 5px 100px rgba(255, 255, 255, 0.75));
 }
 
+@media (max-width: 768px) {
+  .ship-orbital {
+    width: 90%;
+    padding: 1rem;
+  }
+}
+
 .ship {
   position: absolute;
   width: 55vh;
