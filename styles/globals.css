@@ -760,6 +760,20 @@ svg {
   z-index: 15;
 }
 
+.ship-orbital {
+  position: absolute;
+  width: 55vh;
+  height: auto;
+  z-index: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  filter: drop-shadow(5px 5px 100px rgba(255, 255, 255, 0.75));
+}
+
 .ship {
   position: absolute;
   width: 55vh;
@@ -772,6 +786,12 @@ svg {
   bottom: 0;
   margin: auto;
   filter: drop-shadow(5px 5px 100px rgba(255, 255, 255, 0.75));
+}
+
+@media (max-width: 768px) {
+  .ship {
+    display: none;
+  }
 }
 
 .agent {
@@ -1877,6 +1897,15 @@ img.vert-move-6 {
   transform: translateX(0vw) skewX(20deg);
   transition: 2s ease-out;
   margin-top: -1rem;
+}
+
+@media (max-width: 768px) {
+  .left-valve-out,
+  .left-valve,
+  .right-valve,
+  .right-valve-out {
+    display: none;
+  }
 }
 
 /* .left-valve:hover {
