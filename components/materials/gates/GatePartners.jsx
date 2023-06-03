@@ -1,14 +1,10 @@
 import LeftGatePartners from "./LeftGatePartners";
 import RightGatePartners from "./RightGatePartners";
+import Controls from "../Controls";
 
 const GatePartners = () => (
   <>
-    <input
-      placeholder="controls"
-      alt="controls"
-      type="checkbox"
-      unchecked="true"
-    />
+    <Controls />
 
     <LeftGatePartners />
 

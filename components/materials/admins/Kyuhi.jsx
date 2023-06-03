@@ -10,9 +10,8 @@ const Kyuhi = () => (
       width={357}
       height={649}
     />
-    <div className="to-flex">
+    <div className="test">
       <div>
-        <Comets />
         <Image
           alt="Kyuhi"
           className="leads-photo squid"
@@ -35,6 +34,7 @@ const Kyuhi = () => (
         </a>
       </div>
     </div>
+    <Comets />
   </div>
 );
 

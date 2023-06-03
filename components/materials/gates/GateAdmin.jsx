@@ -1,14 +1,10 @@
 import LeftGateAdmin from "./LeftGateAdmin";
 import RightGateAdmin from "./RightGateAdmin";
+import Controls from "../Controls";
 
 const GateAdmin = () => (
   <>
-    <input
-      placeholder="controls"
-      alt="controls"
-      type="checkbox"
-      unchecked="true"
-    />
+    <Controls />
 
     <LeftGateAdmin />
 

@@ -1,14 +1,10 @@
 import LeftGateEarth from "./LeftGateEarth";
 import RightGateEarth from "./RightGateEarth";
+import Controls from "../Controls";
 
 const GateEarth = () => (
   <>
-    <input
-      placeholder="controls"
-      alt="controls"
-      type="checkbox"
-      unchecked="true"
-    />
+    <Controls />
 
     <LeftGateEarth />
 

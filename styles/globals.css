@@ -33,6 +33,11 @@ html {
     font-size: 0.7rem;
   }
 }
+@media (max-width: 1200px) {
+  html {
+    font-size: 0.6rem;
+  }
+}
 
 body::-webkit-scrollbar {
   display: none;
@@ -759,7 +764,7 @@ svg {
   position: absolute;
   width: 55vh;
   height: auto;
-  z-index: 2;
+  z-index: 0;
   left: 0;
   right: 0;
   text-align: center;
@@ -2027,6 +2032,7 @@ p.coin-bg {
 }
 
 .test {
+  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2035,6 +2041,9 @@ p.coin-bg {
   vertical-align: middle;
   width: 75%;
   height: 50vh;
+  z-index: 100;
+  left: 0;
+  right: 0;
 }
 
 .leads-portrait-1 {
@@ -2067,29 +2076,40 @@ p.coin-bg {
   transition: 1s ease-in-out;
 }
 
-input[type="checkbox"] {
+input[type="checkbox"].left-checkbox {
   position: absolute;
   cursor: pointer;
-  width: 100%;
+  width: 25%;
   height: 63.9vh;
   z-index: 20;
   opacity: 0;
   overflow-x: hidden;
 }
 
-input[type="checkbox"]:hover ~ div.left-valve-out {
+input[type="checkbox"].right-checkbox {
+  position: absolute;
+  cursor: pointer;
+  width: 25%;
+  height: 63.9vh;
+  z-index: 20;
+  opacity: 0;
+  right: 0;
+  overflow-x: hidden;
+}
+
+input[type="checkbox"].left-checkbox:hover ~ div.left-valve-out {
   transform: translateX(-1vw) skewX(20deg);
 }
 
-input[type="checkbox"]:hover ~ div.right-valve-out {
+input[type="checkbox"].right-checkbox:hover ~ div.right-valve-out {
   transform: translateX(51vw) skewX(-20deg);
 }
 
-input[type="checkbox"]:checked ~ div.left-valve-out {
+input[type="checkbox"].left-checkbox:checked ~ div.left-valve-out {
   transform: translateX(-50vw) skewX(20deg);
 }
 
-input[type="checkbox"]:checked ~ div.right-valve-out {
+input[type="checkbox"].right-checkbox:checked ~ div.right-valve-out {
   transform: translateX(100vw) skewX(-20deg);
 }
 
@@ -2136,11 +2156,12 @@ input[type="checkbox"]:checked ~ div.right-valve-out {
 
 .modal-content {
   position: fixed;
-  width: 40%;
+  width: 100%;
   text-align: center;
-  top: 25%;
-  left: 50%;
-  transform: translate(-50%, 0);
+  top: 35vh;
+  bottom: 50vh;
+  left: 0;
+  right: 0;
 }
 
 .right-valve-modal {
@@ -2374,18 +2395,20 @@ input[type="checkbox"]:checked ~ div.right-valve-out {
 /* ________________________________________________________________________________________________________________________________ */
 
 .image-selection-fab {
+  background-image: url(/assets/images/mods-bg.png);
   padding: 1px;
   width: 65px;
   height: auto;
   filter: drop-shadow(0px 0px 5px rgba(225, 225, 225, 1)) contrast(110%)
     brightness(105%);
   opacity: 1;
-  -webkit-clip-path: circle(50% at 50% 50%);
-  clip-path: circle(50% at 50% 50%);
+  /* -webkit-clip-path: circle(50% at 50% 50%);
+  clip-path: circle(50% at 50% 50%); */
   cursor: pointer;
 }
 
 .image-selection-fab:hover {
+  background-image: url(/assets/images/mods-bg.png);
   filter: drop-shadow(0px 0px 50px rgba(225, 225, 225, 1));
   opacity: 1;
   animation-name: shakess;

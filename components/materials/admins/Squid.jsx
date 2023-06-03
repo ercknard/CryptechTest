@@ -10,9 +10,8 @@ const Squid = () => (
       width={357}
       height={649}
     />
-    <div className="to-flex">
+    <div className="test">
       <div>
-        <Comets />
         <Image
           alt="Squid"
           className="leads-photo squid"
@@ -35,6 +34,7 @@ const Squid = () => (
         </a>
       </div>
     </div>
+    <Comets />
   </div>
 );
 

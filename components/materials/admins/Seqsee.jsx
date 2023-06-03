@@ -10,9 +10,8 @@ const Seqsee = () => (
       width={357}
       height={649}
     />
-    <div className="to-flex">
+    <div className="test">
       <div>
-        <Comets />
         <Image
           alt="Seqsee"
           className="leads-photo squid"
@@ -35,6 +34,7 @@ const Seqsee = () => (
         </a>
       </div>
     </div>
+    <Comets />
   </div>
 );
 

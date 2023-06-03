@@ -10,9 +10,8 @@ const Vanikoro = () => (
       width={357}
       height={649}
     />
-    <div className="to-flex">
+    <div className="test">
       <div>
-        <Comets />
         <Image
           alt="Vanikoro"
           className="leads-photo squid"
@@ -35,6 +34,7 @@ const Vanikoro = () => (
         </a>
       </div>
     </div>
+    <Comets />
   </div>
 );
 

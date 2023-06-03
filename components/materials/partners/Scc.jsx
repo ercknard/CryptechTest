@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Scc = () => (
   <>
-    <div className="to-flex">
+    <div className="test">
       <div>
         <Image
           alt="partners"

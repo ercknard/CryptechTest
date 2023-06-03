@@ -1,9 +1,11 @@
+import Comets from "./Comets";
 import ModalGate from "./ModalGate";
 import Image from "next/image";
 
 const Modal = () => (
   <>
     <div id="myModal" className="modal">
+      <Comets />
       <ModalGate />
 
       <div className="modal-content">

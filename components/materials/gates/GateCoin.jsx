@@ -1,14 +1,10 @@
 import LeftGateCoin from "./LeftGateCoin";
 import RightGateCoin from "./RightGateCoin";
+import Controls from "../Controls";
 
 const GateCoin = () => (
   <>
-    <input
-      placeholder="controls"
-      alt="controls"
-      type="checkbox"
-      unchecked="true"
-    />
+    <Controls />
 
     <LeftGateCoin />
 
