@@ -1801,6 +1801,12 @@ img.vert-move-6 {
   z-index: -2;
 }
 
+@media (max-width: 768px) {
+  .glitch:after .glitch:before {
+    animation: none;
+  }
+}
+
 /* ________________________________________________________________________________________________________________________________ */
 
 /* .sky-op::before,
@@ -2108,7 +2114,7 @@ p.coin-bg {
 
 @media (max-width: 768px) {
   .test {
-    height: 40vh;
+    height: 45vh;
   }
 }
 
