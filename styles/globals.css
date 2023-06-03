@@ -772,6 +772,12 @@ svg {
   z-index: 15;
 }
 
+@media (max-width: 768px) {
+  .the-ship {
+    height: 40vh;
+  }
+}
+
 .ship-orbital {
   position: absolute;
   width: 55vh;
@@ -2091,6 +2097,12 @@ p.coin-bg {
   z-index: 100;
   left: 0;
   right: 0;
+}
+
+@media (max-width: 768px) {
+  .test {
+    height: 40vh;
+  }
 }
 
 .leads-portrait-1 {
