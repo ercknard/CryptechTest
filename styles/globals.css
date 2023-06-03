@@ -2724,6 +2724,11 @@ p.feed-starter {
   overflow: hidden;
   text-align: justify;
 }
+@media (max-width: 768px) {
+  .details {
+    width: 100%;
+  }
+}
 
 .details-server {
   margin-right: auto;
@@ -2734,6 +2739,12 @@ p.feed-starter {
   text-align: center;
   border: 10px solid black;
   border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .details-server {
+    width: 75%;
+  }
 }
 
 .sos {
