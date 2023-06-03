@@ -23,20 +23,25 @@ const MainPage = () => (
     <PepeKeychain />
     <Navigation />
     <LandingPage />
-    <PepeSpace />
     <div className="sec-2">
       <div className="sec">
+        <PepeSpace />
         <Spaceship />
         <div id="play" />
         <ShipText />
+        <div id="news" />
         <Earth />
         <EarthText />
+        <div id="starships" />
         <AdminCover />
         <AdminCard />
+        <div id="team" />
         <TestCoin />
         <Donate />
+        <div id="donate" />
         <OurPartners />
         <GithubFeeds />
+        <div id="feeds" />
         <BottomWorld />
       </div>
     </div>

@@ -5,7 +5,7 @@ const Navigation = () => (
       <div className="width-class-nav">
         <ul className="navigation-list">
           <li>
-            <Link href="#play" scroll={false} className="nav-buttons">
+            <Link href="#play" className="nav-buttons">
               PLAY
             </Link>
           </li>
@@ -20,7 +20,9 @@ const Navigation = () => (
             </Link>
           </li>
           <li>
-            <h1 className="CT-logo "> CT </h1>
+            <Link href="#cleo" className="a-button">
+              <h1 className="CT-logo "> CT </h1>
+            </Link>
           </li>
           <li>
             <Link href="#team" className="nav-buttons">

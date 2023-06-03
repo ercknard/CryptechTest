@@ -6,7 +6,7 @@ const LandingPage = () => (
   <>
     <Glitters />
 
-    <section className="earth-bg">
+    <section id="cleo" className="earth-bg">
       <Image
         data-aos="fade-up"
         data-aos-duration="3000"

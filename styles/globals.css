@@ -291,7 +291,6 @@ p {
   background-size: 125% 125%;
   -webkit-animation: sec-bg 30s infinite;
   animation: sec-bg 30s infinite;
-  padding-top: 1rem;
 }
 
 .sec-title {
@@ -573,7 +572,7 @@ header {
 
 #pepe-land {
   position: absolute;
-  z-index: 999;
+  z-index: 15;
   top: -10%;
   left: 0%;
   width: 10vw;
@@ -624,8 +623,7 @@ header {
   background-position: center;
   box-shadow: 1px 1px 25px white;
   /* transform: skewY(-5deg); */
-  border-bottom: 2px solid var(--kyuhi);
-  border-top: 2px solid var(--kyuhi);
+  border-bottom: 5px solid white;
 }
 
 .pepe {
