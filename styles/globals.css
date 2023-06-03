@@ -20,6 +20,7 @@ html {
   font-family: "VT323";
   /* scroll-snap-type: both proximity; */
   scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
 }
 
 @media (max-width: 1920px) {
@@ -291,6 +292,10 @@ p {
   background-size: 125% 125%;
   -webkit-animation: sec-bg 30s infinite;
   animation: sec-bg 30s infinite;
+}
+
+.sec > section {
+  scroll-snap-align: start;
 }
 
 .sec-title {
