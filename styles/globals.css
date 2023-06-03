@@ -39,6 +39,12 @@ html {
   }
 }
 
+@media (max-width: 768px) {
+  html {
+    font-size: 0.6rem;
+  }
+}
+
 body::-webkit-scrollbar {
   display: none;
   -ms-overflow-style: none;
@@ -64,6 +70,12 @@ p {
   height: 100vh;
   color: #fff;
   z-index: 0;
+}
+
+@media (max-width: 768px) {
+  #particles-js {
+    display: none;
+  }
 }
 
 /* ________________________________________________________________________________________________________________________________ */
@@ -853,7 +865,7 @@ svg {
 
 @media (max-width: 768px) {
   .coin-buttons {
-    min-width: 45%;
+    width: 45%;
   }
 }
 
@@ -1815,6 +1827,12 @@ img.vert-move-6 {
   z-index: 15;
 }
 
+@media (max-width: 768px) {
+  .container-main::after {
+    display: none;
+  }
+}
+
 /* ________________________________________________________________________________________________________________________________ */
 
 .right-valve {
@@ -2353,6 +2371,15 @@ input[type="checkbox"].right-checkbox:checked ~ div.right-valve-out {
   overflow: hidden;
 }
 
+@media (max-width: 768px) {
+  #myModal,
+  #modal-main,
+  .right-valve-modal,
+  .left-valve-modal {
+    display: none;
+  }
+}
+
 /* ________________________________________________________________________________________________________________________________ */
 
 .gear {
@@ -2542,6 +2569,16 @@ input[type="checkbox"].right-checkbox:checked ~ div.right-valve-out {
     display: flex;
     align-items: center;
     min-height: 90vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .floating-button
+    .floating-container
+    .image-selection-fab
+    .material-icons
+    .float-element {
+    display: none;
   }
 }
 

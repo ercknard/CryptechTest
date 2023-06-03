@@ -9,6 +9,13 @@
   pointer-events: none;
   z-index: 9999;
 }
+
+@media (max-width: 768px) {
+  .firefly {
+    display: none;
+  }
+}
+
 .firefly::before,
 .firefly::after {
   content: "";
