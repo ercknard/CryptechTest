@@ -1808,7 +1808,8 @@ img.vert-move-6 {
 }
 
 @media (max-width: 768px) {
-  .glitch:after .glitch:before {
+  .glitch::after,
+  .glitch::before {
     animation: none;
   }
 }
@@ -2611,11 +2612,11 @@ input[type="checkbox"].right-checkbox:checked ~ div.right-valve-out {
 }
 
 @media (max-width: 768px) {
-  .floating-button
-    .floating-container
-    .image-selection-fab
-    .material-icons
-    .float-element {
+  .floating-button,
+  .floating-container,
+  .image-selection-fab,
+  .material-icons,
+  .float-element {
     display: none;
   }
 }
