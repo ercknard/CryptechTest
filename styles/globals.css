@@ -1042,15 +1042,11 @@ svg {
 }
 
 .ship-selected-color {
-  background-image: linear-gradient(
-    to top,
-    rgba(130, 60, 223, 0.75),
-    transparent,
-    transparent
-  );
+  background-image: url(/assets/images/ship-border.png),
+    linear-gradient(to top, rgba(130, 60, 223, 0.5), transparent, transparent);
   transition: 0.5s ease-in-out;
-  background-size: cover;
-  background-position: bottom center;
+  background-size: 147.5% 200%;
+  background-position: center center;
   background-repeat: no-repeat;
 }
 
