@@ -19,7 +19,7 @@ const Vanikoro = () => (
           width={128}
           height={128}
         />
-        <h3>Greetings, Welcome to CryptechTest</h3>
+        <h3 className="to-center">Greetings, Welcome to CryptechTest</h3>
         <p>
           <ion-icon name="logo-discord" /> Discord: Vanikoro
         </p>

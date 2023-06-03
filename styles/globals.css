@@ -480,6 +480,12 @@ header {
   height: 50%;
 }
 
+@media (max-width: 768px) {
+  .nav-buttons {
+    display: none;
+  }
+}
+
 /* ________________________________________________________________________________________________________________________________ */
 
 .main-footer {
@@ -841,7 +847,7 @@ svg {
 
 @media (max-width: 768px) {
   .agent-home {
-    gap: 1rem;
+    gap: 3rem;
   }
 }
 
@@ -2114,7 +2120,7 @@ p.coin-bg {
 
 @media (max-width: 768px) {
   .test {
-    height: 45vh;
+    height: 40vh;
   }
 }
 
@@ -2187,6 +2193,13 @@ input[type="checkbox"].right-checkbox:checked ~ div.right-valve-out {
 
 .earth-bg img#secondary-front-bg {
   filter: drop-shadow(0px 0px 5px#9d822b);
+}
+
+@media (max-width: 768px) {
+  .right-checkbox,
+  .left-checkbox {
+    display: none;
+  }
 }
 
 /* ________________________________________________________________________________________________________________________________ */
@@ -2892,6 +2905,14 @@ p.feed-starter {
   align-items: center;
 }
 
+@media (max-width: 768px) {
+  .mySlides-ships-flex {
+    flex-direction: column;
+    padding-bottom: 1rem;
+    margin-bottom: 30rem;
+  }
+}
+
 @media (max-width: 1920px) {
   .slideshow-container-ships {
     height: 40vh;
@@ -2899,12 +2920,12 @@ p.feed-starter {
   }
 }
 
-/* @media (max-width: 1600px) {
+@media (max-width: 678px) {
   .slideshow-container-ships {
     height: 40vh;
-    margin-bottom: 15rem;
+    margin-bottom: 12rem;
   }
-} */
+}
 
 /* .ship-specs {
   
@@ -2914,6 +2935,12 @@ p.feed-starter {
   .ship-specs {
     width: 30%;
     height: 20%;
+  }
+}
+
+@media (max-width: 768px) {
+  .ship-specs {
+    width: 90%;
   }
 }
 
