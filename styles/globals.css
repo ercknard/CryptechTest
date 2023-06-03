@@ -573,7 +573,7 @@ header {
 #pepe-land {
   position: absolute;
   z-index: 15;
-  top: -10%;
+  top: -20%;
   left: 0%;
   width: 10vw;
   height: 18.5vw;
@@ -585,7 +585,7 @@ header {
   bottom: 40%;
   left: 9vw;
   z-index: 999;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   color: white;
   padding: 0.5rem;
   padding-left: 5rem;
