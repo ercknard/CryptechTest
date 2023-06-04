@@ -2,9 +2,9 @@
 import DiscordMessages from "@public/assets/scripts/ForDc";
 
 const DCAnnouncements = () => {
-  const channelId = "709337746891604058"; // Replace with the actual channel ID
+  const channelId = "709352429044629621"; // Replace with the actual channel ID
   const token =
-    "MTA3NjAxODM1NzI0NzE2MDM4MA.GvupgV.WWGHXWcy1bIuyWkZPr_y50u7fCA56-NSWNnka8"; // Replace with your Discord bot token
+    "Bot ODYzNTkwOTc1MDY2OTk2Nzc2.GBURJB.zmUMIgNoxUDzptQCQFOQZJDovzQ11ETTJMaTXw"; // Replace with your Discord bot token
 
   return (
     <div>

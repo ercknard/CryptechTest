@@ -9,10 +9,11 @@ const DiscordMessages = ({ channelId, token }) => {
     const fetchMessages = async () => {
       try {
         const response = await axios.get(
-          `https://discord.com/api/v10/channels/${channelId}/messages`,
+          `https://discord.com/api/v9/channels/${channelId}/messages`,
           {
-            headers: {
-              Authorization: `Bot ${token}`,
+            params: {
+              channelId,
+              token,
             },
           }
         );
