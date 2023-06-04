@@ -27,21 +27,21 @@ const MainPage = () => (
       <div className="sec">
         <PepeSpace />
         <Spaceship />
-        <div id="play" />
+        <section id="play" />
         <ShipText />
-        <div id="news" />
+        <section id="news" />
         <Earth />
         <EarthText />
-        <div id="starships" />
+        <section id="starships" />
         <AdminCover />
         <AdminCard />
-        <div id="team" />
+        <section id="team" />
         <TestCoin />
         <Donate />
-        <div id="donate" />
+        <section id="donate" />
         <OurPartners />
         <GithubFeeds />
-        <div id="feeds" />
+        <section id="feeds" />
         <BottomWorld />
       </div>
     </div>
