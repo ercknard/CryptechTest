@@ -45,7 +45,7 @@ const announcement = () => {
     <div>
       {announcement.slice(0, 3).map((announcement) => (
         <div className="sos" key={announcement.node_id}>
-          <ul className="sos-1 mod">
+          <ul className="sos-1 mod news-selected-color">
             <li>
               <h3 className="sos-2">
                 {" "}
