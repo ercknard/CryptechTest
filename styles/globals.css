@@ -1841,7 +1841,8 @@ img.vert-move-6 {
   .sky-op::before,
   .world-op::before,
   .admin-op::before,
-  .coins-op::before {
+  .coins-op::before,
+  .feed-op::before {
     display: none;
   }
 }
