@@ -290,6 +290,7 @@ p {
   background-size: 125% 125%;
   -webkit-animation: sec-bg 30s infinite;
   animation: sec-bg 30s infinite;
+  /* padding-top: 15vh; */
 }
 
 .sec > section {
@@ -617,6 +618,7 @@ header {
 }
 
 #pepe {
+  visibility: hidden;
   position: relative;
   overflow: hidden;
   height: 12.5vh;
@@ -2980,4 +2982,14 @@ p.feed-starter {
 .specs {
   color: white;
   text-align: left;
+}
+
+.ship-specs-main {
+  position: absolute;
+  top: 50%;
+  width: 100vw;
+  height: 100vh;
+  z-index: 18;
+  transition: 0.5s;
+  overflow: hidden;
 }

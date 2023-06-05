@@ -18,6 +18,7 @@ let leftfeed = document.getElementById("left-valve-feed");
 let rightfeed = document.getElementById("right-valve-feed");
 let leftpartner = document.getElementById("left-valve-partners");
 let rightpartner = document.getElementById("right-valve-partners");
+// let ships = document.getElementById("main-ship");
 // let space = document.getElementById('op-space');
 // let world = document.getElementById('op-world');
 // let admin = document.getElementById('op-admin');
@@ -45,6 +46,7 @@ window.addEventListener("scroll", function () {
   rightpartner.style.left = value * 0.08 + "px";
   leftfeed.style.left = value * -0.05 + "px";
   rightfeed.style.left = value * 0.05 + "px";
+  // ships.style.top = value * 0.5 + "px";
   // space.style.left = value * 0.40 + 'px';
   // world.style.top = value * 0.40 + 'px';
   // admin.style.top = value * 0.40 + 'px';

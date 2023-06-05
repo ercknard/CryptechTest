@@ -17,6 +17,7 @@ import Donate from "@components/sections/Donate";
 import Fabs from "@components/materials/Fabs";
 import GithubFeeds from "./GithubFeeds";
 import OurPartners from "./OurPartners";
+import Image from "next/image";
 
 const MainPage = () => (
   <>
@@ -24,6 +25,14 @@ const MainPage = () => (
     <Navigation />
     <LandingPage />
     <div className="sec-2">
+      <Image
+        alt="Ships"
+        id="main-ship"
+        className="ship-specs-main"
+        src="/assets/images/station-1.webp"
+        width={3620}
+        height={1969}
+      />
       <div className="sec">
         <PepeSpace />
         <Spaceship />

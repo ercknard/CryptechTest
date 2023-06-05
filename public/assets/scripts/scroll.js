@@ -5357,3 +5357,10 @@ $(function () {
     $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
   });
 });
+
+// $(function () {
+//   $(document).scroll(function () {
+//     var $nav = $(".ship-specs-main");
+//     $nav.toggleClass("scrolled", $(this).scrollTop() < $nav.height());
+//   });
+// });
