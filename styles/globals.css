@@ -44,10 +44,27 @@ html {
   }
 }
 
-body::-webkit-scrollbar {
+/* body::-webkit-scrollbar {
   display: none;
   -ms-overflow-style: none;
   scrollbar-width: none;
+} */
+
+body::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 100px;
+  margin: 1vh 0;
+}
+
+/* Track */
+body::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 100px;
 }
 
 body {
