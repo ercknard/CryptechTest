@@ -307,7 +307,7 @@ p {
   background-size: 125% 125%;
   -webkit-animation: sec-bg 30s infinite;
   animation: sec-bg 30s infinite;
-  padding-top: 10vh;
+  /* padding-top: 10vh; */
 }
 
 .sec-title {
