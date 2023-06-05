@@ -371,6 +371,16 @@ p {
   background-size: cover;
 }
 
+/* .sec-2::before {
+  content: url(/assets/images/station-1.webp);
+  position: absolute;
+  width: 100px;
+  transform: scale(1);
+  margin-left: -22.25rem;
+  margin-top: -60rem;
+  z-index: 18;
+} */
+
 /* ________________________________________________________________________________________________________________________________ */
 
 header {
@@ -2982,7 +2992,7 @@ p.feed-starter {
 .ship-specs-main {
   position: absolute;
   top: 50%;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   z-index: 18;
 }
