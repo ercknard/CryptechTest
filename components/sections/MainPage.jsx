@@ -25,16 +25,19 @@ const MainPage = () => (
     <Navigation />
     <LandingPage />
     <div className="sec-2">
-      {/* <Image
+      <Image
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        priority="true"
         alt="Ships"
         id="main-ship"
         className="ship-specs-main"
         src="/assets/images/station-1.webp"
-        width={3620}
-        height={1969}
-      /> */}
+        width={1920}
+        height={1080}
+      />
       <div className="sec">
-        <PepeSpace />
+        {/* <PepeSpace /> */}
         <Spaceship />
         <section id="play" />
         <ShipText />

@@ -18,6 +18,7 @@ html {
   font-size: 1rem;
   font-weight: normal;
   font-family: "VT323";
+  scroll-behavior: smooth;
 }
 
 @media (max-width: 1920px) {
@@ -289,7 +290,7 @@ p {
   background-size: 125% 125%;
   -webkit-animation: sec-bg 30s infinite;
   animation: sec-bg 30s infinite;
-  /* padding-top: 15vh; */
+  padding-top: 10vh;
 }
 
 .sec-title {
@@ -2984,7 +2985,5 @@ p.feed-starter {
   width: 100vw;
   height: 100vh;
   z-index: 18;
-  transition: 0.5s;
   overflow: hidden;
-  filter: drop-shadow(0px 0px 100px black);
 }
