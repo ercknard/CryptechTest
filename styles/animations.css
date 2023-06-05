@@ -354,6 +354,34 @@
   }
 }
 
+@-webkit-keyframes squid-1 {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-3px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes squid-1 {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-3px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
 @-webkit-keyframes bones-2 {
   0% {
     top: 0;

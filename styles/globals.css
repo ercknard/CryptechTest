@@ -2995,4 +2995,5 @@ p.feed-starter {
   width: 100%;
   height: 100%;
   z-index: 18;
+  animation: squid-1 3s infinite;
 }
