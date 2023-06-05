@@ -25,14 +25,14 @@ const MainPage = () => (
     <Navigation />
     <LandingPage />
     <div className="sec-2">
-      <Image
+      {/* <Image
         alt="Ships"
         id="main-ship"
         className="ship-specs-main"
         src="/assets/images/station-1.webp"
         width={3620}
         height={1969}
-      />
+      /> */}
       <div className="sec">
         <PepeSpace />
         <Spaceship />

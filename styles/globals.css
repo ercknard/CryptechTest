@@ -18,7 +18,6 @@ html {
   font-size: 1rem;
   font-weight: normal;
   font-family: "VT323";
-  scroll-snap-type: both mandatory;
 }
 
 @media (max-width: 1920px) {
@@ -291,10 +290,6 @@ p {
   -webkit-animation: sec-bg 30s infinite;
   animation: sec-bg 30s infinite;
   /* padding-top: 15vh; */
-}
-
-.sec > section {
-  scroll-snap-align: center;
 }
 
 .sec-title {
@@ -618,7 +613,6 @@ header {
 }
 
 #pepe {
-  visibility: hidden;
   position: relative;
   overflow: hidden;
   height: 12.5vh;
