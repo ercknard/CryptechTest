@@ -2992,4 +2992,5 @@ p.feed-starter {
   z-index: 18;
   transition: 0.5s;
   overflow: hidden;
+  filter: drop-shadow(0px 0px 100px black);
 }
