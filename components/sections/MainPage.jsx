@@ -18,6 +18,7 @@ import Fabs from "@components/materials/Fabs";
 import GithubFeeds from "./GithubFeeds";
 import OurPartners from "./OurPartners";
 import Image from "next/image";
+import ShipMain from "@components/materials/ShipMain";
 
 const MainPage = () => (
   <>
@@ -25,18 +26,7 @@ const MainPage = () => (
     <Navigation />
     <LandingPage />
     <div className="sec-2">
-      <Image
-        data-aos="fade-up"
-        data-aos-duration="500"
-        data-aos-anchor-placement="center-bottom"
-        priority="true"
-        alt="Ships"
-        id="main-ship"
-        className="ship-specs-main"
-        src="/assets/images/station-1.webp"
-        width={3620}
-        height={1969}
-      />
+      <ShipMain />
       <div className="sec">
         {/* <PepeSpace /> */}
         <Spaceship />
