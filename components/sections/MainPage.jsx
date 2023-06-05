@@ -33,8 +33,8 @@ const MainPage = () => (
         id="main-ship"
         className="ship-specs-main"
         src="/assets/images/station-1.webp"
-        width={1920}
-        height={1080}
+        width={3620}
+        height={1969}
       />
       <div className="sec">
         {/* <PepeSpace /> */}
