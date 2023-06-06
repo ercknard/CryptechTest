@@ -201,7 +201,7 @@ p {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  border-bottom: 3px solid white;
+  /* border-bottom: 3px solid white; */
   -webkit-animation: earth-anim 10s infinite;
   animation: earth-anim 10s infinite;
   box-shadow: 0px 0px 500px 10px rgba(0, 0, 0, 1) inset;
@@ -301,7 +301,7 @@ p {
   );
   background-size: contain;
   z-index: 3;
-  border-top: 3px solid white;
+  /* border-top: 3px solid white; */
   overflow: hidden;
   text-align: justify;
   background-size: 125% 125%;
