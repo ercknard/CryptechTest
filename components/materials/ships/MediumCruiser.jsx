@@ -18,7 +18,7 @@ const MediumCruiser = () => {
           height={128}
         />
       </span>
-      <h4>Tier 4. Medium Cruiser </h4>
+      <h4>Tier 4: Medium Cruiser </h4>
     </div>
   );
 };
