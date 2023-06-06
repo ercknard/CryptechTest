@@ -4,7 +4,7 @@ import React from "react";
 const ShipMain = () => {
   return (
     <Image
-      data-aos="fade-up"
+      data-aos="zoom-in"
       data-aos-duration="500"
       data-aos-anchor-placement="center-bottom"
       priority="true"
