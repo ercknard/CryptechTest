@@ -3,12 +3,12 @@ import Script from "next/script";
 export default function AllScripts() {
   return (
     <>
-      <Script
+      {/* <Script
         rel="preload"
         src="/assets/scripts/customloader.js"
         as="script"
         type="text/javascript"
-      />
+      /> */}
       <Script
         rel="preload"
         src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"
@@ -26,12 +26,12 @@ export default function AllScripts() {
         as="script"
         type="text/javascript"
       />
-      <Script
+      {/* <Script
         rel="preload"
         src="/assets/scripts/npc.js"
         as="script"
         type="text/javascript"
-      />
+      /> */}
       <Script
         rel="preload"
         src="/assets/scripts/theme-modal.js"
