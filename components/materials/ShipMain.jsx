@@ -11,7 +11,7 @@ const ShipMain = () => {
       alt="Ships"
       id="main-ship"
       className="ship-specs-main"
-      src="/assets/images/station-1.webp"
+      src="/assets/images/station-12.webp"
       width={3620}
       height={1969}
     />
