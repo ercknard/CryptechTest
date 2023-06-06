@@ -4,9 +4,9 @@ import React from "react";
 const ShipMain = () => {
   return (
     <Image
-      data-aos="fade-up"
-      data-aos-duration="500"
-      data-aos-anchor-placement="center-bottom"
+      // data-aos="fade-up"
+      // data-aos-duration="500"
+      // data-aos-anchor-placement="center-bottom"
       priority="true"
       alt="Ships"
       id="main-ship"
