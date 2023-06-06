@@ -9,6 +9,7 @@ import Ferbog05Card from "./Ferbog05Card";
 import MatadorCard from "./MatadorCard";
 import DemilCard from "./DemilCard";
 import TonicCard from "./TonicCard";
+import GearTeam from "@components/materials/gears/GearTeam";
 import ErcknardCard from "./ErcknardCard";
 
 const AdminCard = () => (
@@ -16,7 +17,7 @@ const AdminCard = () => (
     <div className="container-main-admin">
       <div className="container-main admins-bg">
         <div className="width-class admin-op card">
-          {" "}
+          <GearTeam />{" "}
           <div
             data-aos="zoom-out"
             data-aos-easing="ease-in-out"

@@ -1850,7 +1850,7 @@ img.vert-move-6 {
 
 /* ________________________________________________________________________________________________________________________________ */
 
-.sky-op::before,
+/* .sky-op::before,
 .world-op::before,
 .admin-op::before,
 .coins-op::before,
@@ -1866,8 +1866,6 @@ img.vert-move-6 {
   left: 0;
   right: 0;
   text-align: center;
-  /* -webkit-animation: ct 15s infinite linear;
-  animation: ct 15s infinite linear; */
   -webkit-animation: squid 3s infinite linear;
   animation: squid 3s infinite linear;
   text-shadow: 2px 2px 100px var(--kyuhi);
@@ -1882,7 +1880,7 @@ img.vert-move-6 {
   .feed-op::before {
     display: none;
   }
-}
+} */
 
 .container-main {
   border-top: 3px solid var(--kyuhi);
@@ -2506,10 +2504,13 @@ input[type="checkbox"].right-checkbox:checked ~ div.right-valve-out {
 
 .gear {
   position: absolute;
-  right: 2vh;
-  top: 2vh;
-  width: 5rem;
-  height: 5rem;
+  margin-top: -6.75rem;
+  right: 0;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 7rem;
+  height: 7rem;
 }
 
 /* ________________________________________________________________________________________________________________________________ */

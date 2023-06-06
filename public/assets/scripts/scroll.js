@@ -5308,12 +5308,18 @@ window.onscroll = function () {
 };
 
 function scrollRotate() {
-  // let image = document.getElementById("reload");
-  // let image1 = document.getElementById("reload-1");
-  let image2 = document.getElementById("floating");
-  // image.style.transform = "rotate(" + window.pageYOffset / 2 + "deg)";
-  // image1.style.transform = "rotate(" + window.pageYOffset / 2 + "deg)";
-  image2.style.transform = "rotate(" + window.pageYOffset / 4 + "deg)";
+  let image = document.getElementById("reload");
+  let image1 = document.getElementById("reload-1");
+  let image2 = document.getElementById("reload-2");
+  let image3 = document.getElementById("reload-3");
+  let image4 = document.getElementById("reload-4");
+  let floats = document.getElementById("floating");
+  image.style.transform = "rotate(" + window.pageYOffset / 2 + "deg)";
+  image1.style.transform = "rotate(" + window.pageYOffset / 2 + "deg)";
+  image2.style.transform = "rotate(" + window.pageYOffset / 2 + "deg)";
+  image3.style.transform = "rotate(" + window.pageYOffset / 2 + "deg)";
+  image4.style.transform = "rotate(" + window.pageYOffset / 2 + "deg)";
+  floats.style.transform = "rotate(" + window.pageYOffset / 4 + "deg)";
 }
 
 $(function () {

@@ -1,5 +1,6 @@
 import CoinsAddress from "@components/materials/CoinAddress";
 import Coins from "@components/materials/Coins";
+import GearCoin from "@components/materials/gears/GearCoin";
 
 const Donate = () => (
   <section className="container-main-coins">
@@ -13,6 +14,7 @@ const Donate = () => (
     </div> */}
     <div className="container-main coins-bg">
       <div className="width-class coins-op card">
+        <GearCoin />
         <div
           data-aos="zoom-out"
           data-aos-easing="ease-in-out"

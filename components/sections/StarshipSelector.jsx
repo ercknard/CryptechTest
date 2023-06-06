@@ -6,11 +6,13 @@ import LargeCruiser from "@components/materials/ships/LargeCruiser";
 import SuperCruiser from "@components/materials/ships/SuperCruiser";
 import MegaCruiser from "@components/materials/ships/MegaCruiser";
 import ShipSpecification from "@components/materials/ships/ShipSpecifications";
+import GearEarth from "@components/materials/gears/GearEarth";
 
 const EarthText = () => (
   <section className="container-main-world">
     <div className="container-main world-bg">
       <div className="width-class world-op card">
+        <GearEarth />
         <div
           data-aos="zoom-out"
           data-aos-easing="ease-in-out"
