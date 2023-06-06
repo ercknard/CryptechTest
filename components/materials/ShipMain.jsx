@@ -13,7 +13,7 @@ const ShipMain = () => {
       className="ship-specs-main"
       src="/assets/images/station-12.webp"
       width={3620}
-      height={1969}
+      height={1219}
     />
   );
 };
