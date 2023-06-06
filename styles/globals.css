@@ -3049,7 +3049,7 @@ p.feed-starter {
 .ship-specs-main {
   position: absolute;
   top: 70%;
-  width: 100vw;
+  width: 100%;
   height: auto;
   z-index: 18;
   animation: squid-1 3s infinite;
