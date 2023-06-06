@@ -2504,13 +2504,16 @@ input[type="checkbox"].right-checkbox:checked ~ div.right-valve-out {
 
 .gear {
   position: absolute;
-  margin-top: -6.75rem;
+  margin-top: -7.25rem;
   right: 0;
   left: 0;
   margin-left: auto;
   margin-right: auto;
-  width: 7rem;
-  height: 7rem;
+  width: 5rem;
+  height: 5rem;
+  background-image: url(/assets/images/mods-bg.png);
+  background-size: cover;
+  filter: drop-shadow(0px 0px 20px white);
 }
 
 /* ________________________________________________________________________________________________________________________________ */
