@@ -6,7 +6,7 @@ const Glitters = () => (
       <Particles />
     </section>
 
-    <div>
+    {/* <div>
       <div className="firefly" />
       <div className="firefly" />
       <div className="firefly" />
@@ -22,7 +22,7 @@ const Glitters = () => (
       <div className="firefly" />
       <div className="firefly" />
       <div className="firefly" />
-    </div>
+    </div> */}
   </>
 );
 
