@@ -650,8 +650,8 @@ header {
   background-position: center;
   box-shadow: 1px 1px 25px white;
   /* transform: skewY(-5deg); */
-  border-top: 5px solid white;
-  border-bottom: 5px solid white;
+  border-top: 2.5px solid white;
+  /* border-bottom: 5px solid white; */
 }
 
 .pepe {
@@ -1773,9 +1773,9 @@ img.vert-move-6 {
   content: url(/assets/images/cross.png);
 }
 
-.pipe-padding {
+/* .pipe-padding {
   padding-left: 2rem;
-}
+} */
 
 @media (max-width: 768px) {
   .pipe-padding {
