@@ -3049,4 +3049,5 @@ p.feed-starter {
   height: auto;
   z-index: 18;
   animation: squid-1 3s infinite;
+  filter: saturate(150%);
 }
