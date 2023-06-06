@@ -307,7 +307,7 @@ p {
   background-size: 125% 125%;
   -webkit-animation: sec-bg 30s infinite;
   animation: sec-bg 30s infinite;
-  /* padding-top: 10vh; */
+  padding-top: 10vh;
 }
 
 .sec-title {
@@ -650,6 +650,7 @@ header {
   background-position: center;
   box-shadow: 1px 1px 25px white;
   /* transform: skewY(-5deg); */
+  border-top: 5px solid white;
   border-bottom: 5px solid white;
 }
 
@@ -1812,7 +1813,7 @@ img.vert-move-6 {
   font-size: 5rem;
   font-weight: 700;
   line-height: 0.1;
-  color: white;
+  color: var(--kyuhi);
   letter-spacing: 5px;
   z-index: 1;
 }
@@ -1826,7 +1827,7 @@ img.vert-move-6 {
   opacity: 0.8;
 }
 
-.glitch:before {
+/* .glitch:before {
   animation: glitch-color 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both
     infinite;
   color: var(--kyuhi);
@@ -1838,7 +1839,7 @@ img.vert-move-6 {
     infinite;
   color: var(--kyuhi);
   z-index: -2;
-}
+} */
 
 @media (max-width: 768px) {
   .glitch::after,
@@ -1952,6 +1953,22 @@ img.vert-move-6 {
   margin-top: -1rem;
 }
 
+.right-valve-outs {
+  position: absolute;
+  width: 50vw;
+  height: 66.5vh;
+  background-image: url(/assets/images/aluminum.webp);
+  background-position: top left;
+  background-size: 8.4vh;
+  border: 1rem solid #5d5d5d;
+  z-index: 18;
+  box-shadow: inset 10px 10px 100px black, 10px 10px 10px black;
+  transform: translateX(50vw) skewX(-20deg);
+  transition: 2s ease-out;
+  margin-top: -1rem;
+  left: 25vw;
+}
+
 .left-valve {
   position: absolute;
   width: 50vw;
@@ -1991,6 +2008,22 @@ img.vert-move-6 {
   transform: translateX(0vw) skewX(20deg);
   transition: 2s ease-out;
   margin-top: -1rem;
+}
+
+.left-valve-outs {
+  position: absolute;
+  width: 50vw;
+  height: 66.5vh;
+  background-image: url(/assets/images/aluminum.webp);
+  background-position: top right;
+  background-size: 8.4vh;
+  border: 1rem solid #5d5d5d;
+  z-index: 18;
+  box-shadow: inset -10px 10px 100px black, -10px 10px 10px black;
+  transform: translateX(0vw) skewX(20deg);
+  transition: 2s ease-out;
+  margin-top: -1rem;
+  left: -25vw;
 }
 
 @media (max-width: 768px) {
