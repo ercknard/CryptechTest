@@ -26,7 +26,7 @@ const Kyuhi = () => (
         <p>"I am inviting you to join our Discord community."</p>
         <a
           className="a-button story-button"
-          href="https://discord.com/invite/WxvrzzPFAH"
+          href="https://discord.gg/YDCSGp8h5V"
           target="_blank"
         >
           {" "}

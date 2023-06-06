@@ -21,7 +21,7 @@ const Footer = () => (
           <a
             title="Discord"
             className="social-icon__link"
-            href="https://discord.com/invite/WxvrzzPFAH"
+            href="https://discord.gg/YDCSGp8h5V"
           >
             <ion-icon name="logo-discord" />
           </a>
