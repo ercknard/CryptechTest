@@ -42,6 +42,14 @@ const Spaceship = () => (
               free on Windows, macOS, GNU/Linux, FreeBSD, OpenBSD, DragonFly
               BSD, and Android."
             </p>
+            <a
+              className="a-button story-button"
+              href="https://www.minetest.net/"
+              target="_blank"
+            >
+              {" "}
+              Minetest{" "}
+            </a>
           </div>
         </div>
         <Comets />
