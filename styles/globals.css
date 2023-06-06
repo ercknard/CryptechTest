@@ -5,7 +5,7 @@
 }
 
 :root {
-  --kyuhi: rgba(255, 255, 255, 0.5);
+  --kyuhi: rgba(255, 255, 255);
 }
 
 * {
@@ -1643,7 +1643,9 @@ img.vert-move-6 {
 .coins-op,
 .feed-op {
   padding: 2rem 2rem;
-  border: 3px solid var(--kyuhi);
+  border: 3px solid;
+  border-image: linear-gradient(45deg, transparent, var(--kyuhi), transparent)
+    10;
   background: linear-gradient(
       -45deg,
       var(--kyuhi) 0%,
@@ -2131,7 +2133,7 @@ img.vert-move-6 {
   transition-timing-function: ease-out;
   transform: rotate3d();
   background: url(/assets/images/ship-bg.png),
-    linear-gradient(71deg, #080509, #1a171c, #080509);
+    linear-gradient(45deg, transparent, #080509, #1a171c, #080509, transparent); /*71deg*/
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -2509,8 +2511,8 @@ input[type="checkbox"].right-checkbox:checked ~ div.right-valve-out {
   left: 0;
   margin-left: auto;
   margin-right: auto;
-  width: 5rem;
-  height: 5rem;
+  width: 4.5rem;
+  height: 4.5rem;
   background-image: url(/assets/images/mods-bg.png);
   background-size: cover;
   filter: drop-shadow(0px 0px 20px white);
