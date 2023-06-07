@@ -30,7 +30,7 @@ const MainPage = () => (
       <div className="sec">
         {/* <PepeSpace /> */}
         <Spaceship />
-        {/* <PepeSpace /> */}
+        <PepeSpace />
         <section id="play" />
         <ShipText />
         <section id="news" />
