@@ -28,9 +28,9 @@ const MainPage = () => (
     <div className="sec-2">
       <ShipMain />
       <div className="sec">
-        {/* <PepeSpace /> */}
-        <Spaceship />
         <PepeSpace />
+        <Spaceship />
+        {/* <PepeSpace /> */}
         <section id="play" />
         <ShipText />
         <section id="news" />
