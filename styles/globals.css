@@ -1949,10 +1949,10 @@ img.vert-move-6 {
   position: absolute;
   width: 50vw;
   height: 66.5vh;
-  background-image: url(/assets/images/aluminum.webp);
+  background-image: url(/assets/images/tiles.webp);
   background-position: top left;
-  background-size: 8.4vh;
-  border: 1rem solid #5d5d5d;
+  background-size: 8.05vh;
+  border: 1rem solid #8b8b8c;
   z-index: 18;
   box-shadow: inset 10px 10px 100px black, 10px 10px 10px black;
   transform: translateX(50vw) skewX(-20deg);
@@ -2006,10 +2006,10 @@ img.vert-move-6 {
   position: absolute;
   width: 50vw;
   height: 66.5vh;
-  background-image: url(/assets/images/aluminum.webp);
+  background-image: url(/assets/images/tiles.webp);
   background-position: top right;
-  background-size: 8.4vh;
-  border: 1rem solid #5d5d5d;
+  background-size: 8.05vh;
+  border: 1rem solid #8b8b8c;
   z-index: 18;
   box-shadow: inset -10px 10px 100px black, -10px 10px 10px black;
   transform: translateX(0vw) skewX(20deg);
