@@ -1932,7 +1932,7 @@ img.vert-move-6 {
   background-position: center center;
   background-size: cover;
   /* background-size: 5vh; */
-  border: 0.5rem solid #5d5d5d;
+  border: 0.5rem solid #8b8b8c;
   z-index: 20;
   box-shadow: inset 10px 10px 100px black, 10px 10px 10px black;
   transform: translateX(-1.1vw) skewX(20deg);
@@ -1989,7 +1989,7 @@ img.vert-move-6 {
   background-position: center center;
   background-size: cover;
   /* background-size: 5vh; */
-  border: 0.5rem solid #5d5d5d;
+  border: 0.5rem solid #8b8b8c;
   z-index: 20;
   box-shadow: inset -10px 10px 100px black, -10px 10px 10px black;
   transform: translateX(0vw) skewX(-20deg);
