@@ -47,7 +47,7 @@ const Spaceship = () => (
         <Comets />
       </div>
 
-      {/* <GlassPipe /> */}
+      <GlassPipe />
     </section>
   </>
 );
