@@ -50,6 +50,7 @@ const announcement = () => {
               <h3 className="sos-2">
                 {" "}
                 <img
+                  className="squid"
                   alt="Avatar"
                   src="/assets/images/mug.png"
                   width={50}

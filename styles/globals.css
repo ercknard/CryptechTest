@@ -895,8 +895,10 @@ svg {
   transform: skewY(0deg);
   background: rgba(0, 0, 0, 0.5);
   border-image: linear-gradient(
-      rgba(255, 255, 255, 0.25),
-      rgba(255, 255, 255, 0.75)
+      to right,
+      transparent,
+      var(--kyuhi),
+      transparent
     )
     10;
   border-width: 2.5px;
@@ -1079,8 +1081,7 @@ svg {
 }
 
 .news-selected-color {
-  background-image: url(/assets/images/ship-border-1.png),
-    linear-gradient(to top, rgba(130, 60, 223, 0.5), transparent, transparent);
+  background-image: url(/assets/images/ship-border-1.png);
   transition: 0.5s ease-in-out;
   background-size: 147.5% 200%;
   background-position: center center;
@@ -2961,8 +2962,15 @@ p.feed-starter {
 
 .sos-1 {
   border-radius: 5px;
-  background-color: #00000075;
-  border: 1.5px solid white;
+  background-color: #00000050;
+  border: 1.5px solid;
+  border-image: linear-gradient(
+      to right,
+      transparent,
+      var(--kyuhi),
+      transparent
+    )
+    10;
   width: 100%;
 }
 
@@ -2996,7 +3004,9 @@ p.feed-starter {
 .slideshow-container-ships {
   position: relative;
   height: 35vh;
-  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
 }
 
 .mySlides-ships-flex {
