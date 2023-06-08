@@ -18,11 +18,7 @@ const AdminCard = () => (
       <div className="container-main admins-bg">
         <div className="width-class admin-op card">
           <GearTeam />{" "}
-          <div
-          // data-aos="zoom-out"
-          // data-aos-easing="ease-in-out"
-          // data-aos-duration={500}
-          >
+          <div div data-aos="zoom-out" data-aos-duration={100}>
             <div className="glow" />
             <div className="pipe-padding">
               <h3>

@@ -12,11 +12,7 @@ const GithubFeeds = () => (
       <div className="container-main feed-bg">
         <section className="width-class feed-op card">
           <GearFeed />
-          <div
-          // data-aos="zoom-out"
-          // data-aos-easing="ease-in-out"
-          // data-aos-duration={500}
-          >
+          <div div data-aos="zoom-out" data-aos-duration={100}>
             <div className="glow" />
             <div className="pipe-padding">
               <h3> Git Feed: </h3>

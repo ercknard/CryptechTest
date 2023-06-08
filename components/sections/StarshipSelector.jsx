@@ -13,11 +13,7 @@ const EarthText = () => (
     <div className="container-main world-bg">
       <div className="width-class world-op card">
         <GearEarth />
-        <div
-        // data-aos="zoom-out"
-        // data-aos-easing="ease-in-out"
-        // data-aos-duration={500}
-        >
+        <div div data-aos="zoom-out" data-aos-duration={100}>
           <div className="glow" />
           <div className="pipe-padding">
             <h3> Starship Tiers: </h3>{" "}
