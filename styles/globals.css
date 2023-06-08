@@ -1647,11 +1647,12 @@ img.vert-move-6 {
 .admin-op,
 .coins-op,
 .feed-op {
+  visibility: hidden;
   padding: 2rem 2rem;
   border: 3px solid;
   border-image: linear-gradient(45deg, transparent, var(--kyuhi), transparent)
     10;
-  background: linear-gradient(
+  /* background: linear-gradient(
       -45deg,
       var(--kyuhi) 0%,
       rgba(0, 0, 0, 1) 5%,
@@ -1676,7 +1677,7 @@ img.vert-move-6 {
       rgba(0, 0, 0, 1) 5%,
       transparent 50%
     ),
-    rgba(0, 0, 0, 0.95);
+    rgba(0, 0, 0, 0.95); */
   border-radius: 5px;
   box-shadow: 10px 10px 20px black;
   min-height: 50vh;
