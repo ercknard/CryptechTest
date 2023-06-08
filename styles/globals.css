@@ -1780,9 +1780,9 @@ img.vert-move-6 {
   content: url(/assets/images/cross.png);
 }
 
-.pipe-padding {
+/* .pipe-padding {
   padding-left: 2rem;
-}
+} */
 
 @media (max-width: 768px) {
   .pipe-padding {
