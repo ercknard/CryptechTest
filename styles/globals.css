@@ -2486,6 +2486,12 @@ input[type="checkbox"].right-checkbox:checked ~ div.right-valve-out {
   animation-iteration-count: 1;
 }
 
+@media (max-width: 768px) {
+  .right-valve-modal-main {
+    display: none;
+  }
+}
+
 .left-valve-modal-main {
   position: absolute;
   width: 50vw;
@@ -2502,6 +2508,12 @@ input[type="checkbox"].right-checkbox:checked ~ div.right-valve-out {
   -webkit-animation: modal-door-leftt-main 2s ease;
   animation: modal-door-left-main 2s ease;
   animation-iteration-count: 1;
+}
+
+@media (max-width: 768px) {
+  .left-valve-modal-main {
+    display: none;
+  }
 }
 
 .left-valve-modal-main::before {
