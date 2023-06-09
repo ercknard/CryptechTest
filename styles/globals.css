@@ -1677,7 +1677,7 @@ img.vert-move-6 {
 .admin-op,
 .coins-op,
 .feed-op {
-  padding: 2rem 2rem;
+  padding: 2rem;
   border: 3px solid;
   border-image: linear-gradient(45deg, transparent, var(--kyuhi), transparent)
     10;
@@ -1944,29 +1944,34 @@ img.vert-move-6 {
   color: var(--kyuhi);
   font-size: 3.5rem;
   position: absolute;
-  -webkit-animation: ctr 15s infinite;
-  animation: ctr 15s infinite;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  /* -webkit-animation: ctr 15s infinite;
+  animation: ctr 15s infinite; */
   text-shadow: 2px 2px 10px var(--kyuhi);
   z-index: 15;
 }
 
-/* .container-main::before {
-  content: "";
+.container-main::before {
+  content: "❖";
+  font-weight: bolder;
+  color: var(--kyuhi);
+  font-size: 3.5rem;
+  margin-top: -5.25rem;
   position: absolute;
+  margin-left: auto;
+  margin-right: auto;
   left: 0;
   right: 0;
-  margin: auto;
-  margin-top: -6.75vh;
-  border: 2.5px double white;
-  border-bottom: none;
-  border-top: none;
-  border-radius: 100%;
-  width: 7.5vh;
-  height: 7.5vh;
-  font-size: 5rem;
-  background-color: #00000001;
-  z-index: 1;
-} */
+  text-align: center;
+  /* -webkit-animation: ctr 15s infinite;
+  animation: ctr 15s infinite; */
+  text-shadow: 2px 2px 10px var(--kyuhi);
+  z-index: 15;
+}
 
 @media (max-width: 768px) {
   .container-main::after {
@@ -2582,14 +2587,8 @@ input[type="checkbox"].right-checkbox:checked ~ div.right-valve-out {
 /* ________________________________________________________________________________________________________________________________ */
 
 .gear {
-  position: absolute;
-  margin-top: -7.5rem;
-  right: 0;
-  left: 0;
-  margin-left: auto;
-  margin-right: auto;
-  width: 5rem;
-  height: 5rem;
+  width: 3rem;
+  height: 3rem;
   filter: drop-shadow(0px 0px 10px white);
 }
 
@@ -2887,7 +2886,7 @@ input[type="checkbox"].right-checkbox:checked ~ div.right-valve-out {
 }
 
 .feed-buttons {
-  margin-top: 0;
+  margin-top: -1.5rem;
 }
 
 @media (max-width: 768px) {
@@ -3158,4 +3157,10 @@ p.feed-starter {
   .ship-specs-main {
     display: none;
   }
+}
+
+.to-vert-center {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
 }

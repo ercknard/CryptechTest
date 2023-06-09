@@ -12,11 +12,15 @@ const EarthText = () => (
   <section className="container-main-world">
     <div className="container-main world-bg">
       <div className="width-class world-op card">
-        <GearEarth />
         <div div data-aos="zoom-out" data-aos-duration={100}>
           <div className="glow" />
           <div className="pipe-padding">
-            <h3> Starship Tiers: </h3>{" "}
+            <div className="to-vert-center">
+              <span>
+                <GearEarth />{" "}
+              </span>
+              <h3>Starship Tiers:</h3>
+            </div>
             <div id="op-world">
               <ShipSpecification />
               <div id="ships-active-btn" className="agent-home">

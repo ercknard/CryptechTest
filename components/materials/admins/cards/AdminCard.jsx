@@ -17,23 +17,15 @@ const AdminCard = () => (
     <div className="container-main-admin">
       <div className="container-main admins-bg">
         <div className="width-class admin-op card">
-          <GearTeam />{" "}
           <div div data-aos="zoom-out" data-aos-duration={100}>
             <div className="glow" />
             <div className="pipe-padding">
-              <h3>
-                {" "}
-                CryptechTest Team:{" "}
+              <div className="to-vert-center">
                 <span>
-                  <Image
-                    alt="Admin Head"
-                    className="default"
-                    src="/assets/images/pepe-head.webp"
-                    width={267}
-                    height={267}
-                  />
+                  <GearTeam />{" "}
                 </span>
-              </h3>
+                <h3>CryptechTest Team:</h3>
+              </div>
               <div id="theme-modal-button">
                 <div id="leads-active-btn" className="agent-home">
                   <SquidCard />

@@ -14,11 +14,15 @@ const Donate = () => (
     </div> */}
     <div className="container-main coins-bg">
       <div className="width-class coins-op card">
-        <GearCoin />
         <div data-aos="zoom-out" data-aos-duration={100}>
           <div className="glow" />
           <div className="pipe-padding">
-            <h3> Donate: </h3>{" "}
+            <div className="to-vert-center">
+              <span>
+                <GearCoin />{" "}
+              </span>
+              <h3>Donate:</h3>
+            </div>
             <p>
               {" "}
               If you enjoy our server, or the plugins we make, and want to help
