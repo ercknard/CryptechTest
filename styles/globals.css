@@ -40,6 +40,12 @@ html {
 
 @media (max-width: 768px) {
   html {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 400px) {
+  html {
     font-size: 0.6rem;
   }
 }
@@ -119,6 +125,12 @@ p {
     margin-right: auto;
     margin-left: auto;
     width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .width-class {
+    width: 100%;
   }
 }
 
@@ -308,6 +320,12 @@ p {
   -webkit-animation: sec-bg 30s infinite;
   animation: sec-bg 30s infinite;
   padding-top: 5vh;
+}
+
+@media (max-width: 768px) {
+  .sec {
+    padding: 0;
+  }
 }
 
 .sec-title {
@@ -1215,6 +1233,11 @@ svg {
   animation: pepe-cave-anim 10s infinite;
   z-index: -1;
 }
+@media (max-width: 768px) {
+  .pepe-admin {
+    display: none;
+  }
+}
 
 /* ________________________________________________________________________________________________________________________________ */
 
@@ -1647,11 +1670,12 @@ img.vert-move-6 {
 .admin-op,
 .coins-op,
 .feed-op {
-  visibility: hidden;
   padding: 2rem 2rem;
   border: 3px solid;
   border-image: linear-gradient(45deg, transparent, var(--kyuhi), transparent)
     10;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
   /* background: linear-gradient(
       -45deg,
       var(--kyuhi) 0%,
@@ -1917,6 +1941,24 @@ img.vert-move-6 {
   z-index: 15;
 }
 
+/* .container-main::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top: -6.75vh;
+  border: 2.5px double white;
+  border-bottom: none;
+  border-top: none;
+  border-radius: 100%;
+  width: 7.5vh;
+  height: 7.5vh;
+  font-size: 5rem;
+  background-color: #00000001;
+  z-index: 1;
+} */
+
 @media (max-width: 768px) {
   .container-main::after {
     display: none;
@@ -2146,7 +2188,7 @@ img.vert-move-6 {
   transition-timing-function: ease-out;
   transform: rotate3d();
   background: url(/assets/images/ship-bg.png),
-    linear-gradient(45deg, transparent, #080509, #1a171c, #080509, transparent); /*71deg*/
+    linear-gradient(to top, transparent, #080509, #1a171c, #080509);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -2218,6 +2260,7 @@ p.coin-bg {
 @media (max-width: 768px) {
   .test {
     height: 40vh;
+    width: 90%;
   }
 }
 
@@ -2519,16 +2562,20 @@ input[type="checkbox"].right-checkbox:checked ~ div.right-valve-out {
 
 .gear {
   position: absolute;
-  margin-top: -6rem;
+  margin-top: -7.5rem;
   right: 0;
   left: 0;
   margin-left: auto;
   margin-right: auto;
   width: 5rem;
   height: 5rem;
-  background-image: url(/assets/images/mods-bg.png);
-  background-size: cover;
   filter: drop-shadow(0px 0px 20px white);
+}
+
+@media (max-width: 768px) {
+  .gear {
+    display: none;
+  }
 }
 
 /* ________________________________________________________________________________________________________________________________ */
@@ -3036,10 +3083,17 @@ p.feed-starter {
   }
 }
 
+@media (max-width: 1600px) {
+  .slideshow-container-ships {
+    height: 40vh;
+    margin-bottom: 5rem;
+  }
+}
+
 @media (max-width: 678px) {
   .slideshow-container-ships {
     height: 40vh;
-    margin-bottom: 12rem;
+    margin-bottom: 15rem;
   }
 }
 
@@ -3077,4 +3131,10 @@ p.feed-starter {
   height: auto;
   z-index: 18;
   animation: squid-1 3s infinite;
+}
+
+@media (max-width: 768px) {
+  .ship-specs-main {
+    display: none;
+  }
 }
