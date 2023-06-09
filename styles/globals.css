@@ -297,7 +297,8 @@ p {
 
 @media (max-width: 768px) {
   #web_title.scrolled {
-    font-size: 4rem;
+    font-size: 3.5rem;
+    border: none;
   }
 }
 
@@ -1223,6 +1224,12 @@ svg {
   margin-right: auto;
   width: 25%;
   height: 25%;
+}
+
+@media (max-width: 768px) {
+  .leads-photo {
+    border: none;
+  }
 }
 
 .pepe-admin {
