@@ -2028,9 +2028,8 @@ img.vert-move-6 {
   z-index: 18;
   box-shadow: inset 10px 10px 100px black, 10px 10px 10px black;
   transform: translateX(50vw) skewX(-20deg);
-  transition: 2s ease-out;
+  /* transition: 2s ease-out; */
   margin-top: -1rem;
-  display: none;
 }
 
 .right-valve-outs {
@@ -2086,9 +2085,8 @@ img.vert-move-6 {
   z-index: 18;
   box-shadow: inset -10px 10px 100px black, -10px 10px 10px black;
   transform: translateX(0vw) skewX(20deg);
-  transition: 2s ease-out;
+  /* transition: 2s ease-out; */
   margin-top: -1rem;
-  display: none;
 }
 
 .left-valve-outs {
