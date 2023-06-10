@@ -14,9 +14,9 @@ const GitFeedIssues = ({ username }) => {
     fetchIssues();
   }, [username]);
 
-  const truncateSHAs = (sha) => {
+  const truncateSHAs = (shas) => {
     const lengths = 20;
-    return sha.substring(0, lengths);
+    return shas.substring(0, lengths);
   };
 
   return (
@@ -44,7 +44,7 @@ const GitFeedIssues = ({ username }) => {
                     <div className="time-feed">{issues.user.login} </div>
                     <div className="sha-feed">
                       {" "}
-                      ID: {issues.id}... | {truncateSHAs(issues.title)}... -{" "}
+                      ID: {issues.id} | {truncateSHAs(issues.title)}... -{" "}
                       {issues.user.login}{" "}
                     </div>{" "}
                   </div>{" "}

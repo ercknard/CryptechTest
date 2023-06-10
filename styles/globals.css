@@ -2892,7 +2892,8 @@ input[type="checkbox"].right-checkbox:checked ~ div.right-valve-out {
 
 @media (max-width: 768px) {
   .feed-buttons {
-    margin-top: 0.1rem;
+    margin-top: -1rem;
+    margin-bottom: 1.5rem;
   }
 }
 
@@ -2922,6 +2923,12 @@ input[type="checkbox"].right-checkbox:checked ~ div.right-valve-out {
   margin-left: auto;
   font-size: 1.5rem;
   font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .sha-feed {
+    font-size: 1.25rem;
+  }
 }
 
 .time-feed {
