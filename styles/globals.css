@@ -1690,6 +1690,7 @@ img.vert-move-6 {
   padding: 2rem;
   border: 3px solid;
   border-bottom: none;
+  border-right: none;
   border-image: linear-gradient(
       45deg,
       transparent,
