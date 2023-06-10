@@ -38,7 +38,7 @@ const AdminCard = () => (
                   <MatadorCard />
                   <DemilCard />
                   <TonicCard />
-                  {/* <ErcknardCard /> */}
+                  <ErcknardCard />
                 </div>
               </div>
             </div>

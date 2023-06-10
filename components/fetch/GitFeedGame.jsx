@@ -31,7 +31,7 @@ const GitFeedGame = ({ username }) => {
             <li key={event.id}>
               {" "}
               {event.sha}{" "}
-              <div className="git-feed banner mod push-color">
+              <div className="sos-1 sos-git mod news-selected-color">
                 <div className="avatar-feed">
                   {" "}
                   <img
@@ -40,7 +40,7 @@ const GitFeedGame = ({ username }) => {
                     width={50}
                     height={50}
                   />{" "}
-                  {event.actor.login}{" "}
+                  <div className="time-feed">{event.actor.login} </div>
                   <div className="sha-feed">
                     {" "}
                     ID: {truncateSHAs(event.id)}... | {event.repo.name} -{" "}

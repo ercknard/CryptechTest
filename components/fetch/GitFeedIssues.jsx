@@ -32,7 +32,7 @@ const GitFeedIssues = ({ username }) => {
               {" "}
               {issues.ids}{" "}
               <a className="a-button" href={issues.html_url} target="_blank">
-                <div className="git-feed banner mod push-color">
+                <div className="sos-1 sos-git mod news-selected-color">
                   <div className="avatar-feed">
                     {" "}
                     <img
@@ -41,7 +41,7 @@ const GitFeedIssues = ({ username }) => {
                       width={50}
                       height={50}
                     />{" "}
-                    {issues.user.login}{" "}
+                    <div className="time-feed">{issues.user.login} </div>
                     <div className="sha-feed">
                       {" "}
                       ID: {issues.id}... | {truncateSHAs(issues.title)}... -{" "}

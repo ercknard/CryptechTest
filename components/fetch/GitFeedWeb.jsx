@@ -33,7 +33,7 @@ const GitFeedWeb = ({ username }) => {
               {commits.id}{" "}
               <a className="a-button" href={commits.html_url} target="_blank">
                 {" "}
-                <div className="git-feed banner mod push-color">
+                <div className="sos-1 sos-git mod news-selected-color">
                   <div className="avatar-feed">
                     {" "}
                     <img
@@ -42,7 +42,9 @@ const GitFeedWeb = ({ username }) => {
                       width={50}
                       height={50}
                     />{" "}
-                    {commits.commit.committer.name}{" "}
+                    <div className="time-feed">
+                      {commits.commit.committer.name}{" "}
+                    </div>
                     <div className="sha-feed">
                       {" "}
                       Sha: {truncateSHA(commits.sha)}... |{" "}

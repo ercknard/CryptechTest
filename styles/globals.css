@@ -913,16 +913,21 @@ svg {
   /* clip-path: polygon(2.5% 0%, 100% 0%, 97.5% 100%, 0% 100%); */
 }
 
+@media (max-width: 768px) {
+  .banner-for-admin-sq,
+  .banner-for-admin-se,
+  .banner-for-admin-va,
+  .banner-for-admin-ky,
+  .banner-for-admin-sh {
+    width: 100%;
+  }
+}
+
 .banner-ships {
   margin-top: 1rem;
   transform: skewY(0deg);
   background: rgba(0, 0, 0, 0.5);
-  border-image: linear-gradient(
-      to right,
-      transparent,
-      var(--kyuhi),
-      transparent
-    )
+  border-image: linear-gradient(45deg, transparent, var(--kyuhi), transparent)
     10;
   border-width: 2.5px;
   border-style: solid;
@@ -934,7 +939,7 @@ svg {
 }
 
 @media (max-width: 768px) {
-  .coin-buttons {
+  .mod {
     width: 45%;
   }
 }
@@ -1095,8 +1100,7 @@ svg {
 }
 
 .ship-selected-color {
-  background-image: url(/assets/images/ship-border.png),
-    linear-gradient(to top, rgba(130, 60, 223, 0.5), transparent, transparent);
+  background-image: url(/assets/images/ship-border.png);
   transition: 0.5s ease-in-out;
   background-size: 147.5% 200%;
   background-position: center center;
@@ -1979,12 +1983,6 @@ img.vert-move-6 {
   z-index: 15;
 }
 
-@media (max-width: 768px) {
-  .container-main::after {
-    display: none;
-  }
-}
-
 /* ________________________________________________________________________________________________________________________________ */
 
 .right-valve {
@@ -2207,11 +2205,10 @@ img.vert-move-6 {
   transition-property: transform, box-shadow;
   transition-timing-function: ease-out;
   transform: rotate3d();
-  background: url(/assets/images/ship-bg.png),
-    linear-gradient(to top, transparent, #080509, #1a171c, #080509);
+  background: linear-gradient(to top, transparent, #080509, #1a171c, #080509);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100%;
+  background-size: cover;
 }
 
 .card:hover {
@@ -2867,14 +2864,12 @@ input[type="checkbox"].right-checkbox:checked ~ div.right-valve-out {
 .feeds {
   position: relative;
   display: block;
-  padding: 0 5rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
   padding-bottom: 2.5rem;
-  scroll-snap-align: center;
   overflow-y: auto;
-  scrollbar-width: thin;
-  scrollbar-color: var(--kyuhi);
   width: 100%;
-  max-height: 55vh;
+  max-height: 50vh;
   /* backdrop-filter: blur(1px);
     -webkit-backdrop-filter: blur(1px);
     background-color: rgba(17, 25, 40, 0.25);
@@ -2908,7 +2903,7 @@ input[type="checkbox"].right-checkbox:checked ~ div.right-valve-out {
 
 /* Track */
 .feeds::-webkit-scrollbar-track {
-  background: var(--kyuhi);
+  background: gray;
 }
 
 /* Handle */
@@ -2931,6 +2926,7 @@ input[type="checkbox"].right-checkbox:checked ~ div.right-valve-out {
 
 .time-feed {
   display: flex;
+  font-size: 1.3rem;
   right: 0;
 }
 
@@ -3048,6 +3044,7 @@ p.feed-starter {
 
 .sos-1 {
   padding: 1rem;
+  color: white;
 }
 
 .sos-1 p {
@@ -3164,4 +3161,8 @@ p.feed-starter {
   display: flex;
   gap: 1rem;
   align-items: center;
+}
+
+.sos-git {
+  margin-top: 1rem;
 }
