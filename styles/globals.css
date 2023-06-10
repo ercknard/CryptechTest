@@ -346,6 +346,12 @@ p {
   box-shadow: inset 1px 1px 10px black;
 }
 
+@media (max-width: 768px) {
+  .sec-title {
+    font-size: 3rem;
+  }
+}
+
 .sec h2 {
   font-family: VT323, Garamond, serif;
   font-size: 3.5em;
@@ -1218,10 +1224,10 @@ svg {
 .leads-photo {
   display: block;
   padding: 1rem;
-  border: 3px solid white;
+  /* border: 3px solid white;
   border-radius: 50%;
   border-left: none;
-  border-bottom: none;
+  border-bottom: none; */
   margin-top: 2rem;
   margin-bottom: 1rem;
   margin-left: auto;
@@ -1894,6 +1900,7 @@ img.vert-move-6 {
   .glitch::after,
   .glitch::before {
     animation: none;
+    font-size: 3rem;
   }
 }
 
