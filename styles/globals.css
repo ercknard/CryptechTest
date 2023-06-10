@@ -306,20 +306,15 @@ p {
 
 .sec {
   position: relative;
-  background: linear-gradient(
-    180deg,
-    transparent,
-    transparent,
-    rgba(96, 180, 244, 0.1)
-  );
+  background: linear-gradient(180deg, transparent);
   background-size: contain;
   z-index: 3;
   /* border-top: 3px solid white; */
   overflow: hidden;
   text-align: justify;
-  background-size: 125% 125%;
+  /* background-size: 110% 110%;
   -webkit-animation: sec-bg 30s infinite;
-  animation: sec-bg 30s infinite;
+  animation: sec-bg 30s infinite; */
   padding-top: 5vh;
 }
 
@@ -1689,8 +1684,6 @@ img.vert-move-6 {
 .feed-op {
   padding: 2rem;
   border: 3px solid;
-  border-bottom: none;
-  border-right: none;
   border-image: linear-gradient(
       45deg,
       transparent,
@@ -2179,11 +2172,13 @@ img.vert-move-6 {
   transition-property: transform, box-shadow;
   transition-timing-function: ease-out;
   transform: rotate3d();
-  background: linear-gradient(to top, transparent, #080509, #1a171c, #080509);
+  background: linear-gradient(180deg, #080509, #080509, #080509, transparent);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
+
+/* background: linear-gradient(180deg, #080509, #1a171c, #080509, transparent); */
 
 .card:hover {
   transition-duration: 150ms;
