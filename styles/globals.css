@@ -1679,7 +1679,13 @@ img.vert-move-6 {
 .feed-op {
   padding: 2rem;
   border: 3px solid;
-  border-image: linear-gradient(45deg, transparent, var(--kyuhi), transparent)
+  border-image: linear-gradient(
+      45deg,
+      transparent,
+      var(--kyuhi),
+      transparent,
+      transparent
+    )
     10;
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
@@ -3036,13 +3042,7 @@ p.feed-starter {
   border-radius: 5px;
   background-color: #00000050;
   border: 1.5px solid;
-  border-image: linear-gradient(
-      to right,
-      transparent,
-      var(--kyuhi),
-      transparent
-    )
-    10;
+  border-image: linear-gradient(45deg, transparent, var(--kyuhi)) 10;
   width: 100%;
 }
 
@@ -3051,9 +3051,10 @@ p.feed-starter {
 }
 
 .sos-1 p {
-  border-top: 1px dotted white;
   padding-top: 1rem;
+  margin-top: 0.5rem;
   text-indent: 4rem;
+  border-top: 1px solid #ccc;
 }
 
 .sos-1 h3 {
@@ -3078,7 +3079,7 @@ p.feed-starter {
   height: 35vh;
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
+  width: 95%;
 }
 
 .mySlides-ships-flex {
