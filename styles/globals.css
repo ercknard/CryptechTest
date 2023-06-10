@@ -348,7 +348,7 @@ p {
 
 @media (max-width: 768px) {
   .sec-title {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 }
 
@@ -925,7 +925,7 @@ svg {
   .banner-for-admin-va,
   .banner-for-admin-ky,
   .banner-for-admin-sh {
-    width: 100%;
+    width: 50%;
   }
 }
 
@@ -1899,8 +1899,7 @@ img.vert-move-6 {
 @media (max-width: 768px) {
   .glitch::after,
   .glitch::before {
-    animation: none;
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 }
 
