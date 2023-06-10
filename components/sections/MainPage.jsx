@@ -26,7 +26,7 @@ const MainPage = () => (
     <Navigation />
     <LandingPage />
     <div className="sec-2">
-      <ShipMain />
+      {/* <ShipMain /> */}
       <div className="sec">
         <PepeSpace />
         <Spaceship />

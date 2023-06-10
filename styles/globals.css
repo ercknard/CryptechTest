@@ -2008,7 +2008,6 @@ img.vert-move-6 {
   z-index: 20;
   box-shadow: inset 10px 10px 100px black, 10px 10px 10px black;
   transform: translateX(-1.1vw) skewX(20deg);
-  transition: 3s ease;
   top: 0;
   bottom: 0;
   margin: auto 0;
@@ -2028,24 +2027,8 @@ img.vert-move-6 {
   z-index: 18;
   box-shadow: inset 10px 10px 100px black, 10px 10px 10px black;
   transform: translateX(50vw) skewX(-20deg);
-  /* transition: 2s ease-out; */
-  margin-top: -1rem;
-}
-
-.right-valve-outs {
-  position: absolute;
-  width: 50vw;
-  height: 66.5vh;
-  background-image: url(/assets/images/aluminum.webp);
-  background-position: top left;
-  background-size: 8.4vh;
-  border: 1rem solid #5d5d5d;
-  z-index: 18;
-  box-shadow: inset 10px 10px 100px black, 10px 10px 10px black;
-  transform: translateX(50vw) skewX(-20deg);
   transition: 2s ease-out;
   margin-top: -1rem;
-  left: 25vw;
 }
 
 .left-valve {
@@ -2065,7 +2048,6 @@ img.vert-move-6 {
   z-index: 20;
   box-shadow: inset -10px 10px 100px black, -10px 10px 10px black;
   transform: translateX(0vw) skewX(-20deg);
-  transition: 3s ease;
   top: 0;
   bottom: 0;
   margin: auto 0;
@@ -2085,24 +2067,8 @@ img.vert-move-6 {
   z-index: 18;
   box-shadow: inset -10px 10px 100px black, -10px 10px 10px black;
   transform: translateX(0vw) skewX(20deg);
-  /* transition: 2s ease-out; */
-  margin-top: -1rem;
-}
-
-.left-valve-outs {
-  position: absolute;
-  width: 50vw;
-  height: 66.5vh;
-  background-image: url(/assets/images/aluminum.webp);
-  background-position: top right;
-  background-size: 8.4vh;
-  border: 1rem solid #5d5d5d;
-  z-index: 18;
-  box-shadow: inset -10px 10px 100px black, -10px 10px 10px black;
-  transform: translateX(0vw) skewX(20deg);
   transition: 2s ease-out;
   margin-top: -1rem;
-  left: -25vw;
 }
 
 @media (max-width: 768px) {
@@ -2340,18 +2306,22 @@ input[type="checkbox"].right-checkbox {
 
 input[type="checkbox"].left-checkbox:hover ~ div.left-valve-out {
   transform: translateX(-1vw) skewX(20deg);
+  filter: saturate(180%);
 }
 
 input[type="checkbox"].right-checkbox:hover ~ div.right-valve-out {
   transform: translateX(51vw) skewX(-20deg);
+  filter: saturate(180%);
 }
 
 input[type="checkbox"].left-checkbox:checked ~ div.left-valve-out {
   transform: translateX(-50vw) skewX(20deg);
+  filter: saturate(180%);
 }
 
 input[type="checkbox"].right-checkbox:checked ~ div.right-valve-out {
   transform: translateX(100vw) skewX(-20deg);
+  filter: saturate(180%);
 }
 
 .earth-bg img#secondary-front-bg {
