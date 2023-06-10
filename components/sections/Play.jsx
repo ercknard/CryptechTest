@@ -1,3 +1,4 @@
+"use client";
 import Gate from "@components/materials/gates/Gate";
 import PipeToRight from "@components/materials/PipeToRight";
 import Image from "next/image";

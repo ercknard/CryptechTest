@@ -1502,7 +1502,7 @@ img.vert-move-6 {
   cursor: pointer;
   text-align: center;
   z-index: 999;
-  margin-top: -5vh;
+  margin-top: -5rem;
 }
 
 @media (max-width: 768px) {
