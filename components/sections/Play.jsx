@@ -43,6 +43,43 @@ const Spaceship = () => (
               free on Windows, macOS, GNU/Linux, FreeBSD, OpenBSD, DragonFly
               BSD, and Android."
             </p>
+            <div className="to-center admins-icons">
+              <Image
+                alt="loader items"
+                className="coin vert-move"
+                src="/assets/images/squid-head.webp"
+                width={150}
+                height={150}
+              />
+              <Image
+                alt="loader items"
+                className="coin vert-move-2"
+                src="/assets/images/pepita-head.webp"
+                width={150}
+                height={150}
+              />
+              <Image
+                alt="loader items"
+                className="coin vert-move-3"
+                src="/assets/images/pepe-head.webp"
+                width={150}
+                height={150}
+              />
+              <Image
+                alt="loader items"
+                className="coin vert-move-4"
+                src="/assets/images/kyuhi-head.webp"
+                width={150}
+                height={150}
+              />
+              <Image
+                alt="loader items"
+                className="coin vert-move-5"
+                src="/assets/images/naen-head.webp"
+                width={150}
+                height={150}
+              />
+            </div>
           </div>
         </div>
         <Comets />
