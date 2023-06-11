@@ -28,7 +28,7 @@ const TutorialModal = ({ closeModal }) => {
               Press the Register option. Once you have done that, the client
               will proceed to download the necessary files and thats it.{" "}
               <p className="credentials">
-                Welcome to our server and good luck landing. -Karen
+                "Welcome to our server and good luck landing." -Karen
               </p>
             </p>
           </div>
