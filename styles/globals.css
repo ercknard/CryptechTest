@@ -3244,3 +3244,9 @@ p.feed-starter {
 .admins-icons {
   margin-top: 1rem;
 }
+
+@media (max-width: 768px) {
+  .admins-icons {
+    display: none;
+  }
+}
