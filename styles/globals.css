@@ -1528,6 +1528,12 @@ img.vert-move-6 {
   }
 }
 
+@media (max-width: 768px) {
+  .play-button-1 {
+    display: none;
+  }
+}
+
 .play-button:hover {
   background-image: linear-gradient(
     to right,
