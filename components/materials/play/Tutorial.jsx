@@ -15,7 +15,7 @@ const Tutorial = () => {
   return (
     <div onClick={openModal} className="a-button play-button">
       {" "}
-      How to join? {modalOpen && <TutorialModal closeModal={closeModal} />}
+      Get Started {modalOpen && <TutorialModal closeModal={closeModal} />}
     </div>
   );
 };
