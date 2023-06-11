@@ -1501,8 +1501,25 @@ img.vert-move-6 {
     2px -2px 0 rgba(255, 255, 255, 0.5);
   cursor: pointer;
   text-align: center;
-  z-index: 999;
+  z-index: 1000;
   margin-top: -5rem;
+}
+
+.play-button-1 {
+  position: absolute;
+  display: block;
+  padding: 0.5rem;
+  font-weight: bold;
+  font-size: 2rem;
+  text-shadow: -2px 2px 4px rgba(0, 0, 0, 0.5),
+    2px -2px 0 rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  text-align: center;
+  z-index: 10000;
+  left: 0;
+  bottom: 0;
+  margin-left: 1vh;
+  margin-bottom: 3.7vh;
 }
 
 @media (max-width: 768px) {
@@ -2922,10 +2939,27 @@ p.feed-starter {
   position: fixed;
   left: 0;
   top: 0;
-  overflow-y: hidden;
+  overflow: hidden;
   width: 100vw;
   height: 100vh;
   background-color: #00000090;
+}
+
+.modal-overlay-tut {
+  position: fixed;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  background: radial-gradient(circle at center 10%, #00000090, #000),
+    url(/assets/images/bgse.png);
+  z-index: 1000000;
+}
+
+.modal-overlay-tut:hover {
+  color: white;
+  cursor: default;
 }
 
 .videomodal {
@@ -2940,7 +2974,32 @@ p.feed-starter {
   overflow-y: hidden;
 }
 
+.tut-mem {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 50vw;
+  height: 50vh;
+  overflow-y: hidden;
+}
+
+.tut-mine {
+  margin-top: 1rem;
+}
+
+.credentials {
+  text-align: center;
+  margin: 1rem;
+}
+
 .modal-vid {
+  overflow-y: hidden;
+}
+
+.modal-vid-tut {
   overflow-y: hidden;
 }
 
@@ -2954,6 +3013,7 @@ p.feed-starter {
   position: fixed;
   top: 26vh;
   right: 26vw;
+  cursor: pointer;
 }
 
 .sci-fi-buttons {

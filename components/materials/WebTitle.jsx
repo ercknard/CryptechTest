@@ -1,9 +1,11 @@
 "use client";
 
+import Tutorial from "./play/Tutorial";
 import PlayVideo from "./videos/PlayVideo";
 
 const WebTitle = () => (
   <>
+    <PlayVideo />
     <div className="to-flex-web">
       <h1 id="web_title"> Welcome to CryptechTest </h1>
 
@@ -21,8 +23,7 @@ const WebTitle = () => (
           <use xlinkHref="#s-text" className="text-copy" />
         </g>
       </svg>
-
-      <PlayVideo />
+      <Tutorial />
     </div>
   </>
 );
