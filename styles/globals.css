@@ -3001,6 +3001,20 @@ p.feed-starter {
   margin-top: 1rem;
 }
 
+.tut-h3 {
+  border-bottom: 3px solid;
+  border-image: linear-gradient(
+      to left,
+      transparent,
+      transparent,
+      white,
+      transparent,
+      transparent
+    )
+    10;
+  padding: 1rem 0;
+}
+
 .credentials {
   text-align: center;
   margin: 1rem;
