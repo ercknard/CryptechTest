@@ -2952,8 +2952,7 @@ p.feed-starter {
   overflow: hidden;
   width: 100vw;
   height: 100vh;
-  background: radial-gradient(circle at center 10%, #00000090, #000),
-    url(/assets/images/bgse.png);
+  background-color: #00000090;
   z-index: 1000000;
 }
 
@@ -2976,6 +2975,7 @@ p.feed-starter {
 
 .tut-mem {
   position: absolute;
+  padding-top: 10rem;
   left: 0;
   right: 0;
   top: 0;
@@ -2984,6 +2984,17 @@ p.feed-starter {
   width: 50vw;
   height: 50vh;
   overflow-y: hidden;
+  background-color: #000;
+  border: 3px solid;
+  border-image: linear-gradient(
+      45deg,
+      transparent,
+      var(--kyuhi),
+      transparent,
+      transparent
+    )
+    10;
+  background: linear-gradient(180deg, #080509, #1a171c, #080509);
 }
 
 .tut-mine {
