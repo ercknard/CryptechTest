@@ -25,7 +25,6 @@ const Earth = () => (
         <Comets />
         <Image
           alt="Earth"
-          className="squid"
           src="/assets/images/ship-2.webp"
           width={1024}
           height={1024}
