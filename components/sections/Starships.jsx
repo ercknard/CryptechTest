@@ -25,10 +25,7 @@ const Earth = () => (
         <Comets />
         <Image
           alt="Earth"
-          className="ship-orbital squid"
-          data-aos="zoom-in-right"
-          data-aos-duration={5000}
-          data-aos-anchor-placement="bottom-bottom"
+          className="squid"
           src="/assets/images/ship-2.webp"
           width={1024}
           height={1024}
