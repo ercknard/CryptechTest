@@ -858,6 +858,26 @@ svg {
   }
 }
 
+.ship-orbital-1 {
+  position: absolute;
+  width: 55vh;
+  height: auto;
+  z-index: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+@media (max-width: 768px) {
+  .ship-orbital-1 {
+    width: 90%;
+    padding: 1rem;
+  }
+}
+
 .ship {
   position: absolute;
   width: 55vh;
@@ -3249,4 +3269,8 @@ p.feed-starter {
   .admins-icons {
     display: none;
   }
+}
+
+.forstation {
+  filter: drop-shadow(none);
 }
