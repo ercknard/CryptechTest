@@ -3242,7 +3242,7 @@ p.feed-starter {
   width: 100%;
   height: auto;
   z-index: 18;
-  animation: squid-1 3s infinite;
+  /* animation: squid-1 3s infinite; */
 }
 
 @media (max-width: 768px) {

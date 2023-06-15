@@ -6,24 +6,25 @@ import "@styles/animations.css";
 import "@styles/fireflies.css";
 
 export const metadata = {
-title: "CryptechTest",
-description: "CryptechTest SMP Server",
-keywords: "Minetest, CryptechTest, Cryptocurrency, BTC, ETH, MRX, SEND, OHMC, SCC",
-author: "Ercknard Guren I",
-chartset: "UTF-8",
+  title: "CryptechTest",
+  description: "CryptechTest SMP Server",
+  keywords:
+    "Minetest, CryptechTest, Cryptocurrency, BTC, ETH, MRX, SEND, OHMC, SCC",
+  author: "Ercknard Guren I",
+  chartset: "UTF-8",
 };
 
 const RootLayout = ({ children }) => (
-<html lang='en'>
-   <head>
+  <html lang="en">
+    <head>
       <AllScripts />
       <link rel="icon" href="/assets/images/pack.png" />
-   </head>
-   <body>
+    </head>
+    <body>
       <MainPage />
       {children}
-   </body>
-</html>
+    </body>
+  </html>
 );
 
 export default RootLayout;
