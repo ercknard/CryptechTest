@@ -15,7 +15,7 @@ const LandingPage = () => (
         priority="true"
         width={3620}
         height={1969}
-        className="squid"
+        className="squid bg-phone"
       />
 
       <Image
@@ -26,7 +26,7 @@ const LandingPage = () => (
         priority="true"
         width={3620}
         height={1969}
-        id="pepe-bg"
+        id="pepe-bg bg-phone"
       />
       <Image
         data-aos="fade-right"
@@ -58,7 +58,7 @@ const LandingPage = () => (
         width={3620}
         height={1969}
         id="cloudI"
-        className="cloudI clouds"
+        className="cloudI clouds bg-phone"
       />
       <Image
         data-aos="fade-left"
@@ -69,7 +69,7 @@ const LandingPage = () => (
         width={3620}
         height={1969}
         id="mid-bg"
-        className="bg-img"
+        className="bg-img bg-phone"
       />
       <Image
         data-aos="fade-up"
@@ -80,7 +80,7 @@ const LandingPage = () => (
         width={3620}
         height={1969}
         id="front-bg"
-        className="bg-img"
+        className="bg-img bg-phone"
       />
       <Image
         data-aos="fade-up"
@@ -91,7 +91,7 @@ const LandingPage = () => (
         width={3620}
         height={1969}
         id="primary-front-bg"
-        className="bg-img"
+        className="bg-img bg-phone"
       />
       <Image
         data-aos="fade-up"
@@ -102,7 +102,7 @@ const LandingPage = () => (
         width={3620}
         height={1969}
         id="secondary-front-bg"
-        className="bg-img"
+        className="bg-img bg-phone"
       />
 
       <WebTitle />

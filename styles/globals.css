@@ -303,6 +303,10 @@ ul li {
     font-size: 3.5rem;
     border: none;
   }
+
+  .bg-phone {
+    display: none;
+  }
 }
 
 /* ________________________________________________________________________________________________________________________________ */
@@ -1309,6 +1313,17 @@ img.vert-move-6 {
   -webkit-animation: mover 0.8s infinite alternate;
   animation: mover 0.85s infinite alternate;
   animation-delay: 0.5s;
+}
+
+@media (max-width: 768px) {
+  .img.vert-move,
+  .img.vert-move-2,
+  .img.vert-move-3,
+  .img.vert-move-4,
+  .img.vert-move-5,
+  .img.vert-move-6 {
+    animation: none;
+  }
 }
 
 .loader-bgs {
