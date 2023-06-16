@@ -1238,6 +1238,13 @@ svg {
   filter: drop-shadow(20px 10px 20px rgba(0, 0, 0, 1));
 }
 
+@media (max-width: 768px) {
+  .squid {
+    -webkit-animation: none;
+    animation: none;
+  }
+}
+
 .donate-prompt {
   margin: 1rem;
   text-align: center;
@@ -1316,12 +1323,13 @@ img.vert-move-6 {
 }
 
 @media (max-width: 768px) {
-  .img.vert-move,
-  .img.vert-move-2,
-  .img.vert-move-3,
-  .img.vert-move-4,
-  .img.vert-move-5,
-  .img.vert-move-6 {
+  img.vert-move,
+  img.vert-move-2,
+  img.vert-move-3,
+  img.vert-move-4,
+  img.vert-move-5,
+  img.vert-move-6 {
+    -webkit-animation: none;
     animation: none;
   }
 }
