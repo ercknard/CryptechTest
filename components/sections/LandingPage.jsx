@@ -29,7 +29,7 @@ const LandingPage = () => (
         id="pepe-bg bg-phone"
       />
       <Image
-        data-aos="fade-right"
+        data-aos="fade-up"
         data-aos-duration="3000"
         src="/assets/images/BG-B.webp"
         alt="parallax-bgs"
