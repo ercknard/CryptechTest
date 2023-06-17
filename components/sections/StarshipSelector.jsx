@@ -21,9 +21,9 @@ const EarthText = () => (
               </span>
               <h3>Starship Tiers:</h3>
             </div>
-            <div id="op-world">
+            <div id="op-world" className="to-flex-ship">
               <ShipSpecification />
-              <div id="ships-active-btn" className="agent-home">
+              <div id="ships-active-btn" className="agent-home-ship">
                 <Scout />
                 <Surveyor />
                 <Cruiser />
