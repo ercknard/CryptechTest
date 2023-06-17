@@ -2372,22 +2372,22 @@ input[type="checkbox"].right-checkbox {
 
 input[type="checkbox"].left-checkbox:hover ~ div.left-valve-out {
   transform: translateX(-1vw) skewX(20deg);
-  filter: saturate(180%);
+  /* filter: saturate(180%); */
 }
 
 input[type="checkbox"].right-checkbox:hover ~ div.right-valve-out {
   transform: translateX(51vw) skewX(-20deg);
-  filter: saturate(180%);
+  /* filter: saturate(180%); */
 }
 
 input[type="checkbox"].left-checkbox:checked ~ div.left-valve-out {
   transform: translateX(-50vw) skewX(20deg);
-  filter: saturate(180%);
+  /* filter: saturate(180%); */
 }
 
 input[type="checkbox"].right-checkbox:checked ~ div.right-valve-out {
   transform: translateX(100vw) skewX(-20deg);
-  filter: saturate(180%);
+  /* filter: saturate(180%); */
 }
 
 .earth-bg img#secondary-front-bg {
