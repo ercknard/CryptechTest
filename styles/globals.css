@@ -3024,7 +3024,9 @@ p.feed-starter {
 
 .tut-mem {
   position: absolute;
-  padding: 5rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   left: 0;
   right: 0;
   top: 0;
