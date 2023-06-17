@@ -1544,7 +1544,7 @@ img.vert-move-6 {
     2px -2px 0 rgba(255, 255, 255, 0.5);
   cursor: pointer;
   text-align: center;
-  z-index: 1000;
+  z-index: 999;
   margin-top: -5rem;
 }
 
@@ -1558,7 +1558,7 @@ img.vert-move-6 {
     2px -2px 0 rgba(255, 255, 255, 0.5);
   cursor: pointer;
   text-align: center;
-  z-index: 10000;
+  z-index: 1000;
   left: 0;
   bottom: 0;
   margin-left: 1vh;
