@@ -1233,8 +1233,8 @@ svg {
 }
 
 .squid {
-  -webkit-animation: squid 0.85s infinite alternate;
-  animation: squid 0.85s infinite alternate;
+  /* -webkit-animation: squid 0.85s infinite alternate;
+  animation: squid 0.85s infinite alternate; */
   filter: drop-shadow(20px 10px 20px rgba(0, 0, 0, 1));
 }
 
@@ -1287,7 +1287,7 @@ svg {
 
 /* ________________________________________________________________________________________________________________________________ */
 
-img.vert-move {
+/* img.vert-move {
   -webkit-animation: mover 0.8s infinite alternate;
   animation: mover 0.85s infinite alternate;
 }
@@ -1320,7 +1320,7 @@ img.vert-move-6 {
   -webkit-animation: mover 0.8s infinite alternate;
   animation: mover 0.85s infinite alternate;
   animation-delay: 0.5s;
-}
+} */
 
 @media (max-width: 768px) {
   img.vert-move,
