@@ -3330,3 +3330,17 @@ p.feed-starter {
 .forstation {
   filter: drop-shadow(none);
 }
+
+.news-sos {
+  background-image: linear-gradient(
+    to top,
+    rgb(130, 60, 223, 0.5),
+    black,
+    black
+  );
+  border: white solid 2px;
+}
+
+.news-sos:hover {
+  transform: scale(1);
+}

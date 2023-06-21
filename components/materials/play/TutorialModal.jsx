@@ -25,7 +25,9 @@ const TutorialModal = ({ closeModal }) => {
               <p className="details tut-mine">
                 Open Minetest client, choose the join game tab. Put CryptectTest
                 Credentials:{" "}
-                <p className="credentials">IP: cryptechcraft.xyz</p>{" "}
+                <p className="credentials">
+                  IPs: cryptechcraft.xyz / us.cryptechcraft.xyz
+                </p>{" "}
                 <p className="credentials">Port: 30000</p>
                 Press the Register option. Once you have done that, the client
                 will proceed to download the necessary files and thats it.{" "}
