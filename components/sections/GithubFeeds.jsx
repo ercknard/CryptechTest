@@ -11,26 +11,26 @@ const GithubFeeds = () => (
     <section className="container-main-feed">
       <div className="container-main feed-bg">
         <section className="width-class feed-op card">
-          <div div data-aos="zoom-out" data-aos-duration={100}>
-            <div className="glow" />
-            <div className="pipe-padding">
-              <div className="to-vert-center">
-                <span>
-                  <GearFeed />{" "}
-                </span>
-                <h3>Git Feed:</h3>
-              </div>
-              <span id="feed-active-btn" className="agent-home">
-                <Web /> <Issues /> <Game />
+          {/* <div div data-aos="zoom-out" data-aos-duration={100}> */}
+          <div className="glow" />
+          <div className="pipe-padding">
+            <div className="to-vert-center">
+              <span>
+                <GearFeed />{" "}
               </span>
+              <h3>Git Feed:</h3>
             </div>
-
-            <GitFeedGame username="CryptechTest" />
-
-            <GitFeedIssues username="CryptechTest" />
-
-            <GitFeedWeb username="ercknard" />
+            <span id="feed-active-btn" className="agent-home">
+              <Web /> <Issues /> <Game />
+            </span>
           </div>
+
+          <GitFeedGame username="CryptechTest" />
+
+          <GitFeedIssues username="CryptechTest" />
+
+          <GitFeedWeb username="ercknard" />
+          {/* </div> */}
         </section>
       </div>
     </section>
