@@ -89,7 +89,7 @@ function showSlidecoins(n) {
 }
 
 function copy(el) {
-  var address = el.innerHTML;
+  var address = el.innerText;
   if (address.length == 0) return;
   var tmp = document.createElement("textarea");
   tmp.setAttribute("type", "hidden");
