@@ -1,8 +1,25 @@
 "use client";
 import Image from "next/image";
+import CopyText from "@public/assets/scripts/copyText";
+import React from "react";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const CoinsAddress = () => (
   <div className="slideshow-container">
+    <ToastContainer
+      position="top-right"
+      autoClose={1000}
+      limit={1}
+      hideProgressBar={false}
+      newestOnTop
+      closeOnClick
+      rtl={false}
+      pauseOnFocusLoss
+      draggable
+      pauseOnHover
+      theme="dark"
+    />
     <div className="mySlides-coin fade">
       <Image
         alt="Coins"
@@ -11,9 +28,9 @@ const CoinsAddress = () => (
         width={50}
         height={50}
       />
-      <p className="coin-bg address" onClick={() => copy(this)}>
-        36UHvrS9jX226kads9tdjgta3sq3RFGjZz
-      </p>
+      <div className="coin-bg address">
+        <CopyText text="36UHvrS9jX226kads9tdjgta3sq3RFGjZz" />
+      </div>
     </div>
     <div className="mySlides-coin fade">
       <Image
@@ -23,9 +40,9 @@ const CoinsAddress = () => (
         width={50}
         height={50}
       />
-      <p className="coin-bg address" onClick={() => copy(this)}>
-        XkS9v246S4U4mYo7RhVpyxQfv6G6o5kUfr
-      </p>
+      <div className="coin-bg address">
+        <CopyText text="XkS9v246S4U4mYo7RhVpyxQfv6G6o5kUfr" />
+      </div>
     </div>
     <div className="mySlides-coin fade">
       <Image
@@ -35,9 +52,9 @@ const CoinsAddress = () => (
         width={50}
         height={50}
       />
-      <p className="coin-bg address" onClick={() => copy(this)}>
-        DBFKW511txib9237kBeFt5GcSYPKWcnoGc
-      </p>
+      <div className="coin-bg address">
+        <CopyText text="DBFKW511txib9237kBeFt5GcSYPKWcnoGc" />
+      </div>
     </div>
     <div className="mySlides-coin fade">
       <Image
@@ -47,9 +64,9 @@ const CoinsAddress = () => (
         width={50}
         height={50}
       />
-      <p className="coin-bg address" onClick={() => copy(this)}>
-        0x122e3F3877fEDEC646A7891cB779c9F8583cE237
-      </p>
+      <div className="coin-bg address">
+        <CopyText text="0x122e3F3877fEDEC646A7891cB779c9F8583cE237" />
+      </div>
     </div>
     <div className="mySlides-coin fade">
       <Image
@@ -59,9 +76,9 @@ const CoinsAddress = () => (
         width={50}
         height={50}
       />
-      <p className="coin-bg address" onClick={() => copy(this)}>
-        0x1914062c4e5aFe8B4Aaa2b9e46ef4F99F61606C0
-      </p>
+      <div className="coin-bg address">
+        <CopyText text="0x1914062c4e5aFe8B4Aaa2b9e46ef4F99F61606C0" />
+      </div>
     </div>
     <div className="mySlides-coin fade">
       <Image
@@ -71,9 +88,9 @@ const CoinsAddress = () => (
         width={50}
         height={50}
       />
-      <p className="coin-bg address" onClick={() => copy(this)}>
-        MUxtfEzoHeqVf7EwjdzEVoCbnWPRwk9NSd
-      </p>
+      <div className="coin-bg address">
+        <CopyText text="MUxtfEzoHeqVf7EwjdzEVoCbnWPRwk9NSd" />
+      </div>
     </div>
     <div className="mySlides-coin fade">
       <Image
@@ -83,9 +100,9 @@ const CoinsAddress = () => (
         width={50}
         height={50}
       />
-      <p className="coin-bg address" onClick={() => copy(this)}>
-        MRAZUn5azvVBTVCSFi6y7xyWAhMCcNN3AB
-      </p>
+      <div className="coin-bg address">
+        <CopyText text="MRAZUn5azvVBTVCSFi6y7xyWAhMCcNN3AB" />
+      </div>
     </div>
     <div className="mySlides-coin fade">
       <Image
@@ -95,9 +112,9 @@ const CoinsAddress = () => (
         width={50}
         height={50}
       />
-      <p className="coin-bg address" onClick={() => copy(this)}>
-        NB5rTVYfApfe7GfdaMmUra8PpusJqkoyuu
-      </p>
+      <div className="coin-bg address">
+        <CopyText text="NB5rTVYfApfe7GfdaMmUra8PpusJqkoyuu" />
+      </div>
     </div>
     <div className="mySlides-coin fade">
       <Image
@@ -107,9 +124,9 @@ const CoinsAddress = () => (
         width={50}
         height={50}
       />
-      <p className="coin-bg address" onClick={() => copy(this)}>
-        ZK3WpPRBsoboHoemJeiGbnJEuCwQYUqB4q
-      </p>
+      <div className="coin-bg address">
+        <CopyText text="ZK3WpPRBsoboHoemJeiGbnJEuCwQYUqB4q" />
+      </div>
     </div>
     <div className="mySlides-coin fade">
       <Image
@@ -119,9 +136,9 @@ const CoinsAddress = () => (
         width={50}
         height={50}
       />
-      <p className="coin-bg address" onClick={() => copy(this)}>
-        t1RCU5Sbaj15EiA2sVVZQZLAsffGW1m1WAt
-      </p>
+      <div className="coin-bg address">
+        <CopyText text="t1RCU5Sbaj15EiA2sVVZQZLAsffGW1m1WAt" />
+      </div>
     </div>
     <div className="mySlides-coin fade">
       <Image
@@ -131,9 +148,9 @@ const CoinsAddress = () => (
         width={50}
         height={50}
       />
-      <p className="coin-bg address" onClick={() => copy(this)}>
-        N/A
-      </p>
+      <div className="coin-bg address">
+        <CopyText text="sMZ8CXDDkPqFrm8W7A1rXhsW1zRrfekJMY" />
+      </div>
     </div>
   </div>
 );
