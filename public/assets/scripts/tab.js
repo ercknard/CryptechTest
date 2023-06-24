@@ -88,18 +88,18 @@ function showSlidecoins(n) {
   slides[slideIndexcoins - 1].style.display = "block";
 }
 
-function copy(el) {
-  var address = el.innerText;
-  if (address.length == 0) return;
-  var tmp = document.createElement("textarea");
-  tmp.setAttribute("type", "hidden");
-  tmp.value = address;
-  document.body.appendChild(tmp);
-  tmp.select();
-  document.execCommand("copy");
-  document.body.removeChild(tmp);
-  alert("Copied: " + tmp.value);
-}
+// function copy(el) {
+//   var address = el.innerText;
+//   if (address.length == 0) return;
+//   var tmp = document.createElement("textarea");
+//   tmp.setAttribute("type", "hidden");
+//   tmp.value = address;
+//   document.body.appendChild(tmp);
+//   tmp.select();
+//   document.execCommand("copy");
+//   document.body.removeChild(tmp);
+//   alert("Copied: " + tmp.value);
+// }
 
 var btnContainercoin = document.getElementById("coin-active-btn");
 
