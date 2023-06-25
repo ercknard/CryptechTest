@@ -36,9 +36,12 @@ const announcement = () => {
     fetchlabels();
   }, []);
 
-  const truncateSHAs = (sha) => {
+  const truncateSHAs = (shas) => {
     const lengths = 750;
-    return sha.substring(0, lengths);
+    if (shas) {
+      return shas.substring(0, lengths);
+    }
+    return "";
   };
 
   return (
