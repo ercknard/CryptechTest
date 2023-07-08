@@ -3054,6 +3054,7 @@ p.feed-starter {
 }
 
 .tut-mem {
+  color: #ccc;
   position: absolute;
   display: flex;
   justify-content: center;
@@ -3128,6 +3129,7 @@ p.feed-starter {
   top: 26vh;
   right: 26vw;
   cursor: pointer;
+  color: #ccc;
 }
 
 .sci-fi-buttons {
@@ -3175,7 +3177,7 @@ p.feed-starter {
   width: 60%;
   overflow: hidden;
   text-align: justify;
-  font-weight: 300;
+  font-weight: 200;
 }
 
 @media (max-width: 1400px) {
@@ -3199,6 +3201,16 @@ p.feed-starter {
   .details-server {
     width: 75%;
   }
+}
+
+.ips {
+  font-weight: 500;
+  background-color: black !important;
+  cursor: text !important;
+  filter: drop-shadow(3px 3px 5px rgba(0, 0, 0));
+  font-style: italic;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .sos {

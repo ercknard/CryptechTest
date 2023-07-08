@@ -15,7 +15,7 @@ const TutorialModal = ({ closeModal }) => {
             <div>
               <h2 className="tut-h3">Join CryptechTest Now!</h2>
               <p className="details-1 tut-mine">
-                Its simple, to join our server first download the client which
+                ¹ Its simple, to join our server first download the client which
                 is free on their page:{" "}
                 <Link href="https://www.minetest.net/" target="_blank">
                   MINETEST
@@ -23,14 +23,15 @@ const TutorialModal = ({ closeModal }) => {
                 .
               </p>
               <p className="details-1 tut-mine">
-                Open Minetest client, choose the join game tab. Put CryptectTest
-                Credentials:{" "}
-                <p className="credentials">
-                  IPs: cryptechcraft.xyz / us.cryptechcraft.xyz
+                ² Open Minetest client, choose the join game tab. Put
+                CryptectTest Credentials:{" "}
+                <p className="credentials ips">
+                  IP: cryptechcraft.xyz / us.cryptechcraft.xyz /
+                  cryptechtest.xyz
                 </p>{" "}
-                <p className="credentials">Port: 30000</p>
-                Press the Register option. Once you have done that, the client
-                will proceed to download the necessary files and thats it.{" "}
+                <p className="credentials ips">Port: 30000</p>³ Press the
+                Register option. Once you have done that, the client will
+                proceed to download the necessary files and thats it.{" "}
                 <p className="credentials">
                   "Welcome to our server and good luck landing." -Karen
                 </p>
