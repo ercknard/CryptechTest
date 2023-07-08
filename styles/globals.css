@@ -3079,6 +3079,12 @@ p.feed-starter {
   background: linear-gradient(180deg, #080509, #1a171c, #080509);
 }
 
+@media (max-width: 1320px) {
+  .tut-mem-1 {
+    width: 90vw;
+  }
+}
+
 .tut-mine {
   margin-top: 1rem;
 }
@@ -3095,6 +3101,7 @@ p.feed-starter {
     )
     10;
   padding: 1rem 0;
+  font-weight: 300;
 }
 
 .credentials {
@@ -3154,9 +3161,26 @@ p.feed-starter {
   overflow: hidden;
   text-align: justify;
 }
+
 @media (max-width: 768px) {
   .details {
     width: 100%;
+  }
+}
+
+.details-1 {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  width: 60%;
+  overflow: hidden;
+  text-align: justify;
+  font-weight: 300;
+}
+
+@media (max-width: 1400px) {
+  .details-1 {
+    width: 90%;
   }
 }
 

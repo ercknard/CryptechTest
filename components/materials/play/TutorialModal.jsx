@@ -14,7 +14,7 @@ const TutorialModal = ({ closeModal }) => {
           <div className="tut-mem">
             <div>
               <h2 className="tut-h3">Join CryptechTest Now!</h2>
-              <p className="details tut-mine">
+              <p className="details-1 tut-mine">
                 Its simple, to join our server first download the client which
                 is free on their page:{" "}
                 <Link href="https://www.minetest.net/" target="_blank">
@@ -22,7 +22,7 @@ const TutorialModal = ({ closeModal }) => {
                 </Link>{" "}
                 .
               </p>
-              <p className="details tut-mine">
+              <p className="details-1 tut-mine">
                 Open Minetest client, choose the join game tab. Put CryptectTest
                 Credentials:{" "}
                 <p className="credentials">
