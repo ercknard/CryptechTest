@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useEffect } from "react";
 import TutorialModal from "./TutorialModal";
 
 const Tutorial = () => {
@@ -6,10 +7,12 @@ const Tutorial = () => {
 
   const openModal = () => {
     setModalOpen(true);
+    document.body.style.overflow = "hidden";
   };
 
   const closeModal = () => {
     setModalOpen(false);
+    document.body.style.overflow = "unset";
   };
 
   return (

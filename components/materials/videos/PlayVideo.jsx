@@ -1,15 +1,18 @@
 import React, { useState } from "react";
 import VideoModal from "./VideoModal";
+import { useEffect } from "react";
 
 const PlayVideo = () => {
   const [modalOpen, setModalOpen] = useState(false);
 
   const openModal = () => {
     setModalOpen(true);
+    document.body.style.overflow = "hidden";
   };
 
   const closeModal = () => {
     setModalOpen(false);
+    document.body.style.overflow = "unset";
   };
 
   return (

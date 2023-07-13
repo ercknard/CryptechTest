@@ -493,7 +493,7 @@ header {
 }
 
 .index-navigation-main {
-  z-index: 1000;
+  z-index: 999;
   position: fixed;
   width: 100%;
   top: 0;
@@ -561,7 +561,7 @@ header {
   padding-bottom: 0.5rem;
   width: 100%;
   position: fixed;
-  z-index: 999;
+  z-index: 998;
   bottom: 0;
   color: #e7e7e0;
   text-shadow: 0 0 15px #9d822b;
@@ -3023,13 +3023,14 @@ p.feed-starter {
   width: 100vw;
   height: 100vh;
   background-color: #00000090;
+  cursor: default !important;
 }
 
 .modal-overlay-tut {
   position: fixed;
   left: 0;
   top: 0;
-  overflow: hidden;
+  overflow-y: hidden;
   width: 100vw;
   height: 100vh;
   background-color: #00000090;
@@ -3051,6 +3052,15 @@ p.feed-starter {
   width: 50vw;
   height: 50vh;
   overflow-y: hidden;
+  border: 3px solid;
+  border-image: linear-gradient(
+      45deg,
+      transparent,
+      var(--kyuhi),
+      transparent,
+      transparent
+    )
+    10;
 }
 
 .tut-mem {
