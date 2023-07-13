@@ -4,13 +4,17 @@ const Footer = () => (
       <h3 className="for-footer">CT</h3>
       <ul className="social-icon">
         <li className="social-icon__item">
-          <a title="Facebook" className="social-icon__link" href="#">
-            <ion-icon name="logo-facebook" />
+          <a
+            title="CT YouTube"
+            className="social-icon__link"
+            href="https://www.youtube.com/@CryptechTest-tx3zb"
+          >
+            <ion-icon name="logo-youtube" />
           </a>
         </li>
         <li className="social-icon__item">
           <a
-            title="Twitter"
+            title="CT Twitter"
             className="social-icon__link"
             href="https://twitter.com/CryptechCraft"
           >
@@ -19,7 +23,7 @@ const Footer = () => (
         </li>
         <li className="social-icon__item">
           <a
-            title="Discord"
+            title="CT Discord"
             className="social-icon__link"
             href="https://discord.gg/YDCSGp8h5V"
           >
@@ -28,7 +32,7 @@ const Footer = () => (
         </li>
         <li className="social-icon__item">
           <a
-            title="Instagram"
+            title="CT Github"
             className="social-icon__link"
             href="https://github.com/CryptechTest"
           >
